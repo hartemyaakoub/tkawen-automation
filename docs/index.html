@@ -95,7 +95,8 @@ footer.bot a{color:#67e8f9}
       </svg>
       <span style="margin-inline-start:8px;font-weight:800;font-size:15px;color:var(--mute)">SEO Engine</span>
     </a>
-    <span class="live-dot">12 workflows · 24/7</span>
+    <span class="live-dot">22 workflows · 24/7</span>
+    <a href="queue.html" style="font-size:13px;font-weight:700;color:var(--ink-2)">+ Queue post</a>
     <a href="https://github.com/hartemyaakoub/tkawen-automation" target="_blank" rel="noopener" style="font-size:13px;font-weight:700;color:var(--ink-2)">GitHub →</a>
   </div>
 </div></header>
@@ -139,6 +140,16 @@ footer.bot a{color:#67e8f9}
   <p class="sub">For each generic intent query, do AI-style search surfaces (DDG with AI Overviews context) cite a TKAWEN domain in the top results?</p>
   <div id="ai-table">
     <div class="loading">Loading AI citations…</div>
+  </div>
+</div></section>
+
+<section class="tinted"><div class="container">
+  <h2>Trends</h2>
+  <p class="sub">Stars growth + npm downloads + SERP positions over time. Built from the daily JSON snapshots in <code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/</code>.</p>
+  <div class="grid grid-3">
+    <div class="card" style="padding:14px"><h3>⭐ Stars growth</h3><canvas id="stars-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="stars-note">loading…</div></div>
+    <div class="card" style="padding:14px"><h3>📦 npm downloads · 30d</h3><canvas id="npm-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="npm-note">loading…</div></div>
+    <div class="card" style="padding:14px"><h3>📈 SERP top-10 %</h3><canvas id="serp-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="serp-note">loading…</div></div>
   </div>
 </div></section>
 
@@ -290,6 +301,96 @@ loadOverview();
 loadWorkflows();
 loadSerp();
 loadAi();
+loadTrends();
+
+async function loadTrends() {
+  // Lazy-load Chart.js
+  await new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js';
+    s.onload = res; s.onerror = rej;
+    document.head.appendChild(s);
+  });
+
+  await Promise.all([
+    drawHistory({
+      kind: 'github-stars',
+      filenamePrefix: 'snapshot',
+      sumField: 'summary.total_stars',
+      canvas: 'stars-chart',
+      note: 'stars-note',
+      label: 'total stars',
+      color: '#1d4ed8',
+    }),
+    drawHistory({
+      kind: 'npm',
+      filenamePrefix: 'stats',
+      sumField: 'summary.downloads_last_30d',
+      canvas: 'npm-chart',
+      note: 'npm-note',
+      label: '30-day downloads',
+      color: '#22d3ee',
+    }),
+    drawHistory({
+      kind: 'serp',
+      filenamePrefix: 'report',
+      sumField: 'summary.top_10_percent',
+      canvas: 'serp-chart',
+      note: 'serp-note',
+      label: '% in top-10',
+      color: '#16a34a',
+    }),
+  ]);
+}
+
+async function drawHistory(opts) {
+  const days = 30;
+  const labels = [];
+  const data = [];
+  for (let i = days - 1; i >= 0; i--) {
+    const d = new Date(Date.now() - i * 86400000).toISOString().split('T')[0];
+    const path = `.data/${opts.kind}/${opts.filenamePrefix}-${d}.json`;
+    const doc = await fetchJSON(path);
+    labels.push(d.slice(5));
+    data.push(doc ? deepGet(doc, opts.sumField) : null);
+  }
+
+  const ctx = document.getElementById(opts.canvas).getContext('2d');
+  const has = data.some(v => v != null);
+  document.getElementById(opts.note).textContent = has
+    ? `latest: ${data.filter(v=>v!=null).slice(-1)[0] ?? '—'}`
+    : 'no data yet — workflows fill this in within 24h';
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: opts.label,
+        data,
+        borderColor: opts.color,
+        backgroundColor: opts.color + '22',
+        tension: 0.3,
+        fill: true,
+        pointRadius: 2,
+        spanGaps: true,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { maxTicksLimit: 6, color: '#94a3b8', font: { size: 10 } } },
+        y: { ticks: { color: '#94a3b8', font: { size: 10 } }, beginAtZero: true },
+      },
+    },
+  });
+}
+
+function deepGet(obj, path) {
+  return path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
+}
 </script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+name: ⏱️ Uptime monitor (every 15 min)
+
+# Pings every TKAWEN site every 15 minutes. Logs downtime to .data/uptime/ and
+# Telegram-alerts on any 5xx / timeout. Builds a uptime % chart for the
+# dashboard. GitHub cron minimum is ~5min but realistic = ~15min.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe + log
+        id: probe
+        run: |
+          set -e
+          mkdir -p .data/uptime
+          MONTH=$(date -u +%Y-%m)
+          OUT=.data/uptime/uptime-$MONTH.json
+          python3 scripts/uptime_probe.py "$OUT"
+          DOWN=$(jq '.this_run.down' /tmp/uptime_now.json 2>/dev/null || echo 0)
+          UP=$(jq '.this_run.up' /tmp/uptime_now.json 2>/dev/null || echo 0)
+          echo "down=$DOWN" >> $GITHUB_OUTPUT
+          echo "up=$UP" >> $GITHUB_OUTPUT
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/uptime/ || true
+          git diff --cached --quiet || git commit -m "data: uptime $(date -u +%Y-%m-%d-%H%M)"
+          git pull --rebase origin HEAD || true
+          git push origin HEAD || true
+
+      - name: Telegram alert on outage
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          D: ${{ steps.probe.outputs.down }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ -n "$D" ] && [ "$D" != "0" ]; then
+            LIST=$(jq -r '.this_run.down_sites[]' /tmp/uptime_now.json 2>/dev/null | head -5 | tr '\n' ' ')
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" -d text="⏱️ Uptime: ${D} site(s) DOWN — $LIST"
+          fi

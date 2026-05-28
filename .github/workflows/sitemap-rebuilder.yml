@@ -1,0 +1,53 @@
+name: 🗺️ Sitemap rebuilder (daily via SSH)
+
+# SSHes to the VPS and asks each Laravel app to rebuild its sitemap.xml from
+# the latest content. Catches new pages, drops removed ones. Triggers IndexNow
+# right after via the existing fresh-content-ping workflow.
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # 02:00 UTC daily — just before the IndexNow pushes
+  workflow_dispatch: {}
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH + rebuild sitemaps
+        env:
+          KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then echo "VPS_SSH_KEY missing"; exit 0; fi
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H 173.212.235.93 >> ~/.ssh/known_hosts 2>/dev/null
+
+          ssh -o StrictHostKeyChecking=no root@173.212.235.93 <<'REMOTE'
+            set -e
+            echo "🗺️ rebuilding sitemaps at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            for D in /var/www/mystoq-backend /var/www/certify /var/www/tkawen-academy; do
+              [ -f "$D/artisan" ] || continue
+              cd "$D"
+              # Try the most common artisan command names; first one wins.
+              for CMD in sitemap:build sitemap:generate seo:sitemap geo:rebuild-sitemap; do
+                if sudo -u www-data php8.4 artisan list 2>/dev/null | grep -q "$CMD"; then
+                  echo "  → $D: php artisan $CMD"
+                  sudo -u www-data php8.4 artisan "$CMD" 2>&1 | tail -3 || true
+                  break
+                fi
+              done
+            done
+            echo "✓ done at $(date -u +%H:%M:%SZ)"
+          REMOTE
+
+      - name: Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        if: always()
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          STATUS="${{ job.status }}"
+          ICON="✅"; [ "$STATUS" != "success" ] && ICON="⚠️"
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" -d text="${ICON} sitemap rebuild: ${STATUS}"

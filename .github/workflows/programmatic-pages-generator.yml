@@ -1,0 +1,50 @@
+name: 🏭 Programmatic SEO pages generator (weekly)
+
+# Generates static long-tail keyword landing pages — one per
+# (intent × wilaya × brand) — and pushes them to the VPS over SSH. Adds
+# dozens-to-hundreds of indexable pages per week with zero manual work.
+
+on:
+  schedule:
+    - cron: "0 4 * * 4"  # Thursdays 04:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate pages locally
+        run: |
+          set -e
+          mkdir -p out/pages
+          python3 scripts/programmatic_pages.py out/pages
+          ls out/pages | head -5
+          echo "Total: $(ls out/pages | wc -l) pages"
+
+      - name: Upload to VPS
+        env:
+          KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then echo "VPS_SSH_KEY missing — skipping deploy"; exit 0; fi
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H 173.212.235.93 >> ~/.ssh/known_hosts 2>/dev/null
+
+          ssh -o StrictHostKeyChecking=no root@173.212.235.93 \
+            'mkdir -p /var/www/mystoq-backend/public/wilaya-cod-pages && chown -R www-data:www-data /var/www/mystoq-backend/public/wilaya-cod-pages'
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" out/pages/ \
+            root@173.212.235.93:/var/www/mystoq-backend/public/wilaya-cod-pages/
+          ssh -o StrictHostKeyChecking=no root@173.212.235.93 \
+            'chown -R www-data:www-data /var/www/mystoq-backend/public/wilaya-cod-pages'
+
+      - name: Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          N=$(ls out/pages 2>/dev/null | wc -l)
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" -d text="🏭 programmatic pages: ${N} long-tail landing pages deployed to mystoq.com/wilaya-cod-pages/"

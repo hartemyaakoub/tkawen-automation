@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Social Queue · TKAWEN SEO Engine</title>
+<meta name="theme-color" content="#1d4ed8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#1d4ed8;--blue-2:#3b82f6;--cyan:#22d3ee;--ink:#0f172a;--ink-2:#334155;--mute:#64748b;--line:#e2e8f0;--bg:#f8fafc;--ok:#16a34a}
+html,body{background:#fff;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 24px}
+header.main{padding:22px 0;border-bottom:1px solid var(--line)}
+header.main .row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:19px;letter-spacing:-.018em;color:var(--ink)}
+.brand .m{width:32px;height:32px;background:linear-gradient(135deg,var(--blue-2),var(--blue));border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:13px}
+
+.hero{padding:50px 0 30px;background:linear-gradient(180deg,#f8fafc 0%,#fff 100%)}
+.kicker{display:inline-block;padding:6px 14px;background:rgba(29,78,216,.08);color:var(--blue);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px}
+h1{font-size:36px;font-weight:900;letter-spacing:-.025em;line-height:1.1;margin-bottom:8px}
+.lead{font-size:16px;color:var(--mute)}
+
+section{padding:30px 0}
+
+.field{margin-bottom:16px}
+.field label{display:block;font-size:13px;font-weight:700;color:var(--ink-2);margin-bottom:6px}
+.field .hint{font-size:12px;color:var(--mute);margin-top:5px}
+.field input,.field textarea,.field select{width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:9px;font-size:14px;font-family:inherit;color:var(--ink);background:#fff;transition:border-color .15s}
+.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 3px rgba(29,78,216,.08)}
+.field textarea{resize:vertical;min-height:100px;line-height:1.5}
+
+.platforms{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-bottom:18px}
+.platform{padding:10px;background:#fff;border:1.5px solid var(--line);border-radius:9px;cursor:pointer;text-align:center;font-size:13px;font-weight:600;transition:all .15s;user-select:none}
+.platform:hover{border-color:var(--blue)}
+.platform.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer;border:none;transition:all .15s;font-family:inherit}
+.btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:#1e40af}
+.btn-secondary{background:#f1f5f9;color:var(--ink);border:1.5px solid var(--line)}.btn-secondary:hover{border-color:var(--blue)}
+
+.output{background:#0a0f1e;color:#e2e8f0;font-family:'JetBrains Mono',monospace;font-size:13px;padding:24px;border-radius:10px;white-space:pre-wrap;line-height:1.6;overflow:auto;max-height:420px;margin-top:18px}
+
+.step{background:linear-gradient(135deg,rgba(29,78,216,.04),rgba(34,211,238,.04));border-left:3px solid var(--blue);padding:14px 18px;border-radius:8px;font-size:14px;color:var(--ink-2);margin-bottom:14px}
+.step strong{color:var(--ink)}
+.step code{background:#fff;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid var(--line)}
+
+.toolbar{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+
+footer.bot{background:#0a0f1e;color:#94a3b8;padding:36px 0 28px;text-align:center;font-size:13px;margin-top:40px}
+footer.bot a{color:#67e8f9}
+.strip{height:4px;background:linear-gradient(90deg,#22d3ee 0%,#3b82f6 40%,#1d4ed8 70%,#0e7490 100%);margin-top:22px}
+</style>
+</head>
+<body>
+
+<header class="main"><div class="container">
+  <div class="row">
+    <a href="./" class="brand" style="text-decoration:none">
+      <span class="m">T</span><span>TKAWEN <span style="color:var(--blue)">Queue</span></span>
+    </a>
+    <a href="./" style="font-size:13px;font-weight:700;color:var(--ink-2)">← Dashboard</a>
+  </div>
+</div></header>
+
+<section class="hero"><div class="container">
+  <span class="kicker">CONTENT QUEUE BUILDER</span>
+  <h1>Add a social post to the queue.</h1>
+  <p class="lead">Build a queue entry → copy the JSON → paste into <code style="background:#f1f5f9;padding:2px 5px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/queue/social-posts.json</code> in the repo. The Postiz workflow picks it up every 8 hours.</p>
+</div></section>
+
+<section><div class="container">
+  <div class="field">
+    <label>Platforms (one or more)</label>
+    <div class="platforms" id="platforms">
+      <div class="platform" data-p="facebook">Facebook</div>
+      <div class="platform" data-p="instagram">Instagram</div>
+      <div class="platform" data-p="linkedin">LinkedIn</div>
+      <div class="platform" data-p="x">X (Twitter)</div>
+      <div class="platform" data-p="telegram">Telegram</div>
+      <div class="platform" data-p="threads">Threads</div>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="msg">Message *</label>
+    <textarea id="msg" rows="6" placeholder="Write your post. Emojis welcome. Hashtags optional. Mention TKAWEN brands explicitly so they index." oninput="render()"></textarea>
+    <div class="hint" id="char-count">0 chars</div>
+  </div>
+
+  <div class="field">
+    <label for="link">Link (optional)</label>
+    <input id="link" type="text" placeholder="https://mystoq.com/?utm_source=postiz&utm_medium=facebook" oninput="render()">
+    <div class="hint">UTM tags help us attribute traffic back to the post.</div>
+  </div>
+
+  <div class="field">
+    <label for="img">Image URL (optional)</label>
+    <input id="img" type="text" placeholder="https://brand.tkawen.com/products/mystoq/og-default.png" oninput="render()">
+  </div>
+
+  <div class="step">💡 <strong>How to ship:</strong> click <strong>Copy JSON</strong>, edit <code>.data/queue/social-posts.json</code> in the <a href="https://github.com/hartemyaakoub/tkawen-automation/edit/main/.data/queue/social-posts.json" target="_blank" rel="noopener">repo</a>, append the entry to the array, commit. The Postiz workflow drains 5 entries every 8 hours.</div>
+
+  <pre class="output" id="output">// Pick platforms + write a message above.</pre>
+
+  <div class="toolbar">
+    <button class="btn btn-primary" onclick="copyOut(this)">📋 Copy JSON</button>
+    <a class="btn btn-secondary" href="https://github.com/hartemyaakoub/tkawen-automation/edit/main/.data/queue/social-posts.json" target="_blank" rel="noopener">✏️ Edit queue on GitHub</a>
+  </div>
+</div></section>
+
+<footer class="bot"><div class="container">
+  <p>© 2026 <strong style="color:#fff">TKAWEN Automation</strong> · <a href="https://github.com/hartemyaakoub/tkawen-automation">Source</a> · MIT</p>
+  <div class="strip"></div>
+</div></footer>
+
+<script>
+const selected = new Set();
+document.querySelectorAll('.platform').forEach(el => {
+  el.addEventListener('click', () => {
+    const p = el.dataset.p;
+    if (selected.has(p)) { selected.delete(p); el.classList.remove('active'); }
+    else { selected.add(p); el.classList.add('active'); }
+    render();
+  });
+});
+
+function v(id) { return document.getElementById(id).value.trim(); }
+
+function render() {
+  const msg = v('msg');
+  const link = v('link');
+  const img = v('img');
+  document.getElementById('char-count').textContent = `${msg.length} chars`;
+
+  if (selected.size === 0 || !msg) {
+    document.getElementById('output').textContent = '// Pick at least one platform + write a message.';
+    return;
+  }
+
+  const entries = Array.from(selected).map(p => {
+    const e = { platform: p, message: msg };
+    if (link) e.link = link;
+    if (img) e.image_url = img;
+    return e;
+  });
+
+  const json = entries.length === 1
+    ? JSON.stringify(entries[0], null, 2)
+    : JSON.stringify(entries, null, 2);
+
+  document.getElementById('output').textContent = json;
+}
+
+function copyOut(btn) {
+  const text = document.getElementById('output').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const o = btn.innerHTML;
+    btn.innerHTML = '✓ Copied!';
+    setTimeout(() => btn.innerHTML = o, 1600);
+  });
+}
+
+render();
+</script>
+</body>
+</html>
