@@ -1,9 +1,9 @@
-name: GitHub README promoter
+name: README promoter
 
 on:
-  workflow_dispatch: {}
   schedule:
     - cron: "0 8 * * 2"
+  workflow_dispatch:
 
 jobs:
   promote:
@@ -24,52 +24,24 @@ jobs:
           - hartemyaakoub/mystoq-mcp-server
           - hartemyaakoub/mystoq-wilayas-dataset
     steps:
+      - uses: actions/checkout@v4
       - name: Refresh ecosystem footer
         env:
           GH_TOKEN: ${{ secrets.PULSE_TOKEN }}
+          TARGET_REPO: ${{ matrix.repo }}
         run: |
           set -e
           if [ -z "$GH_TOKEN" ]; then echo "PULSE_TOKEN missing"; exit 0; fi
-          REPO="${{ matrix.repo }}"
-          git clone --depth=1 "https://x-access-token:$GH_TOKEN@github.com/$REPO.git" repo
+          git clone --depth=1 "https://x-access-token:$GH_TOKEN@github.com/$TARGET_REPO.git" repo
           cd repo
           git config user.email "yaakoub.hartem.mhsi@gmail.com"
           git config user.name "Hartem Yaakoub"
-
-          MARK="<!-- TKAWEN-ECOSYSTEM-FOOTER -->"
-          FOOTER="$MARK
-## TKAWEN Ecosystem
-
-This project is part of the [TKAWEN](https://tkawen.com) ecosystem.
-
-- [Mystoq](https://mystoq.com) — multi-tenant e-commerce platform for MENA
-- [Algeria Certify](https://algeriacertify.com) — national digital credentialing
-- [LIQAA](https://liqaa.io) — sovereign video conferencing
-- [TKAWEN Academy](https://tkawen.com/academy) — online learning
-- [SEO Toolkit](https://www.npmjs.com/package/@mystoq/seo-toolkit) — llms.txt, sitemap, JSON-LD
-
-Built by [Hartem Yaakoub](https://hartem.tkawen.com) - MIT licensed."
-
-          if [ ! -f README.md ]; then
-            echo "no README - skip"; exit 0
-          fi
-
-          if grep -q "$MARK" README.md; then
-            python3 -c "
-import re
-p='README.md'
-with open(p) as f: t=f.read()
-t = re.sub(r'<!-- TKAWEN-ECOSYSTEM-FOOTER -->.*', '', t, flags=re.DOTALL).rstrip()
-with open(p,'w') as f: f.write(t + '\n')
-"
-          fi
-          printf '\n\n%s\n' "$FOOTER" >> README.md
-
+          python3 "$GITHUB_WORKSPACE/scripts/readme_promoter.py"
           if git status --porcelain | grep -q .; then
             git add README.md
             git commit -m "chore: refresh TKAWEN ecosystem footer ($(date -u +%Y-%m-%d))"
             git push origin HEAD
-            echo "OK $REPO"
+            echo "OK $TARGET_REPO"
           else
-            echo "no changes for $REPO"
+            echo "no changes for $TARGET_REPO"
           fi
