@@ -1,0 +1,44 @@
+name: 📦 npm downloads monitor (daily)
+
+# Records daily download counts for @mystoq/* npm packages and saves a public
+# trend log we can show on the dashboard and reference in pitches.
+
+on:
+  schedule:
+    - cron: "0 13 * * *"  # 13:00 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull npm stats
+        id: pull
+        run: |
+          set -e
+          mkdir -p .data/npm
+          OUT=.data/npm/stats-$(date -u +%Y-%m-%d).json
+          python3 scripts/npm_stats.py > "$OUT"
+          TOTAL=$(jq '.summary.downloads_last_30d' "$OUT")
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          jq -r '.packages[] | "\(.name): \(.downloads_last_30d) / 30d"' "$OUT"
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/npm/ || true
+          git diff --cached --quiet || git commit -m "data: npm stats $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          T: ${{ steps.pull.outputs.total }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" -d text="📦 npm @mystoq/* — ${T} downloads in the last 30 days."

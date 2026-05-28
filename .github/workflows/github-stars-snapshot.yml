@@ -1,0 +1,38 @@
+name: ⭐ GitHub stars snapshot (daily)
+
+# Snapshots stars / forks / watchers for every public TKAWEN repo. Builds a
+# daily JSON time series so we can graph growth in the dashboard.
+
+on:
+  schedule:
+    - cron: "0 14 * * *"  # 14:00 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull GitHub stats
+        id: pull
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          mkdir -p .data/github-stars
+          OUT=.data/github-stars/snapshot-$(date -u +%Y-%m-%d).json
+          python3 scripts/github_stars.py > "$OUT"
+          T=$(jq '.summary.total_stars' "$OUT")
+          F=$(jq '.summary.total_forks' "$OUT")
+          echo "stars=$T" >> $GITHUB_OUTPUT
+          echo "forks=$F" >> $GITHUB_OUTPUT
+          jq -r '.repos[] | "\(.stars)⭐ \(.forks)🍴 \(.name)"' "$OUT" | head -25
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/github-stars/ || true
+          git diff --cached --quiet || git commit -m "data: github stars $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
