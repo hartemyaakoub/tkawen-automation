@@ -1,0 +1,48 @@
+name: 📲 Postiz social queue poster (every 8h)
+
+# Reads .data/queue/social-posts.json — every entry { platform, message, link,
+# image_url } gets POSTed to the self-hosted Postiz API. Consumed entries get
+# moved to .data/queue/sent/. Lets the founder populate a queue once and have
+# it auto-publish across FB/IG/LinkedIn/Telegram/X over time.
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"  # every 8h
+  workflow_dispatch: {}
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Drain queue → Postiz
+        id: drain
+        env:
+          POSTIZ_API_TOKEN: ${{ secrets.POSTIZ_API_TOKEN }}
+        run: |
+          if [ -z "$POSTIZ_API_TOKEN" ]; then echo "POSTIZ_API_TOKEN missing — skipping"; exit 0; fi
+          mkdir -p .data/queue/sent
+          python3 scripts/postiz_drain.py
+          SENT=$(jq -r '.sent' /tmp/postiz_result.json 2>/dev/null || echo 0)
+          echo "sent=$SENT" >> $GITHUB_OUTPUT
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/queue/ || true
+          git diff --cached --quiet || git commit -m "social: posted $(date -u +%Y-%m-%d-%H%M)"
+          git push origin HEAD || true
+
+      - name: Telegram alert
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          S: ${{ steps.drain.outputs.sent }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ -n "$S" ] && [ "$S" != "0" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" -d text="📲 Postiz drain: $S posts shipped to social."
+          fi

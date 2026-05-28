@@ -1,0 +1,49 @@
+name: 🧠 AI citation tracker (daily)
+
+# Probes major AI search surfaces (Perplexity-style via DDG, Google AI Overviews
+# via SerpAPI when available) to see which TKAWEN brand queries get cited and
+# which sources AI answers prefer. Surfaces the moments when ChatGPT/Claude/
+# Perplexity recommend us.
+
+on:
+  schedule:
+    - cron: "15 11 * * *"  # 11:15 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe AI surfaces
+        id: probe
+        run: |
+          set -e
+          mkdir -p .data/ai-citations
+          OUT=.data/ai-citations/report-$(date -u +%Y-%m-%d).json
+          python3 scripts/ai_citations.py > "$OUT"
+          OURS=$(jq '.summary.our_citations' "$OUT")
+          TOTAL=$(jq '.summary.total_queries' "$OUT")
+          echo "ours=$OURS" >> $GITHUB_OUTPUT
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/ai-citations/ || true
+          git diff --cached --quiet || git commit -m "data: ai citations $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Telegram alert
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OURS: ${{ steps.probe.outputs.ours }}
+          T: ${{ steps.probe.outputs.total }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" \
+            -d text="🧠 AI citations today: ${OURS}/${T} queries cite a TKAWEN brand. See .data/ai-citations/"

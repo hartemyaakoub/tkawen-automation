@@ -1,0 +1,49 @@
+name: 📈 SERP position tracker (daily)
+
+# Tracks where every TKAWEN brand domain ranks for its target keywords on DDG
+# (proxy for organic). Writes a daily snapshot so trends are visible.
+
+on:
+  schedule:
+    - cron: "30 12 * * *"  # 12:30 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Snapshot SERP positions
+        id: serp
+        run: |
+          set -e
+          mkdir -p .data/serp
+          OUT=.data/serp/report-$(date -u +%Y-%m-%d).json
+          python3 scripts/serp_track.py > "$OUT"
+          PCT=$(jq '.summary.top_10_percent' "$OUT")
+          echo "top10pct=$PCT" >> $GITHUB_OUTPUT
+          jq -r '.tracked[] | "\(.keyword) → \(.position // "?")"' "$OUT" | head -20
+
+      - name: Commit
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/serp/ || true
+          git diff --cached --quiet || git commit -m "data: serp $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Telegram weekly summary (Sundays only)
+        if: github.event.schedule == '30 12 * * *' && github.run_number > 1
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          P: ${{ steps.serp.outputs.top10pct }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          DOW=$(date +%u)
+          if [ "$DOW" = "7" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" \
+              -d text="📈 SERP weekly: ${P}% of target keywords are in top-10. .data/serp/"
+          fi
