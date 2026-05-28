@@ -1,13 +1,9 @@
-name: 📣 GitHub README promoter (weekly)
-
-# Cross-links every public TKAWEN repo's README footer with the ecosystem
-# (mystoq.com, algeriacertify.com, liqaa.io, tkawen.com). Each repo's README
-# becomes an SEO-juice source via "More from TKAWEN" backlink footer.
+name: GitHub README promoter
 
 on:
-  schedule:
-    - cron: "0 8 * * 2"  # Tuesdays 08:00 UTC
   workflow_dispatch: {}
+  schedule:
+    - cron: "0 8 * * 2"
 
 jobs:
   promote:
@@ -28,7 +24,7 @@ jobs:
           - hartemyaakoub/mystoq-mcp-server
           - hartemyaakoub/mystoq-wilayas-dataset
     steps:
-      - name: Add ecosystem footer to ${{ matrix.repo }}
+      - name: Refresh ecosystem footer
         env:
           GH_TOKEN: ${{ secrets.PULSE_TOKEN }}
         run: |
@@ -40,42 +36,40 @@ jobs:
           git config user.email "yaakoub.hartem.mhsi@gmail.com"
           git config user.name "Hartem Yaakoub"
 
-          FOOTER_MARK="<!-- TKAWEN-ECOSYSTEM-FOOTER -->"
-          FOOTER="$FOOTER_MARK
-## 🌐 TKAWEN Ecosystem
+          MARK="<!-- TKAWEN-ECOSYSTEM-FOOTER -->"
+          FOOTER="$MARK
+## TKAWEN Ecosystem
 
-This project is part of the [TKAWEN](https://tkawen.com) ecosystem — open APIs and tools for emerging-market digital infrastructure.
+This project is part of the [TKAWEN](https://tkawen.com) ecosystem.
 
-- 🛒 [Mystoq](https://mystoq.com) — multi-tenant e-commerce platform for MENA
-- 🎓 [Algeria Certify](https://algeriacertify.com) — national digital credentialing
-- 📹 [LIQAA](https://liqaa.io) — sovereign video conferencing
-- 📚 [TKAWEN Academy](https://tkawen.com/academy) — online learning platform
-- 🛠️ [SEO Toolkit](https://www.npmjs.com/package/@mystoq/seo-toolkit) — llms.txt, sitemap, Schema.org JSON-LD generators
+- [Mystoq](https://mystoq.com) — multi-tenant e-commerce platform for MENA
+- [Algeria Certify](https://algeriacertify.com) — national digital credentialing
+- [LIQAA](https://liqaa.io) — sovereign video conferencing
+- [TKAWEN Academy](https://tkawen.com/academy) — online learning
+- [SEO Toolkit](https://www.npmjs.com/package/@mystoq/seo-toolkit) — llms.txt, sitemap, JSON-LD
 
-Built by [Hartem Yaakoub](https://hartem.tkawen.com) · MIT licensed."
+Built by [Hartem Yaakoub](https://hartem.tkawen.com) - MIT licensed."
 
           if [ ! -f README.md ]; then
-            echo "no README — skipping"; exit 0
+            echo "no README - skip"; exit 0
           fi
 
-          # Remove old footer block (between markers) and append the fresh one
-          if grep -q "$FOOTER_MARK" README.md; then
+          if grep -q "$MARK" README.md; then
             python3 -c "
 import re
 p='README.md'
-with open(p) as f: txt=f.read()
-import re
-txt = re.sub(r'<!-- TKAWEN-ECOSYSTEM-FOOTER -->.*', '', txt, flags=re.DOTALL).rstrip()
-with open(p,'w') as f: f.write(txt + '\n')
+with open(p) as f: t=f.read()
+t = re.sub(r'<!-- TKAWEN-ECOSYSTEM-FOOTER -->.*', '', t, flags=re.DOTALL).rstrip()
+with open(p,'w') as f: f.write(t + '\n')
 "
           fi
           printf '\n\n%s\n' "$FOOTER" >> README.md
 
           if git status --porcelain | grep -q .; then
             git add README.md
-            git commit -m "chore: refresh TKAWEN ecosystem footer ($(date -u +%Y-%m-%d))" --no-verify
+            git commit -m "chore: refresh TKAWEN ecosystem footer ($(date -u +%Y-%m-%d))"
             git push origin HEAD
-            echo "✓ refreshed footer in $REPO"
+            echo "OK $REPO"
           else
             echo "no changes for $REPO"
           fi
