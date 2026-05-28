@@ -1,0 +1,51 @@
+name: 🚀 Core Web Vitals monitor (daily)
+
+# Calls Google PageSpeed Insights for every TKAWEN site (mobile + desktop) and
+# tracks LCP / CLS / FID / TTFB over time. PSI is free and unauthenticated for
+# up to ~400 req/day which is plenty for our scale.
+
+on:
+  schedule:
+    - cron: "0 10 * * *"  # 10:00 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run PSI on all sites
+        id: psi
+        run: |
+          set -e
+          mkdir -p .data/psi
+          OUT=.data/psi/report-$(date -u +%Y-%m-%d).json
+          python3 scripts/pagespeed.py > "$OUT"
+          BAD=$(jq '.summary.failing' "$OUT")
+          TOTAL=$(jq '.summary.total' "$OUT")
+          echo "failing=$BAD" >> $GITHUB_OUTPUT
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          jq -r '.by_url[] | "\(.url) \(.strategy): perf=\(.performance) lcp=\(.lcp)ms cls=\(.cls)"' "$OUT" | head -30
+
+      - name: Commit report
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/psi/ || true
+          git diff --cached --quiet || git commit -m "data: psi report $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Notify if regressions
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BAD: ${{ steps.psi.outputs.failing }}
+          T: ${{ steps.psi.outputs.total }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ "$BAD" -gt 0 ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" \
+              -d text="🐌 Core Web Vitals: $BAD of $T URLs below 0.75 perf score. See .data/psi/"
+          fi

@@ -1,0 +1,60 @@
+name: 💓 GitHub Pulse (daily activity signal)
+
+# Pushes a tiny "last-updated" footer commit to public repos every day so they
+# appear active in GitHub search results, trending pages, and recommendation
+# feeds. Each repo gets one commit/day — never a force-push, never destructive.
+
+on:
+  schedule:
+    - cron: "23 4 * * *"  # 04:23 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        repo:
+          - hartemyaakoub/seo-toolkit
+          - hartemyaakoub/mystoq-js-sdk
+          - hartemyaakoub/mystoq-php-sdk
+          - hartemyaakoub/mystoq-python-sdk
+          - hartemyaakoub/mystoq-themes
+          - hartemyaakoub/mystoq-openapi
+          - hartemyaakoub/mystoq-cli
+          - hartemyaakoub/mystoq-examples
+          - hartemyaakoub/awesome-mystoq
+          - hartemyaakoub/mystoq-mcp-server
+          - hartemyaakoub/mystoq-wilayas-dataset
+          - hartemyaakoub/mystoq-react-components
+    steps:
+      - name: Pulse commit on ${{ matrix.repo }}
+        env:
+          GH_TOKEN: ${{ secrets.PULSE_TOKEN }}
+        run: |
+          set -e
+          REPO="${{ matrix.repo }}"
+          DATE="$(date -u +'%Y-%m-%d')"
+
+          if [ -z "$GH_TOKEN" ]; then
+            echo "PULSE_TOKEN not set — skipping"; exit 0
+          fi
+
+          git clone --depth=1 "https://x-access-token:$GH_TOKEN@github.com/$REPO.git" repo
+          cd repo
+          git config user.email "yaakoub.hartem.mhsi@gmail.com"
+          git config user.name "Hartem Yaakoub"
+
+          # Ensure a .updates dir; append a one-line record per day
+          mkdir -p .updates
+          echo "$DATE  pulse ok" >> .updates/heartbeat.log
+
+          if git status --porcelain | grep -q .; then
+            git add .updates/heartbeat.log
+            git commit -m "chore: daily pulse $DATE" --no-verify
+            git push origin HEAD
+            echo "✓ committed pulse to $REPO"
+          else
+            echo "no changes — skip"
+          fi

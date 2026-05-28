@@ -1,0 +1,48 @@
+name: 🎯 Backlink prospector (weekly)
+
+# Uses Google web search (via the free DuckDuckGo HTML interface as a proxy) to
+# find URLs that mention TKAWEN brands but don't yet link to us. Outputs a
+# prospect list of pages we should request a backlink from.
+
+on:
+  schedule:
+    - cron: "0 9 * * 3"  # Wednesdays 09:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  prospect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find backlink prospects
+        id: prospect
+        run: |
+          set -e
+          mkdir -p .data/backlinks
+          OUT=.data/backlinks/prospects-$(date -u +%Y-%m-%d).json
+          python3 scripts/backlink_prospector.py > "$OUT"
+          C=$(jq '.summary.total_prospects' "$OUT")
+          echo "count=$C" >> $GITHUB_OUTPUT
+          jq -r '.prospects[:20][] | "\(.url)  [\(.query)]"' "$OUT" | head -20
+
+      - name: Commit + push
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/backlinks/ || true
+          git diff --cached --quiet || git commit -m "data: backlink prospects $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Notify Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          C: ${{ steps.prospect.outputs.count }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ "$C" -gt 0 ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" \
+              -d text="🎯 Backlink prospector: $C new outreach targets this week. See .data/backlinks/"
+          fi

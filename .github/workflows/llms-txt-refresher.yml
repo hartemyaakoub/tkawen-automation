@@ -1,0 +1,53 @@
+name: 🧠 llms.txt refresher (daily)
+
+# SSHes to the VPS once a day and regenerates llms.txt for every TKAWEN site
+# using the @mystoq/seo-toolkit. Keeps AI crawlers (ChatGPT, Claude, Perplexity,
+# Gemini) reading the freshest curated index of every site.
+#
+# Requires repo secret `VPS_SSH_KEY` (ed25519 private key, deploy-only).
+
+on:
+  schedule:
+    - cron: "30 3 * * *"  # 03:30 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH + regenerate llms.txt on VPS
+        env:
+          KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then echo "VPS_SSH_KEY not set — skipping"; exit 0; fi
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H 173.212.235.93 >> ~/.ssh/known_hosts 2>/dev/null
+
+          # Regenerate llms.txt per site via existing artisan / scripts
+          ssh -o StrictHostKeyChecking=no root@173.212.235.93 <<'REMOTE'
+            set -e
+            for D in /var/www/mystoq-backend /var/www/certify /var/www/tkawen-academy; do
+              [ -d "$D" ] || continue
+              if [ -f "$D/artisan" ]; then
+                cd "$D"
+                sudo -u www-data php8.4 artisan geo:rebuild-llms 2>/dev/null \
+                  || sudo -u www-data php8.4 artisan llms:rebuild 2>/dev/null \
+                  || echo "  no rebuild command on $D — skipping"
+              fi
+            done
+            echo "✓ llms.txt refresh done at $(date -u +%H:%M:%SZ)"
+          REMOTE
+
+      - name: Notify Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        if: always()
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          STATUS="${{ job.status }}"
+          ICON="✅"; [ "$STATUS" != "success" ] && ICON="⚠️"
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" -d text="${ICON} llms.txt refresh: $STATUS"

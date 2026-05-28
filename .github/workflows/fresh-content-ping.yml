@@ -1,0 +1,48 @@
+name: ⚡ Fresh content ping (every 4h)
+
+# Re-pushes every URL of every site to Bing/Yandex IndexNow 6 times per day.
+# Keeps search-engine indices warm and re-crawls fresh content quickly.
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"  # every 4h
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - name: mystoq.com
+            key: 9debbe6c96f1e3034e50cd28a8ca0c15
+            sitemap: https://mystoq.com/sitemap.xml
+          - name: algeriacertify.com
+            key: ""
+            sitemap: https://algeriacertify.com/sitemap.xml
+          - name: tkawen.com
+            key: ""
+            sitemap: https://tkawen.com/sitemap.xml
+          - name: liqaa.io
+            key: ""
+            sitemap: https://liqaa.io/sitemap.xml
+          - name: pharmapro.tkawen.com
+            key: ""
+            sitemap: https://pharmapro.tkawen.com/sitemap.xml
+          - name: catalogue.tkawen.com
+            key: ""
+            sitemap: https://catalogue.tkawen.com/sitemap.xml
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ping
+        if: matrix.site.key != ''
+        run: |
+          python3 scripts/indexnow_push.py \
+            "${{ matrix.site.name }}" \
+            "${{ matrix.site.key }}" \
+            "${{ matrix.site.sitemap }}"
+        continue-on-error: true
+      - name: Skip (no key)
+        if: matrix.site.key == ''
+        run: echo "Skipping ${{ matrix.site.name }} — no IndexNow key configured."

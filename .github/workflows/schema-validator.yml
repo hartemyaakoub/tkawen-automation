@@ -1,0 +1,59 @@
+name: ✅ Schema.org JSON-LD validator (daily)
+
+# Crawls top URLs of every TKAWEN site, extracts <script type="application/ld+json">
+# blocks, validates each one against Schema.org grammar (using @mystoq/seo-toolkit
+# parsing + heuristics), and writes a report. Surfaces missing/broken markup
+# before Google does.
+
+on:
+  schedule:
+    - cron: "45 8 * * *"  # 08:45 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i @mystoq/seo-toolkit@latest --no-save
+
+      - name: Validate all sites
+        id: validate
+        run: |
+          set -e
+          mkdir -p .data/schema
+          OUT=.data/schema/report-$(date -u +%Y-%m-%d).json
+          python3 scripts/schema_audit.py > "$OUT"
+          ERRORS=$(jq '.summary.errors_total' "$OUT")
+          PAGES=$(jq '.summary.pages_scanned' "$OUT")
+          MISSING=$(jq '.summary.pages_without_schema' "$OUT")
+          echo "errors=$ERRORS" >> $GITHUB_OUTPUT
+          echo "pages=$PAGES" >> $GITHUB_OUTPUT
+          echo "missing=$MISSING" >> $GITHUB_OUTPUT
+          jq -r '.by_site[] | "\(.host): \(.pages) pages, \(.errors) errors, \(.missing) missing"' "$OUT"
+
+      - name: Commit report
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/schema/ || true
+          git diff --cached --quiet || git commit -m "data: schema audit $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Notify Telegram if errors > 5
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          E: ${{ steps.validate.outputs.errors }}
+          P: ${{ steps.validate.outputs.pages }}
+          M: ${{ steps.validate.outputs.missing }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ "$E" -gt 5 ] || [ "$M" -gt 10 ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" \
+              -d text="🚨 Schema.org audit: $E errors, $M pages missing JSON-LD out of $P pages scanned. See .data/schema/"
+          fi

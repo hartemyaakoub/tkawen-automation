@@ -1,0 +1,49 @@
+name: 🔗 Broken links check (weekly)
+
+# Crawls a sample of pages from every TKAWEN site, extracts <a href>, and
+# pings each link. Logs 404s / 5xx to a report and Telegram-alerts if > 10.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Mondays 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crawl + check
+        id: crawl
+        run: |
+          set -e
+          mkdir -p .data/links
+          OUT=.data/links/report-$(date -u +%Y-%m-%d).json
+          python3 scripts/broken_links.py > "$OUT"
+          BAD=$(jq '.summary.broken' "$OUT")
+          TOTAL=$(jq '.summary.checked' "$OUT")
+          echo "broken=$BAD" >> $GITHUB_OUTPUT
+          echo "checked=$TOTAL" >> $GITHUB_OUTPUT
+          jq -r '.broken_links[]?.url' "$OUT" | head -20
+
+      - name: Commit report
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/links/ || true
+          git diff --cached --quiet || git commit -m "data: link audit $(date -u +%Y-%m-%d)"
+          git push origin HEAD || true
+
+      - name: Notify Telegram if broken
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          B: ${{ steps.crawl.outputs.broken }}
+          T: ${{ steps.crawl.outputs.checked }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          if [ "$B" -gt 10 ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+              -d chat_id="$CHAT" \
+              -d text="🔗 Link audit: $B broken out of $T checked. See .data/links/"
+          fi
