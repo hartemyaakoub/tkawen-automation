@@ -1,0 +1,63 @@
+name: 🔍 IndexNow daily push
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 06:00 UTC = 07:00 الجزائر
+  workflow_dispatch: {}
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - name: mystoq.com
+            key: 9debbe6c96f1e3034e50cd28a8ca0c15
+            sitemap: https://mystoq.com/sitemap.xml
+          - name: liqaa.io
+            key: ""
+            sitemap: https://liqaa.io/sitemap.xml
+          - name: algeriacertify.com
+            key: ""
+            sitemap: https://algeriacertify.com/sitemap.xml
+          - name: pharmapro.tkawen.com
+            key: ""
+            sitemap: https://pharmapro.tkawen.com/sitemap.xml
+          - name: catalogue.tkawen.com
+            key: ""
+            sitemap: https://catalogue.tkawen.com/sitemap.xml
+          - name: tkawen.com
+            key: ""
+            sitemap: https://tkawen.com/sitemap.xml
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Push to IndexNow
+        if: matrix.site.key != ''
+        run: |
+          python3 scripts/indexnow_push.py \
+            "${{ matrix.site.name }}" \
+            "${{ matrix.site.key }}" \
+            "${{ matrix.site.sitemap }}"
+
+      - name: Skip (no key)
+        if: matrix.site.key == ''
+        run: echo "Skipping ${{ matrix.site.name }} — no IndexNow key configured."
+
+  notify:
+    needs: push
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Telegram summary
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TOKEN" ] || [ -z "$CHAT" ]; then echo "secrets missing, skipping"; exit 0; fi
+          status="${{ needs.push.result }}"
+          icon="✅"; [ "$status" != "success" ] && icon="⚠️"
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
+            --data-urlencode "text=${icon} IndexNow daily push — ${status}" >/dev/null

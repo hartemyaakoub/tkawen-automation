@@ -1,0 +1,38 @@
+name: 📊 StartupRanking weekly tracker
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"  # كل اثنين 08:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Scrape SR + append history
+        run: python3 scripts/sr_track.py
+
+      - name: Commit data
+        run: |
+          git config user.name "tkawen-bot"
+          git config user.email "automation@tkawen.com"
+          git add data/sr-history.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(data): SR snapshot $(date -Iseconds)"
+            git push
+          fi
+
+      - name: Telegram report
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/sr_track_report.py
