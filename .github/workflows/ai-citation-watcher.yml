@@ -1,4 +1,4 @@
-name: 🧠 AI citation tracker (daily)
+name: 🧠 AI citation watcher (daily)
 
 # Probes major AI search surfaces (Perplexity-style via DDG, Google AI Overviews
 # via SerpAPI when available) to see which TKAWEN brand queries get cited and
