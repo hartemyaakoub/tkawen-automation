@@ -1,0 +1,112 @@
+{
+  "scanned_at": "2026-05-29T16:23:49.798424Z",
+  "summary": {
+    "tracked": 17,
+    "in_top_10": 4,
+    "top_10_percent": 23.5
+  },
+  "tracked": [
+    {
+      "keyword": "Mystoq",
+      "target": "mystoq.com",
+      "position": 1,
+      "first_result": "https://www.mystoq.com/en"
+    },
+    {
+      "keyword": "Mystoq Algeria",
+      "target": "mystoq.com",
+      "position": 1,
+      "first_result": "https://www.mystoq.com/en"
+    },
+    {
+      "keyword": "e-commerce Algeria platform",
+      "target": "mystoq.com",
+      "position": null,
+      "first_result": "https://dzbuild.com/blog/ecommerce-platforms-algeria"
+    },
+    {
+      "keyword": "Algeria Certify",
+      "target": "algeriacertify.com",
+      "position": 1,
+      "first_result": "https://www.algeriacertify.com/blog/certified-trainer-guide-algeria-2026"
+    },
+    {
+      "keyword": "Algeria digital credentials",
+      "target": "algeriacertify.com",
+      "position": null,
+      "first_result": "https://www.algeriaculturedaily.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials"
+    },
+    {
+      "keyword": "certificat Algerie en ligne",
+      "target": "algeriacertify.com",
+      "position": null,
+      "first_result": "https://capacitepc.interieur.gov.dz/"
+    },
+    {
+      "keyword": "LIQAA",
+      "target": "liqaa.io",
+      "position": 1,
+      "first_result": "https://liqaa.io/en"
+    },
+    {
+      "keyword": "LIQAA video meeting",
+      "target": "liqaa.io",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "liqaa.io",
+      "target": "liqaa.io",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "PharmaPro Algeria",
+      "target": "pharmapro.tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "logiciel pharmacie algerie",
+      "target": "pharmapro.tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "TKAWEN group",
+      "target": "tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "TKAWEN startup",
+      "target": "tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "Hartem Yaakoub",
+      "target": "hartem.tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "Hartem Yaakoub founder",
+      "target": "hartem.tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "catalogue.tkawen.com",
+      "target": "catalogue.tkawen.com",
+      "position": null,
+      "first_result": null
+    },
+    {
+      "keyword": "catalogue TKAWEN",
+      "target": "catalogue.tkawen.com",
+      "position": null,
+      "first_result": null
+    }
+  ]
+}
