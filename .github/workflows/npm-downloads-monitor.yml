@@ -8,9 +8,14 @@ on:
     - cron: "0 13 * * *"  # 13:00 UTC daily
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   pull:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +36,7 @@ jobs:
           git config user.name "TKAWEN Automation"
           git add .data/npm/ || true
           git diff --cached --quiet || git commit -m "data: npm stats $(date -u +%Y-%m-%d)"
-          git push origin HEAD || true
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
 
       - name: Telegram
         env:

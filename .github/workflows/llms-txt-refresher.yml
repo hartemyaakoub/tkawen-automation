@@ -11,9 +11,14 @@ on:
     - cron: "30 3 * * *"  # 03:30 UTC daily
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: SSH + regenerate llms.txt on VPS
         env:

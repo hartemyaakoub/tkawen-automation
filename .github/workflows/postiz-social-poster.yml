@@ -10,9 +10,14 @@ on:
     - cron: "0 */8 * * *"  # every 8h
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +38,7 @@ jobs:
           git config user.name "TKAWEN Automation"
           git add .data/queue/ || true
           git diff --cached --quiet || git commit -m "social: posted $(date -u +%Y-%m-%d-%H%M)"
-          git push origin HEAD || true
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
 
       - name: Telegram alert
         env:

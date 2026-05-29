@@ -9,9 +9,14 @@ on:
     - cron: "0 4 * * 4"  # Thursdays 04:00 UTC
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 

@@ -29,7 +29,7 @@ TARGETS = [
     ("catalogue TKAWEN", "catalogue.tkawen.com"),
 ]
 
-UA = "Mozilla/5.0 (compatible; TKAWEN-SERPTracker/1.0)"
+UA = "Mozilla/5.0 (compatible; TKAWEN-SERPProbe/1.0)"
 TIMEOUT = 25
 DDG_RE = re.compile(
     r'<a\s+rel="nofollow"\s+class="result__a"\s+href="([^"]+)"',

@@ -5,7 +5,7 @@ import urllib.request as ur
 from pathlib import Path
 
 URL = "https://www.startupranking.com/startup/mystoq"
-DATA = Path("data/sr-history.json")
+DATA = Path(".data/sr/history.json")
 DATA.parent.mkdir(parents=True, exist_ok=True)
 
 

@@ -9,9 +9,14 @@ on:
     - cron: "0 2 * * *"  # 02:00 UTC daily — just before the IndexNow pushes
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: SSH + rebuild sitemaps
         env:

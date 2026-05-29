@@ -8,9 +8,14 @@ on:
     - cron: "0 6 * * 1"  # Mondays 06:00 UTC
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - name: Crawl + check
@@ -32,7 +37,7 @@ jobs:
           git config user.name "TKAWEN Automation"
           git add .data/links/ || true
           git diff --cached --quiet || git commit -m "data: link audit $(date -u +%Y-%m-%d)"
-          git push origin HEAD || true
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
 
       - name: Notify Telegram if broken
         env:

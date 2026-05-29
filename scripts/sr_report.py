@@ -7,7 +7,7 @@ from pathlib import Path
 
 TOKEN = os.environ.get("TOKEN", "")
 CHAT  = os.environ.get("CHAT", "")
-DATA  = Path("data/sr-history.json")
+DATA  = Path(".data/sr/history.json")
 
 
 def fmt_delta(now: int | None, prev: int | None) -> str:

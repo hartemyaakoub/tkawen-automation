@@ -8,9 +8,14 @@ on:
     - cron: "30 12 * * *"  # 12:30 UTC daily
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   track:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -20,7 +25,7 @@ jobs:
           set -e
           mkdir -p .data/serp
           OUT=.data/serp/report-$(date -u +%Y-%m-%d).json
-          python3 scripts/serp_track.py > "$OUT"
+          python3 scripts/serp_probe.py > "$OUT"
           PCT=$(jq '.summary.top_10_percent' "$OUT")
           echo "top10pct=$PCT" >> $GITHUB_OUTPUT
           jq -r '.tracked[] | "\(.keyword) → \(.position // "?")"' "$OUT" | head -20
@@ -31,7 +36,7 @@ jobs:
           git config user.name "TKAWEN Automation"
           git add .data/serp/ || true
           git diff --cached --quiet || git commit -m "data: serp $(date -u +%Y-%m-%d)"
-          git push origin HEAD || true
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
 
       - name: Telegram weekly summary (Sundays only)
         if: github.event.schedule == '30 12 * * *' && github.run_number > 1

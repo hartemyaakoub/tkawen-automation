@@ -5,9 +5,14 @@ on:
     - cron: "0 6 * * *"  # 06:00 UTC = 07:00 الجزائر
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   push:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
@@ -16,25 +21,26 @@ jobs:
             key: 9debbe6c96f1e3034e50cd28a8ca0c15
             sitemap: https://mystoq.com/sitemap.xml
           - name: liqaa.io
-            key: ""
+            key: 0de4f1a2aa4c66011b516be1ca239406
             sitemap: https://liqaa.io/sitemap.xml
           - name: algeriacertify.com
-            key: ""
+            key: c4e42e19587bf3bbef23c3a8ac0f6bae
             sitemap: https://algeriacertify.com/sitemap.xml
           - name: pharmapro.tkawen.com
-            key: ""
+            key: d809735a48e352844e028fb3478155f3
             sitemap: https://pharmapro.tkawen.com/sitemap.xml
           - name: catalogue.tkawen.com
-            key: ""
+            key: c853d03cd303883092cbb16608a90a63
             sitemap: https://catalogue.tkawen.com/sitemap.xml
           - name: tkawen.com
-            key: ""
+            key: ceb683a9c7e71b2d7ff52c4728451aa3
             sitemap: https://tkawen.com/sitemap.xml
     steps:
       - uses: actions/checkout@v4
 
       - name: Push to IndexNow
         if: matrix.site.key != ''
+        continue-on-error: true
         run: |
           python3 scripts/indexnow_push.py \
             "${{ matrix.site.name }}" \
@@ -48,6 +54,7 @@ jobs:
   notify:
     needs: push
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     if: always()
     steps:
       - name: Telegram summary

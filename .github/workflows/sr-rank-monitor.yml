@@ -1,4 +1,4 @@
-name: 📊 StartupRanking weekly tracker
+name: 📊 StartupRanking weekly monitor
 
 on:
   schedule:
@@ -8,31 +8,36 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
-  track:
+  monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
 
       - name: Scrape SR + append history
-        run: python3 scripts/sr_track.py
+        run: python3 scripts/sr_snapshot.py
 
       - name: Commit data
         run: |
-          git config user.name "tkawen-bot"
-          git config user.email "automation@tkawen.com"
-          git add data/sr-history.json
+          git config user.name "TKAWEN Automation"
+          git config user.email "bot@tkawen.com"
+          git add .data/sr/
           if git diff --cached --quiet; then
             echo "no changes"
           else
             git commit -m "chore(data): SR snapshot $(date -Iseconds)"
-            git push
+            for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push && break || { echo "retry $i"; sleep 3; }; done
           fi
 
       - name: Telegram report
         env:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python3 scripts/sr_track_report.py
+        run: python3 scripts/sr_report.py

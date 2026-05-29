@@ -9,9 +9,14 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   ping:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - name: Probe + log
@@ -34,7 +39,7 @@ jobs:
           git add .data/uptime/ || true
           git diff --cached --quiet || git commit -m "data: uptime $(date -u +%Y-%m-%d-%H%M)"
           git pull --rebase origin HEAD || true
-          git push origin HEAD || true
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
 
       - name: Telegram alert on outage
         env:

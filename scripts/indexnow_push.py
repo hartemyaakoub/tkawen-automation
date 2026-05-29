@@ -1,12 +1,35 @@
 #!/usr/bin/env python3
-"""Push every URL of a sitemap to Bing + Yandex IndexNow."""
-import sys, json, gzip, io
+"""Push sitemap URLs to Bing + Yandex IndexNow.
+
+Usage:
+    indexnow_push.py <host> <key> <sitemap_url> [--since-hours N]
+
+Without --since-hours: submits every <loc> in the sitemap (full daily push).
+With --since-hours N: submits ONLY URLs whose <lastmod> is within the last N
+hours — this is the "fresh content" mode that avoids re-pinging the entire
+site every few hours. URLs with no <lastmod> are skipped in this mode (we
+can't tell whether they changed, so we don't spam IndexNow with them).
+"""
+import sys, json, gzip
 import urllib.request as ur
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 
-if len(sys.argv) < 4:
-    print("usage: indexnow_push.py <host> <key> <sitemap_url>"); sys.exit(2)
-host, key, sitemap = sys.argv[1], sys.argv[2], sys.argv[3]
+# ---- arg parsing (positional host/key/sitemap + optional --since-hours) ----
+args = sys.argv[1:]
+since_hours: int | None = None
+if "--since-hours" in args:
+    i = args.index("--since-hours")
+    try:
+        since_hours = int(args[i + 1])
+    except (IndexError, ValueError):
+        print("--since-hours needs an integer"); sys.exit(2)
+    del args[i:i + 2]
+
+if len(args) < 3:
+    print("usage: indexnow_push.py <host> <key> <sitemap_url> [--since-hours N]")
+    sys.exit(2)
+host, key, sitemap = args[0], args[1], args[2]
 
 # Recursive sitemap fetch — handles sitemap-index.xml that points to other sitemaps
 NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -20,9 +43,9 @@ def fetch(url: str) -> bytes:
     return data
 
 
-def parse_urls(xml_bytes: bytes) -> list[str]:
-    """Return all <loc> values, recursing into sub-sitemaps."""
-    out: list[str] = []
+def parse_urls(xml_bytes: bytes) -> list[tuple[str, str | None]]:
+    """Return (loc, lastmod) pairs, recursing into sub-sitemaps."""
+    out: list[tuple[str, str | None]] = []
     try:
         root = ET.fromstring(xml_bytes)
     except ET.ParseError as e:
@@ -35,10 +58,26 @@ def parse_urls(xml_bytes: bytes) -> list[str]:
             except Exception as e:
                 print(f"sub-sitemap failed {sm.text}: {e}", file=sys.stderr)
     elif tag == "urlset":
-        for u in root.findall("sm:url/sm:loc", NS):
-            if u.text:
-                out.append(u.text.strip())
+        for u in root.findall("sm:url", NS):
+            loc = u.find("sm:loc", NS)
+            if loc is None or not loc.text:
+                continue
+            lm = u.find("sm:lastmod", NS)
+            out.append((loc.text.strip(),
+                        lm.text.strip() if lm is not None and lm.text else None))
     return out
+
+
+def is_fresh(lastmod: str | None, cutoff: datetime) -> bool:
+    if not lastmod:
+        return False
+    try:
+        dt = datetime.fromisoformat(lastmod.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt >= cutoff
 
 
 def push(endpoint: str, urls: list[str]) -> tuple[int, str]:
@@ -58,8 +97,16 @@ def push(endpoint: str, urls: list[str]) -> tuple[int, str]:
 
 def main():
     print(f"sitemap: {sitemap}")
-    urls = parse_urls(fetch(sitemap))
-    print(f"collected {len(urls)} URLs")
+    pairs = parse_urls(fetch(sitemap))
+    print(f"collected {len(pairs)} URLs")
+
+    if since_hours is not None:
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=since_hours)
+        urls = [loc for loc, lm in pairs if is_fresh(lm, cutoff)]
+        print(f"fresh-mode: {len(urls)} URLs modified in last {since_hours}h")
+    else:
+        urls = [loc for loc, _ in pairs]
+
     if not urls:
         print("nothing to push"); return 0
 
