@@ -41,7 +41,7 @@ jobs:
             key: c853d03cd303883092cbb16608a90a63
             sitemap: https://catalogue.tkawen.com/sitemap.xml
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Ping
         if: matrix.site.key != ''
         run: |

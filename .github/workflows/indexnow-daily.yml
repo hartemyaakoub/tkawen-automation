@@ -36,7 +36,7 @@ jobs:
             key: ceb683a9c7e71b2d7ff52c4728451aa3
             sitemap: https://tkawen.com/sitemap.xml
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Push to IndexNow
         if: matrix.site.key != ''
