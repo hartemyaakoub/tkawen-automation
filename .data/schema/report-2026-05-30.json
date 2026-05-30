@@ -1,0 +1,127 @@
+{
+  "scanned_at": "2026-05-30T10:28:51.430177Z",
+  "summary": {
+    "pages_scanned": 129,
+    "errors_total": 40,
+    "pages_without_schema": 42
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 36,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 20,
+      "errors": 2,
+      "missing": 0,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://algeriacertify.com/facts",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://algeriacertify.com/user",
+          "error": "fetch failed: HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://algeriacertify.com/client",
+          "error": "fetch failed: HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://algeriacertify.com/user/register",
+          "error": "fetch failed: HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://algeriacertify.com/client/register",
+          "error": "fetch failed: HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 8,
+      "errors": 2,
+      "missing": 3,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://tts.tkawen.com/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    }
+  ]
+}
