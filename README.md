@@ -1,56 +1,97 @@
-# 🤖 TKAWEN Automation
+# TKAWEN Automation
 
-> Free cron server for the TKAWEN ecosystem, powered by GitHub Actions.
+> The always-on growth engine for the [TKAWEN ecosystem](https://hartem.tkawen.com) — **22 scheduled jobs** that keep every platform fast, indexed, and visible, running **free** on GitHub Actions.
 
-This repository runs automated tasks on a schedule, **completely free** thanks
-to GitHub Actions' unlimited public-repo minutes. It keeps the 11 platforms
-of the [TKAWEN ecosystem](https://hartem.tkawen.com) healthy and visible.
+This repository is a serverless cron platform. Every workflow is a self-contained, zero-cost task that watches, measures, or promotes the TKAWEN products on a fixed schedule and reports anomalies to Telegram. No servers to pay for, no dashboards to babysit — the public-repo GitHub Actions minutes do the work, and every result is committed back as an auditable JSON trail under `.data/`.
 
-## 🛰 Platforms monitored
+## Platforms covered
 
-| Platform | URL | Sitemap |
-|----------|-----|---------|
-| Mystoq | [mystoq.com](https://mystoq.com) | [sitemap](https://mystoq.com/sitemap.xml) |
-| LIQAA | [liqaa.io](https://liqaa.io) | [sitemap](https://liqaa.io/sitemap.xml) |
-| Algeria Certify | [algeriacertify.com](https://algeriacertify.com) | [sitemap](https://algeriacertify.com/sitemap.xml) |
-| PharmaPro | [pharmapro.tkawen.com](https://pharmapro.tkawen.com) | [sitemap](https://pharmapro.tkawen.com/sitemap.xml) |
-| Catalogue | [catalogue.tkawen.com](https://catalogue.tkawen.com) | [sitemap](https://catalogue.tkawen.com/sitemap.xml) |
-| TKAWEN.com | [tkawen.com](https://tkawen.com) | [sitemap](https://tkawen.com/sitemap.xml) |
-| TKAWEN Track | [track.tkawen.com](https://track.tkawen.com) | — |
-| Brand | [brand.tkawen.com](https://brand.tkawen.com) | — |
-| Trust | [trust.tkawen.com](https://trust.tkawen.com) | — |
-| Studio | [studio.tkawen.com](https://studio.tkawen.com) | — |
-| Hartem | [hartem.tkawen.com](https://hartem.tkawen.com) | — |
+| Platform | URL |
+|----------|-----|
+| Mystoq — e‑commerce builder | [mystoq.com](https://mystoq.com) |
+| LIQAA — video meetings | [liqaa.io](https://liqaa.io) |
+| AlgeriaCertify — credential verification | [algeriacertify.com](https://algeriacertify.com) |
+| PharmaPro — pharmacy management | [pharmapro.tkawen.com](https://pharmapro.tkawen.com) |
+| Catalogue — training catalogue | [catalogue.tkawen.com](https://catalogue.tkawen.com) |
+| TKAWEN — parent platform | [tkawen.com](https://tkawen.com) |
+| Track — GPS fleet | [track.tkawen.com](https://track.tkawen.com) |
+| Trust — verified badges | [trust.tkawen.com](https://trust.tkawen.com) |
+| Brand — design system | [brand.tkawen.com](https://brand.tkawen.com) |
+| Hartem — founder hub | [hartem.tkawen.com](https://hartem.tkawen.com) |
 
-## ⚙️ Workflows
+## What runs, and when
 
-### 🔍 `indexnow-daily.yml`
-Pings Bing + Yandex with every sitemap URL across the 11 platforms. Runs **daily at 06:00 UTC**.
-Boosts SEO fresh-crawl signal for all properties.
+### Uptime & health
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `uptime-monitor` | every 15 min | Pings every site, logs downtime to `.data/uptime/`, alerts Telegram. |
+| `health-check` | every 30 min | Hits each homepage and reports failures to the founder chat. |
 
-### 🩺 `health-check.yml`
-Hits every platform's homepage. Reports failures to Telegram (founder chat).
-Runs every **30 minutes**.
+### Search indexing & SEO plumbing
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `indexnow-daily` | daily 06:00 | Submits every sitemap URL to Bing + Yandex via IndexNow. |
+| `fresh-content-ping` | every 4h | IndexNows only URLs whose sitemap `<lastmod>` is fresh — fast re-crawl. |
+| `sitemap-rebuilder` | daily 02:00 | SSHes to the VPS and rebuilds each Laravel app's `sitemap.xml`. |
+| `llms-txt-refresher` | daily 03:30 | Regenerates `llms.txt` for every site so AI crawlers stay current. |
+| `schema-validator` | daily 08:45 | Extracts and validates JSON-LD across top URLs; flags broken schema. |
+| `programmatic-pages-generator` | weekly (Thu) | Builds long-tail keyword landing pages, one per term. |
 
-### 📊 `sr-rank-track.yml`
-Scrapes [StartupRanking](https://www.startupranking.com/startup/mystoq) weekly and
-commits the rank + SR Web + SR Social to a public JSON file. Visualisable.
+### Performance & hygiene
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `pagespeed-monitor` | daily 10:00 | Pulls Core Web Vitals (mobile + desktop) from PageSpeed Insights. |
+| `broken-links-check` | weekly (Mon) | Crawls a sample of pages and reports dead `<a href>` links. |
 
-### 📈 `mystoq-stats-snapshot.yml`
-Daily snapshot of public Mystoq metrics committed to `data/mystoq-stats.json`.
-Mystoq.com can fetch this file to render a live "trust" widget.
+### Rank & competitive intelligence
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `serp-position-monitor` | daily 12:30 | Tracks where each brand ranks for its target keywords. |
+| `sr-rank-monitor` | weekly (Mon) | Records StartupRanking score (SR Web + SR Social) to a public JSON. |
+| `competitor-sitemap-watcher` | daily 07:00 | Diffs competitors' sitemaps day-over-day to surface their new pages. |
+| `backlink-prospector` | weekly (Wed) | Finds backlink opportunities via web search. |
 
-## 🔐 Secrets used
+### Brand presence & answer-engine optimization
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `ai-citation-watcher` | daily 11:15 | Probes AI search surfaces to see when they cite TKAWEN brands. |
+| `news-mentions-watcher` | daily 15:00 | Polls Google News RSS for every brand keyword. |
+| `wikipedia-watcher` | daily 05:30 | Watches Wikipedia + Wikidata for fresh brand mentions. |
 
-| Secret | Purpose |
+### Ecosystem & distribution signals
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `github-pulse` | daily 04:23 | Keeps public repos warm with a tiny last-updated commit. |
+| `github-stars-snapshot` | daily 14:00 | Snapshots stars / forks / watchers across all public repos. |
+| `npm-downloads-monitor` | daily 13:00 | Records daily download counts for the `@mystoq/*` packages. |
+| `readme-promoter` | weekly (Tue) | Refreshes cross-promotion links in repo READMEs. |
+| `postiz-social-poster` | every 8h | Drains a social-post queue to the self-hosted Postiz instance. |
+
+Every job also accepts a manual `workflow_dispatch` run from the **Actions** tab.
+
+## Configuration
+
+Set under **Settings → Secrets and variables → Actions**:
+
+| Secret | Used by |
 |--------|---------|
-| `TELEGRAM_BOT_TOKEN` | sending alerts to founder |
-| `TELEGRAM_CHAT_ID` | recipient chat |
+| `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` | all alerting workflows |
+| `VPS_SSH_KEY` | `sitemap-rebuilder`, `llms-txt-refresher` |
+| `PULSE_TOKEN` | `github-pulse`, `github-stars-snapshot` (cross-repo writes) |
+| `POSTIZ_API_TOKEN` | `postiz-social-poster` |
+| `GITHUB_TOKEN` | provided automatically by Actions |
 
-(set via GitHub repo → Settings → Secrets and variables → Actions)
+## Design principles
 
-## 📜 License
+- **Free by construction** — public-repo Actions minutes only; no paid infra.
+- **Auditable** — results are committed as JSON under `.data/`, so anything claimed can be checked.
+- **Resilient** — concurrency guards and rebase-retry on push so concurrent runs never lose a commit.
+- **No silent failures** — anything that breaks pings Telegram.
 
-AGPL-3.0 · open-source so every TKAWEN customer can audit what runs.
+## License
 
-— Built by [Hartem Yaakoub](https://hartem.tkawen.com) for the TKAWEN ecosystem.
+[AGPL-3.0](LICENSE) — open by design, so any TKAWEN customer can audit exactly what runs against their properties.
+
+---
+
+Built and maintained by [Hartem Yaakoub](https://hartem.tkawen.com) for the TKAWEN ecosystem.
