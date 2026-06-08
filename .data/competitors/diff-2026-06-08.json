@@ -1,0 +1,86 @@
+{
+  "scanned_at": "2026-06-08T21:27:43.259998Z",
+  "total_new": 8,
+  "total_seen": 2630,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 199,
+      "new": [
+        "https://youcan.shop/en/blog/posts/golf-ecommerce"
+      ],
+      "removed": [
+        "https://youcan.shop/ar/blog/posts/golf-ecommerce"
+      ]
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 1099,
+      "new": [
+        "https://www.shopify.com/build-with-ai",
+        "https://www.shopify.com/event/melspringeditions26",
+        "https://www.shopify.com/event/sydspringeditions26",
+        "https://www.shopify.com/resource/ai-series"
+      ],
+      "removed": [
+        "https://www.shopify.com/event/aibreakfast-mar25",
+        "https://www.shopify.com/event/austinmicroevent",
+        "https://www.shopify.com/event/chicago-apr15",
+        "https://www.shopify.com/event/chicago-mar29",
+        "https://www.shopify.com/event/fashion-warsaw",
+        "https://www.shopify.com/event/fashionbeauty-connect-dinner",
+        "https://www.shopify.com/event/melconnect2026",
+        "https://www.shopify.com/event/miami-apr12",
+        "https://www.shopify.com/event/montreal-mar18",
+        "https://www.shopify.com/event/nrf2026",
+        "https://www.shopify.com/event/nyc-apr1",
+        "https://www.shopify.com/event/nyc-mar26",
+        "https://www.shopify.com/event/sanfran-apr9",
+        "https://www.shopify.com/event/shoptalk-vuori",
+        "https://www.shopify.com/event/shoptalk2026",
+        "https://www.shopify.com/event/shoptalkcustomerevent",
+        "https://www.shopify.com/event/shoptalkent-mar25",
+        "https://www.shopify.com/event/shoptalkla-mar24",
+        "https://www.shopify.com/event/shoptalkmm-mar25",
+        "https://www.shopify.com/event/splitjourneysofflineevent2",
+        "https://www.shopify.com/event/sydconnect2026",
+        "https://www.shopify.com/event/vip-productlabs-la-2026",
+        "https://www.shopify.com/legal/merchant-onboarding-program-terms"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1239,
+      "new": [
+        "https://www.daily.co/blog/open-source-multilingual-transcription-from-nvidia-nemotron-3-5-asr/",
+        "https://www.daily.co/resource/cekura-podcast-gradient-bang-subagents-and-the-future-of-voice-ai-architecture",
+        "https://www.daily.co/resource/gradient-bang-on-thursdai-podcast"
+      ],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
