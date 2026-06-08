@@ -1,4 +1,6 @@
 name: 📚 Wikipedia mention watcher (daily)
+permissions:
+  contents: write
 
 # Searches Wikipedia + Wikidata for fresh mentions of TKAWEN brands and writes
 # the diff to a tracking log + GitHub issue. Helps the founder spot citation

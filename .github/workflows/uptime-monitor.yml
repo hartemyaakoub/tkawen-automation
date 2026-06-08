@@ -1,4 +1,6 @@
 name: ⏱️ Uptime monitor (every 15 min)
+permissions:
+  contents: write
 
 # Pings every TKAWEN site every 15 minutes. Logs downtime to .data/uptime/ and
 # Telegram-alerts on any 5xx / timeout. Builds a uptime % chart for the

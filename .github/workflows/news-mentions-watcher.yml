@@ -1,4 +1,6 @@
 name: 📰 News mentions watcher (daily)
+permissions:
+  contents: write
 
 # Polls Google News RSS for every TKAWEN brand keyword. Logs new articles to
 # .data/news/ and Telegram-pings when fresh press shows up.

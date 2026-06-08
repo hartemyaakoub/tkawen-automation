@@ -1,4 +1,6 @@
 name: 🧠 AI citation watcher (daily)
+permissions:
+  contents: write
 
 # Probes major AI search surfaces (Perplexity-style via DDG, Google AI Overviews
 # via SerpAPI when available) to see which TKAWEN brand queries get cited and

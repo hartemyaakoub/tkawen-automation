@@ -1,4 +1,6 @@
 name: 🔗 Broken links check (weekly)
+permissions:
+  contents: write
 
 # Crawls a sample of pages from every TKAWEN site, extracts <a href>, and
 # pings each link. Logs 404s / 5xx to a report and Telegram-alerts if > 10.

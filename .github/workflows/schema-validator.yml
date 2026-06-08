@@ -1,4 +1,6 @@
 name: ✅ Schema.org JSON-LD validator (daily)
+permissions:
+  contents: write
 
 # Crawls top URLs of every TKAWEN site, extracts <script type="application/ld+json">
 # blocks, validates each one against Schema.org grammar (using @mystoq/seo-toolkit

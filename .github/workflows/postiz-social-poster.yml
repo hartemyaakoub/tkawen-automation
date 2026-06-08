@@ -1,4 +1,6 @@
 name: 📲 Postiz social queue poster (every 8h)
+permissions:
+  contents: write
 
 # Reads .data/queue/social-posts.json — every entry { platform, message, link,
 # image_url } gets POSTed to the self-hosted Postiz API. Consumed entries get

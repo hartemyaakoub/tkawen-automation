@@ -1,4 +1,6 @@
 name: 🚀 Core Web Vitals monitor (daily)
+permissions:
+  contents: write
 
 # Calls Google PageSpeed Insights for every TKAWEN site (mobile + desktop) and
 # tracks LCP / CLS / FID / TTFB over time. PSI is free and unauthenticated for

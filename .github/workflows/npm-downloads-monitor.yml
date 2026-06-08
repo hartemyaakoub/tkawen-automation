@@ -1,4 +1,6 @@
 name: 📦 npm downloads monitor (daily)
+permissions:
+  contents: write
 
 # Records daily download counts for @mystoq/* npm packages and saves a public
 # trend log we can show on the dashboard and reference in pitches.

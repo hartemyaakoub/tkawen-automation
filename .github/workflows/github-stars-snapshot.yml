@@ -1,4 +1,6 @@
 name: ⭐ GitHub stars snapshot (daily)
+permissions:
+  contents: write
 
 # Snapshots stars / forks / watchers for every public TKAWEN repo. Builds a
 # daily JSON time series so we can graph growth in the dashboard.

@@ -1,4 +1,6 @@
 name: 💓 GitHub Pulse (daily activity signal)
+permissions:
+  contents: write
 
 # Pushes a tiny "last-updated" footer commit to public repos every day so they
 # appear active in GitHub search results, trending pages, and recommendation

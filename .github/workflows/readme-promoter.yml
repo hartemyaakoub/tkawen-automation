@@ -1,4 +1,6 @@
 name: README promoter
+permissions:
+  contents: write
 
 on:
   schedule:

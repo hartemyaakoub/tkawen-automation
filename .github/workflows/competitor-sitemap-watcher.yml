@@ -1,4 +1,6 @@
 name: 🕵️ Competitor sitemap watcher (daily)
+permissions:
+  contents: write
 
 # Fetches competitors' sitemaps, diffs vs the previous day's snapshot, and
 # alerts on new URLs. Surfaces what they're publishing so we can stay ahead.

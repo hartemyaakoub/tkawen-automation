@@ -1,4 +1,6 @@
 name: 🎯 Backlink prospector (weekly)
+permissions:
+  contents: write
 
 # Uses Google web search (via the free DuckDuckGo HTML interface as a proxy) to
 # find URLs that mention TKAWEN brands but don't yet link to us. Outputs a

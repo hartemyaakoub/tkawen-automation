@@ -1,4 +1,6 @@
 name: 📈 SERP position monitor (daily)
+permissions:
+  contents: write
 
 # Tracks where every TKAWEN brand domain ranks for its target keywords on DDG
 # (proxy for organic). Writes a daily snapshot so trends are visible.
