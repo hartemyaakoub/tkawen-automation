@@ -1,0 +1,98 @@
+{
+  "scanned_at": "2026-06-09T11:48:07.136842Z",
+  "summary": {
+    "pages_scanned": 138,
+    "errors_total": 37,
+    "pages_without_schema": 31
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 29,
+      "errors": 36,
+      "missing": 6,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 8,
+      "errors": 1,
+      "missing": 2,
+      "samples": [
+        {
+          "url": "https://tts.tkawen.com/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    }
+  ]
+}
