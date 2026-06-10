@@ -1,0 +1,102 @@
+{
+  "scanned_at": "2026-06-10T10:55:55.718014Z",
+  "total_new": 1,
+  "total_seen": 2427,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 200,
+      "new": [
+        "https://youcan.shop/en/blog/posts/bundles"
+      ],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 895,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/sell/accessories",
+        "https://www.shopify.com/sell/action-figures",
+        "https://www.shopify.com/sell/antiques",
+        "https://www.shopify.com/sell/art",
+        "https://www.shopify.com/sell/audiobooks",
+        "https://www.shopify.com/sell/autographs",
+        "https://www.shopify.com/sell/baby-clothes",
+        "https://www.shopify.com/sell/backpacks",
+        "https://www.shopify.com/sell/bags",
+        "https://www.shopify.com/sell/baked-goods",
+        "https://www.shopify.com/sell/bamboo",
+        "https://www.shopify.com/sell/batteries",
+        "https://www.shopify.com/sell/beads",
+        "https://www.shopify.com/sell/bedding",
+        "https://www.shopify.com/sell/belts",
+        "https://www.shopify.com/sell/bikes",
+        "https://www.shopify.com/sell/blankets",
+        "https://www.shopify.com/sell/books",
+        "https://www.shopify.com/sell/boots",
+        "https://www.shopify.com/sell/bracelets",
+        "https://www.shopify.com/sell/bras",
+        "https://www.shopify.com/sell/bread",
+        "https://www.shopify.com/sell/bricks",
+        "https://www.shopify.com/sell/building-materials",
+        "https://www.shopify.com/sell/cabinets",
+        "https://www.shopify.com/sell/cakes",
+        "https://www.shopify.com/sell/calendars",
+        "https://www.shopify.com/sell/candles",
+        "https://www.shopify.com/sell/candy",
+        "https://www.shopify.com/sell/canvas",
+        "https://www.shopify.com/sell/caps",
+        "https://www.shopify.com/sell/carpet",
+        "https://www.shopify.com/sell/cbd",
+        "https://www.shopify.com/sell/cell-phone-accessories",
+        "https://www.shopify.com/sell/ceramics",
+        "https://www.shopify.com/sell/children-s-books",
+        "https://www.shopify.com/sell/chips",
+        "https://www.shopify.com/sell/chocolates",
+        "https://www.shopify.com/sell/christmas-trees",
+        "https://www.shopify.com/sell/cleaning-products",
+        "https://www.shopify.com/sell/clothes",
+        "https://www.shopify.com/sell/coats",
+        "https://www.shopify.com/sell/coffee",
+        "https://www.shopify.com/sell/collectibles",
+        "https://www.shopify.com/sell/cologne",
+        "https://www.shopify.com/sell/comic-books",
+        "https://www.shopify.com/sell/cookbooks",
+        "https://www.shopify.com/sell/cookies",
+        "https://www.shopify.com/sell/cosmetics",
+        "https://www.shopify.com/sell/costumes"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1239,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
