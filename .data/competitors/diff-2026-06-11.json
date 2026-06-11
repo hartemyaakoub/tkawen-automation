@@ -1,0 +1,58 @@
+{
+  "scanned_at": "2026-06-11T11:22:07.993972Z",
+  "total_new": 3,
+  "total_seen": 2428,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 200,
+      "new": [
+        "https://youcan.shop/en/blog/posts/newsletterjune-2026"
+      ],
+      "removed": [
+        "https://youcan.shop/en/blog/posts/bundles"
+      ]
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 896,
+      "new": [
+        "https://www.shopify.com/resource/sidekick-playbook",
+        "https://www.shopify.com/webinar/ai-performance-marketing-session"
+      ],
+      "removed": [
+        "https://www.shopify.com/magic"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1239,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
