@@ -1,0 +1,53 @@
+{
+  "scanned_at": "2026-06-17T11:47:30.773079Z",
+  "total_new": 2,
+  "total_seen": 2436,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 202,
+      "new": [
+        "https://youcan.shop/en/help/customers/The-niche"
+      ],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 898,
+      "new": [
+        "https://www.shopify.com/event/brisbanespringeditions26"
+      ],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1243,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
