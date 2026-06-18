@@ -1,0 +1,70 @@
+{
+  "scanned_at": "2026-06-18T11:08:27.180647Z",
+  "total_new": 9,
+  "total_seen": 2435,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 202,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 898,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1242,
+      "new": [
+        "https://docs.daily.co/docs/daily-js/features/custom-tracks",
+        "https://docs.daily.co/docs/daily-js/features/dialin-dialout",
+        "https://docs.daily.co/docs/daily-js/features/live-streaming",
+        "https://docs.daily.co/docs/daily-js/features/recording",
+        "https://docs.daily.co/docs/daily-js/features/screen-sharing",
+        "https://docs.daily.co/docs/daily-js/features/transcription",
+        "https://docs.daily.co/docs/daily-js/guides/custom-messages",
+        "https://docs.daily.co/docs/daily-js/guides/network-quality",
+        "https://docs.daily.co/docs/daily-js/guides/permissions"
+      ],
+      "removed": [
+        "https://docs.daily.co/docs/daily-js/advanced/dialin-dialout",
+        "https://docs.daily.co/docs/daily-js/advanced/media-settings",
+        "https://docs.daily.co/docs/daily-js/advanced/network-quality",
+        "https://docs.daily.co/docs/daily-js/advanced/permissions",
+        "https://docs.daily.co/docs/daily-js/advanced/theming",
+        "https://docs.daily.co/docs/daily-js/guides/custom-tracks",
+        "https://docs.daily.co/docs/daily-js/guides/live-streaming",
+        "https://docs.daily.co/docs/daily-js/guides/recording",
+        "https://docs.daily.co/docs/daily-js/guides/screen-sharing",
+        "https://docs.daily.co/docs/daily-js/guides/transcription"
+      ]
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
