@@ -1,0 +1,102 @@
+{
+  "scanned_at": "2026-06-18T12:17:55.019022Z",
+  "summary": {
+    "pages_scanned": 133,
+    "errors_total": 33,
+    "pages_without_schema": 24
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 19,
+      "errors": 32,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://mystoq.com/fr",
+          "error": "fetch failed: The read operation timed out"
+        },
+        {
+          "url": "https://mystoq.com/dashboard/register",
+          "error": "fetch failed: The read operation timed out"
+        },
+        {
+          "url": "https://mystoq.com/academy/preview",
+          "error": "fetch failed: The read operation timed out"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 29,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://www.algeriacertify.com/answers/tawzif-kafaat-mwathaqa/fr",
+          "error": "fetch failed: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 14,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    }
+  ]
+}
