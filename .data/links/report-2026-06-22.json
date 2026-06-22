@@ -1,0 +1,139 @@
+{
+  "scanned_at": "2026-06-22T11:59:47.072505Z",
+  "summary": {
+    "checked": 300,
+    "broken": 26
+  },
+  "broken_links": [
+    {
+      "url": "https://catalogue.tkawen.com/en/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.openpr.com/news/3954870/algeriacertify-a-groundbreaking-global-solution-to-combat",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/laiche-sofiane",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yzly-aabd-alnor",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yaakoubformation",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/nacer-touaref",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/aziz-khennoufa",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/touaref-nihed",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/fkron-sbah",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/alla-sofiane",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yons-bn-aamar",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/mohammed-marir",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/fryd-bn-khdash",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/hammi-aya",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/dr-djihad",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/mouad-mayache",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/yaakoub-hrtam",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/aymen-benachour",
+      "code": null,
+      "error": "The read operation timed out"
+    }
+  ]
+}
