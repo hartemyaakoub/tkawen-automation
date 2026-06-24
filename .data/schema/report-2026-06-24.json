@@ -1,0 +1,98 @@
+{
+  "scanned_at": "2026-06-24T11:31:48.949671Z",
+  "summary": {
+    "pages_scanned": 123,
+    "errors_total": 3,
+    "pages_without_schema": 28
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 8,
+      "errors": 2,
+      "missing": 5,
+      "samples": [
+        {
+          "url": "https://mystoq.com/fr",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/en",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/dashboard/register",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/dashboard/login",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/academy/preview",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "fetch failed: HTTP Error 521: <none>"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 14,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    }
+  ]
+}
