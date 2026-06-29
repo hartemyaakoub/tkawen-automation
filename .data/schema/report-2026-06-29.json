@@ -1,0 +1,135 @@
+{
+  "scanned_at": "2026-06-29T12:50:07.387545Z",
+  "summary": {
+    "pages_scanned": 76,
+    "errors_total": 37,
+    "pages_without_schema": 8
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 36,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 14,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 2,
+      "errors": 0,
+      "missing": 0,
+      "samples": [
+        {
+          "url": "https://liqaa.io/pricing",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/about",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/contact",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/security",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/status",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/signup",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/login",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/privacy",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://liqaa.io/terms",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        }
+      ]
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
