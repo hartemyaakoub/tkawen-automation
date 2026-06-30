@@ -1,0 +1,58 @@
+{
+  "scanned_at": "2026-06-30T10:31:16.680719Z",
+  "total_new": 0,
+  "total_seen": 2445,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 893,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/event/b2bchicago-workshop",
+        "https://www.shopify.com/event/denver-may14",
+        "https://www.shopify.com/event/editions-london-may21",
+        "https://www.shopify.com/event/editions-manchester-may21",
+        "https://www.shopify.com/event/netcomm-leaders",
+        "https://www.shopify.com/event/nyc-may14",
+        "https://www.shopify.com/event/nyc-may20",
+        "https://www.shopify.com/event/sandiego-may7"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1256,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
