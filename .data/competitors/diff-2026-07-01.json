@@ -1,0 +1,100 @@
+{
+  "scanned_at": "2026-07-01T10:41:03.386914Z",
+  "total_new": 609,
+  "total_seen": 3054,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 893,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 609,
+      "new": [
+        "https://www.accredible.com",
+        "https://www.accredible.com/aacu",
+        "https://www.accredible.com/about",
+        "https://www.accredible.com/accredible-digital-credential-calculator",
+        "https://www.accredible.com/advanced-training",
+        "https://www.accredible.com/atlassian-domain-verification-6fd8f19b-9601-445d-ba33-62029fb9c763",
+        "https://www.accredible.com/blog",
+        "https://www.accredible.com/blog/10-must-have-features-of-a-digital-credentialing-solution",
+        "https://www.accredible.com/blog/10-ways-to-increase-engagement-through-blended-learning-in-corporate-training",
+        "https://www.accredible.com/blog/2023-year-in-review",
+        "https://www.accredible.com/blog/2025-the-year-the-credential-ecosystem-moved",
+        "https://www.accredible.com/blog/3-digital-credential-trends-emerge-from-the-1edtech-digital-credential-summit-and-sxsw-edu-2023",
+        "https://www.accredible.com/blog/3-reasons-why-you-should-attend-building-career-pathways-and-learner-outcomes-with-skills-based-training",
+        "https://www.accredible.com/blog/3-ways-accredible-pathways-is-enhancing-credentialing-programs",
+        "https://www.accredible.com/blog/4-easy-strategies-to-market-your-membership-program-to-prospective-members",
+        "https://www.accredible.com/blog/4-tips-to-showcase-value-and-retain-members",
+        "https://www.accredible.com/blog/5-key-strategies-for-scaling-your-microcredential-program-lessons-from-syracuse-university",
+        "https://www.accredible.com/blog/5-strategies-for-encouraging-membership-renewals",
+        "https://www.accredible.com/blog/6-ways-to-create-a-fair-work-environment",
+        "https://www.accredible.com/blog/7-strategies-for-using-membership-credentials-to-drive-revenue-in-associations",
+        "https://www.accredible.com/blog/8-tips-for-enhancing-employees-learning-skills",
+        "https://www.accredible.com/blog/8-tips-for-making-compliance-training-engaging-and-effective-in-the-workplace",
+        "https://www.accredible.com/blog/a-model-for-membership-organizations-to-use-both-digital-badges-and-certificates",
+        "https://www.accredible.com/blog/a-q-a-session-with-john-at-google",
+        "https://www.accredible.com/blog/a-q-a-session-with-scality",
+        "https://www.accredible.com/blog/academic-certificates-vs-digital-certificates",
+        "https://www.accredible.com/blog/accessibility-in-accredible",
+        "https://www.accredible.com/blog/accredible-and-5g-announce-partnership-to-bring-digital-credentials-to-chile",
+        "https://www.accredible.com/blog/accredible-announces-global-team-expansion",
+        "https://www.accredible.com/blog/accredible-credential-framework",
+        "https://www.accredible.com/blog/accredible-earns-open-badges-2-0-certification",
+        "https://www.accredible.com/blog/accredible-gains-gold-award-for-best-innovation-in-blockchain-technology",
+        "https://www.accredible.com/blog/accredible-is-edtechxglobal-startup-awards-finalist",
+        "https://www.accredible.com/blog/accredible-is-shortlisted-for-the-reimagine-education-awards",
+        "https://www.accredible.com/blog/accredible-joins-ice",
+        "https://www.accredible.com/blog/accredible-joins-ims",
+        "https://www.accredible.com/blog/accredible-language-support-update",
+        "https://www.accredible.com/blog/accredible-openlearning-partnership",
+        "https://www.accredible.com/blog/accredible-security-increases-one-step-further",
+        "https://www.accredible.com/blog/accredibles-2024-year-in-review",
+        "https://www.accredible.com/blog/accredibles-2025-year-in-review",
+        "https://www.accredible.com/blog/accredibles-journey-to-100m-digital-credentials",
+        "https://www.accredible.com/blog/accredibles-stackable-digital-badges-empower-skillsoft-learners-to-demonstrate-greater-proficiency",
+        "https://www.accredible.com/blog/an-introduction-to-accredibles-design-tools",
+        "https://www.accredible.com/blog/are-pdf-credentials-secure",
+        "https://www.accredible.com/blog/associated-general-contractors-of-america-accredible",
+        "https://www.accredible.com/blog/best-practices-for-increasing-user-adoption-in-corporate-training",
+        "https://www.accredible.com/blog/better-pricing",
+        "https://www.accredible.com/blog/better-records-wont-solve-the-translation-problem",
+        "https://www.accredible.com/blog/better-value-pricing"
+      ],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1256,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
