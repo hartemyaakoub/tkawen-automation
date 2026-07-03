@@ -1,6 +1,6 @@
 # TKAWEN Automation
 
-> The always-on growth engine for the [TKAWEN ecosystem](https://hartem.tkawen.com) — **22 scheduled jobs** that keep every platform fast, indexed, and visible, running **free** on GitHub Actions.
+> The always-on growth engine for the [TKAWEN ecosystem](https://hartem.tkawen.com) — **23 scheduled jobs** that keep every platform fast, indexed, and visible, running **free** on GitHub Actions.
 
 This repository is a serverless cron platform. Every workflow is a self-contained, zero-cost task that watches, measures, or promotes the TKAWEN products on a fixed schedule and reports anomalies to Telegram. No servers to pay for, no dashboards to babysit — the public-repo GitHub Actions minutes do the work, and every result is committed back as an auditable JSON trail under `.data/`.
 
@@ -50,6 +50,7 @@ This repository is a serverless cron platform. Every workflow is a self-containe
 | `sr-rank-monitor` | weekly (Mon) | Records StartupRanking score (SR Web + SR Social) to a public JSON. |
 | `competitor-sitemap-watcher` | daily 07:00 | Diffs competitors' sitemaps day-over-day to surface their new pages. |
 | `backlink-prospector` | weekly (Wed) | Finds backlink opportunities via web search. |
+| `backlink-accessibility-audit` | weekly (Wed) | Finds pages that mention our brands but are hard to reach from Google (broken/orphaned, not indexed, low-rank platforms) and classifies why. See [docs/backlink-accessibility-audit.md](docs/backlink-accessibility-audit.md). |
 
 ### Brand presence & answer-engine optimization
 | Workflow | Schedule | What it does |
