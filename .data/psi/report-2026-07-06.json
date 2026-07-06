@@ -1,0 +1,99 @@
+{
+  "scanned_at": "2026-07-06T13:37:10.560514Z",
+  "summary": {
+    "total": 18,
+    "failing": 0
+  },
+  "by_url": [
+    {
+      "url": "https://mystoq.com/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://mystoq.com/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://mystoq.com/tools/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://mystoq.com/tools/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/atlas/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/atlas/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://tkawen.com/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://tkawen.com/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://tkawen.com/research/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://tkawen.com/research/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://liqaa.io/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://liqaa.io/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://pharmapro.tkawen.com/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://pharmapro.tkawen.com/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/",
+      "strategy": "mobile",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/",
+      "strategy": "desktop",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}
