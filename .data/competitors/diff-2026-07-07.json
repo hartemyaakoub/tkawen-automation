@@ -1,0 +1,62 @@
+{
+  "scanned_at": "2026-07-07T10:25:42.121695Z",
+  "total_new": 5,
+  "total_seen": 3056,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [
+        "https://youcan.shop/fr/help/settings/online/facebook-pixel-lastupdate"
+      ],
+      "removed": [
+        "https://youcan.shop/ar/help/settings/online/facebook-pixel-lastupdate"
+      ]
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 894,
+      "new": [
+        "https://www.shopify.com/digital-products",
+        "https://www.shopify.com/solutions/shop-pay-offer/enterprise",
+        "https://www.shopify.com/webinar/apacpeakseasonready"
+      ],
+      "removed": [
+        "https://www.shopify.com/event/toronto-may27",
+        "https://www.shopify.com/event/womenleaders-london-april"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 609,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 94,
+      "new": [
+        "https://info.credly.com/solutions-for-employers"
+      ],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1256,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
