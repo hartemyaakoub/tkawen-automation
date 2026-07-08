@@ -1,0 +1,115 @@
+{
+  "scanned_at": "2026-07-08T10:50:15.680960Z",
+  "summary": {
+    "pages_scanned": 141,
+    "errors_total": 37,
+    "pages_without_schema": 26
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 36,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 14,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 26,
+      "errors": 0,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://catalogue.tkawen.com/executive-2026.html",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://catalogue.tkawen.com/catalogue-2026-imprimable.html",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://catalogue.tkawen.com/llms.txt",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://catalogue.tkawen.com/llms-full.txt",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        }
+      ]
+    }
+  ]
+}
