@@ -2714,6 +2714,37 @@
         "https://design.tkawen.com/": 200,
         "https://studio.tkawen.com/": 200
       }
+    },
+    {
+      "ts": "2026-07-08T17:20:08.052153Z",
+      "up": [
+        "https://mystoq.com/",
+        "https://trust.tkawen.com/",
+        "https://design.tkawen.com/",
+        "https://studio.tkawen.com/"
+      ],
+      "down": [
+        "https://algeriacertify.com/",
+        "https://tkawen.com/",
+        "https://liqaa.io/",
+        "https://pharmapro.tkawen.com/",
+        "https://catalogue.tkawen.com/",
+        "https://hartem.tkawen.com/",
+        "https://brand.tkawen.com/"
+      ],
+      "statuses": {
+        "https://mystoq.com/": 200,
+        "https://algeriacertify.com/": null,
+        "https://tkawen.com/": null,
+        "https://liqaa.io/": null,
+        "https://pharmapro.tkawen.com/": null,
+        "https://catalogue.tkawen.com/": null,
+        "https://hartem.tkawen.com/": null,
+        "https://brand.tkawen.com/": null,
+        "https://trust.tkawen.com/": 200,
+        "https://design.tkawen.com/": 200,
+        "https://studio.tkawen.com/": 200
+      }
     }
   ]
 }
