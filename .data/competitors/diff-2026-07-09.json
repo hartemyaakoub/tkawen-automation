@@ -1,0 +1,54 @@
+{
+  "scanned_at": "2026-07-09T10:24:33.624051Z",
+  "total_new": 2,
+  "total_seen": 3059,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 895,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 611,
+      "new": [
+        "https://www.accredible.com/guides/how-to-increase-credential-sharing",
+        "https://www.accredible.com/webinar-video/the-credentialing-playbook-how-databricks-scaled-to-1-million-credentials"
+      ],
+      "removed": [
+        "https://www.accredible.com/downloadable-assets/digital-credentials-in-higher-education"
+      ]
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 94,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1256,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
