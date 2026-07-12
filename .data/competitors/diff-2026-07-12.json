@@ -1,0 +1,63 @@
+{
+  "scanned_at": "2026-07-12T09:02:00.371812Z",
+  "total_new": 0,
+  "total_seen": 3050,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 204,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 884,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/event/book-meeting-end-to-end-testing-oct-25",
+        "https://www.shopify.com/event/copyoftest3offline",
+        "https://www.shopify.com/event/offline-event-end-to-end-testing-oct-25",
+        "https://www.shopify.com/event/test-landing-page-url-emails",
+        "https://www.shopify.com/event/test-url-formation-registration-emails",
+        "https://www.shopify.com/event/test4offline",
+        "https://www.shopify.com/event/testrefactorevent",
+        "https://www.shopify.com/retail",
+        "https://www.shopify.com/retail/latest",
+        "https://www.shopify.com/retail/topics",
+        "https://www.shopify.com/sitemap/retail-blog",
+        "https://www.shopify.com/webinar/copyoftest3webinar",
+        "https://www.shopify.com/webinar/testwebinarsplit"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 612,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 94,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1256,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
