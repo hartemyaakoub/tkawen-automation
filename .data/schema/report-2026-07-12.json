@@ -1,0 +1,139 @@
+{
+  "scanned_at": "2026-07-12T10:15:11.172779Z",
+  "summary": {
+    "pages_scanned": 64,
+    "errors_total": 37,
+    "pages_without_schema": 8
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 36,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 4,
+      "errors": 0,
+      "missing": 0,
+      "samples": [
+        {
+          "url": "https://tkawen.com/trust",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/ar/trust",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/company",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/ar/company",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/developers",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/ar/developers",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/news",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/ar/news",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/solutions",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/ar/solutions",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
