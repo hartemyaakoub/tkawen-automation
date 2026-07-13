@@ -1,0 +1,159 @@
+{
+  "scanned_at": "2026-07-13T09:31:26.273017Z",
+  "summary": {
+    "checked": 288,
+    "broken": 30
+  },
+  "broken_links": [
+    {
+      "url": "https://tkawen.com/terms",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/academy/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/academy/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/login",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/privacy",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/register",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/slimani-abdelkader",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yons-bn-aamar",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/mouad-mayache",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/aziz-khennoufa",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/hammi-aya",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/alla-sofiane",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/laiche-sofiane",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/mohammed-marir",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yaakoub-hartem",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/aslam-gabr",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/yaakoub-hrtam",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/touaref-nihed",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/nacer-touaref",
+      "code": null,
+      "error": "The read operation timed out"
+    }
+  ]
+}
