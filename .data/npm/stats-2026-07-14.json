@@ -1,0 +1,45 @@
+{
+  "scanned_at": "2026-07-14T14:42:22.817146Z",
+  "summary": {
+    "total_packages": 7,
+    "downloads_yesterday": 21,
+    "downloads_last_30d": 192
+  },
+  "packages": [
+    {
+      "name": "@mystoq/seo-toolkit",
+      "downloads_yesterday": 3,
+      "downloads_last_30d": 47
+    },
+    {
+      "name": "@mystoq/sdk",
+      "downloads_yesterday": 6,
+      "downloads_last_30d": 38
+    },
+    {
+      "name": "@mystoq/react",
+      "downloads_yesterday": 2,
+      "downloads_last_30d": 22
+    },
+    {
+      "name": "@mystoq/mcp-server",
+      "downloads_yesterday": 3,
+      "downloads_last_30d": 21
+    },
+    {
+      "name": "@mystoq/yalidine-bridge",
+      "downloads_yesterday": 2,
+      "downloads_last_30d": 20
+    },
+    {
+      "name": "@mystoq/maystro-bridge",
+      "downloads_yesterday": 2,
+      "downloads_last_30d": 26
+    },
+    {
+      "name": "@mystoq/whatsapp-bridge",
+      "downloads_yesterday": 3,
+      "downloads_last_30d": 18
+    }
+  ]
+}
