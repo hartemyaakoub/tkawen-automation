@@ -1,0 +1,51 @@
+{
+  "scanned_at": "2026-07-18T08:47:46.733309Z",
+  "total_new": 0,
+  "total_seen": 3055,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 204,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 885,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 613,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 93,
+      "new": [],
+      "removed": [
+        "https://info.credly.com/schedule-a-demo"
+      ]
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1260,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
