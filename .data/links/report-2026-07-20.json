@@ -1,0 +1,114 @@
+{
+  "scanned_at": "2026-07-20T09:17:51.974334Z",
+  "summary": {
+    "checked": 300,
+    "broken": 21
+  },
+  "broken_links": [
+    {
+      "url": "https://tkawen.com/protocole",
+      "code": 502,
+      "error": "Bad Gateway"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://tkawen.com/blog",
+      "code": 502,
+      "error": "Bad Gateway"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yzly-aabd-alnor",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/alla-sofiane",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yons-bn-aamar",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/fryd-bn-khdash",
+      "code": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/aziz-khennoufa",
+      "code": null,
+      "error": "The read operation timed out"
+    }
+  ]
+}
