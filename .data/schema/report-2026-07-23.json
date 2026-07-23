@@ -1,0 +1,127 @@
+{
+  "scanned_at": "2026-07-23T10:53:41.666560Z",
+  "summary": {
+    "pages_scanned": 154,
+    "errors_total": 31,
+    "pages_without_schema": 30
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 30,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/shopify",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/lightfunnels",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/ayor",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/youcan",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/compare/woocommerce",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://www.algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 23,
+      "errors": 0,
+      "missing": 0,
+      "samples": [
+        {
+          "url": "https://tkawen.com/company",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/protocole",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/blog",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/blog/%D9%85%D8%A7-%D9%87%D9%88-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/blog/%D8%A7%D9%84%D8%A7%D8%AA%D9%8A%D9%83%D9%8A%D8%AA-%D8%A7%D9%84%D9%88%D8%B8%D9%8A%D9%81%D9%8A",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/blog/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://tkawen.com/blog/%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 11,
+      "samples": []
+    }
+  ]
+}
