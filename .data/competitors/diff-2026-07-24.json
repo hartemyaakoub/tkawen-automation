@@ -1,0 +1,104 @@
+{
+  "scanned_at": "2026-07-24T09:21:12.205967Z",
+  "total_new": 3,
+  "total_seen": 2978,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 204,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 885,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 613,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1184,
+      "new": [
+        "https://docs.daily.co/changelog/2025",
+        "https://www.daily.co/blog/5-security-criteria-to-consider-before-selecting-a-webrtc-video-and-audio-api/",
+        "https://www.daily.co/blog/advice-on-building-voice-ai-in-june-2025/"
+      ],
+      "removed": [
+        "https://docs.daily.co/changelog/001-2020-07-17",
+        "https://docs.daily.co/changelog/002-2020-07-20",
+        "https://docs.daily.co/changelog/003-2020-08-03",
+        "https://docs.daily.co/changelog/004-2020-08-11",
+        "https://docs.daily.co/changelog/005-2020-09-17",
+        "https://docs.daily.co/changelog/006-2020-10-23",
+        "https://docs.daily.co/changelog/007-2020-11-23",
+        "https://docs.daily.co/changelog/008-2020-12-10",
+        "https://docs.daily.co/changelog/009-2021-01-08",
+        "https://docs.daily.co/changelog/010-2021-02-22",
+        "https://docs.daily.co/changelog/011-2021-03-09",
+        "https://docs.daily.co/changelog/012-2021-04-05",
+        "https://docs.daily.co/changelog/013-2021-04-19",
+        "https://docs.daily.co/changelog/014-2021-05-13",
+        "https://docs.daily.co/changelog/015-2021-05-28",
+        "https://docs.daily.co/changelog/016-2021-07-07",
+        "https://docs.daily.co/changelog/017-2021-08-03",
+        "https://docs.daily.co/changelog/018-2021-08-17",
+        "https://docs.daily.co/changelog/019-2021-09-22",
+        "https://docs.daily.co/changelog/020-2021-10-28",
+        "https://docs.daily.co/changelog/021-2022-01-18",
+        "https://docs.daily.co/changelog/022-2022-02-15",
+        "https://docs.daily.co/changelog/023-2022-03-30",
+        "https://docs.daily.co/changelog/024-2022-04-14",
+        "https://docs.daily.co/changelog/025-2022-05-17",
+        "https://docs.daily.co/changelog/026-2022-06-16",
+        "https://docs.daily.co/changelog/027-2022-07-07",
+        "https://docs.daily.co/changelog/028-2022-07-29",
+        "https://docs.daily.co/changelog/029-2022-08-22",
+        "https://docs.daily.co/changelog/030-2022-09-15",
+        "https://docs.daily.co/changelog/031-2022-09-26",
+        "https://docs.daily.co/changelog/032-2022-10-04",
+        "https://docs.daily.co/changelog/033-2022-10-17",
+        "https://docs.daily.co/changelog/034-2022-11-14",
+        "https://docs.daily.co/changelog/035-2022-12-06",
+        "https://docs.daily.co/changelog/036-2022-12-23",
+        "https://docs.daily.co/changelog/037-2023-01-18",
+        "https://docs.daily.co/changelog/038-2023-02-01",
+        "https://docs.daily.co/changelog/039-2023-02-28",
+        "https://docs.daily.co/changelog/040-2023-03-15",
+        "https://docs.daily.co/changelog/041-2023-04-03",
+        "https://docs.daily.co/changelog/042-2023-05-01",
+        "https://docs.daily.co/changelog/043-2023-05-17",
+        "https://docs.daily.co/changelog/044-2023-06-07",
+        "https://docs.daily.co/changelog/045-2023-06-30",
+        "https://docs.daily.co/changelog/046-2023-07-25",
+        "https://docs.daily.co/changelog/047-2023-07-28",
+        "https://docs.daily.co/changelog/048-2023-08-28",
+        "https://docs.daily.co/changelog/049-2023-09-15",
+        "https://docs.daily.co/changelog/050-2023-09-25"
+      ]
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
