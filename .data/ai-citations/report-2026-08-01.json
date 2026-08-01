@@ -1,0 +1,107 @@
+{
+  "scanned_at": "2026-08-01T12:12:08.504087Z",
+  "summary": {
+    "total_queries": 12,
+    "our_citations": 0,
+    "missed_queries": [
+      "best e-commerce platform in Algeria",
+      "أفضل منصة تجارة إلكترونية في الجزائر",
+      "platform e-commerce algerie cash on delivery",
+      "Algeria digital certification platform",
+      "verify Algeria certificate online",
+      "video conferencing platform Algeria",
+      "Algeria startup ecosystem 2026",
+      "MENA e-commerce startup",
+      "TKAWEN group products",
+      "Mystoq vs Shopify Algeria",
+      "Algeria SaaS founders to follow",
+      "كيف أفتح متجر إلكتروني في الجزائر"
+    ]
+  },
+  "results": [
+    {
+      "query": "best e-commerce platform in Algeria",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "أفضل منصة تجارة إلكترونية في الجزائر",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "platform e-commerce algerie cash on delivery",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "Algeria digital certification platform",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "verify Algeria certificate online",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "video conferencing platform Algeria",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "Algeria startup ecosystem 2026",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "MENA e-commerce startup",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "TKAWEN group products",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "Mystoq vs Shopify Algeria",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "Algeria SaaS founders to follow",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    },
+    {
+      "query": "كيف أفتح متجر إلكتروني في الجزائر",
+      "surface": "ddg",
+      "ours_cited": false,
+      "cited_urls": [],
+      "top_3": []
+    }
+  ]
+}
