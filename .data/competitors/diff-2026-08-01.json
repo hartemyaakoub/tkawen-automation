@@ -1,0 +1,74 @@
+{
+  "scanned_at": "2026-08-01T09:05:07.023376Z",
+  "total_new": 0,
+  "total_seen": 2950,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 204,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 863,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/domains/clothing",
+        "https://www.shopify.com/domains/co",
+        "https://www.shopify.com/domains/coin",
+        "https://www.shopify.com/domains/com",
+        "https://www.shopify.com/domains/de",
+        "https://www.shopify.com/domains/email",
+        "https://www.shopify.com/domains/gg",
+        "https://www.shopify.com/domains/gr",
+        "https://www.shopify.com/domains/host",
+        "https://www.shopify.com/domains/in",
+        "https://www.shopify.com/domains/io",
+        "https://www.shopify.com/domains/llc",
+        "https://www.shopify.com/domains/md",
+        "https://www.shopify.com/domains/mu",
+        "https://www.shopify.com/domains/org",
+        "https://www.shopify.com/domains/shop",
+        "https://www.shopify.com/domains/sidekick-suggestions",
+        "https://www.shopify.com/domains/st",
+        "https://www.shopify.com/domains/store",
+        "https://www.shopify.com/domains/tk",
+        "https://www.shopify.com/domains/to",
+        "https://www.shopify.com/domains/tv",
+        "https://www.shopify.com/domains/website",
+        "https://www.shopify.com/domains/wiki"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 607,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1184,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
