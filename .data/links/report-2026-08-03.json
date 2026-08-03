@@ -1,0 +1,254 @@
+{
+  "scanned_at": "2026-08-03T09:48:49.978356Z",
+  "summary": {
+    "checked": 300,
+    "broken": 49
+  },
+  "broken_links": [
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/academy/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/academy/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://www.tiktok.com/@tkawen.online",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/ar/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://www.algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/blog",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/laiche-sofiane",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/khelifa-seif-el-islem",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/verify",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/apply",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/bilal-bouguelaa",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/meftouh-soheib",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yons-bn-aamar",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/rezag-rimes-nour-el-yakine",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/beldi-ouarda",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/talents",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/klibet-djihene",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/bendjeda-kounouz",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/c/education",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/contact",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/developers",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/hamza-ferrah",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/ms-selmi-khouloud",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/bouguessas-hamza",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/blog/%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9-%D9%84%D9%84%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/language/ar",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/hammouda-houdaifa",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/chelli-billel",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/yaakoub",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/privacy",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+mail+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/ghaouar-abderaouf",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/belka-78",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/yaakoubformation",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/u/chelghoum-ranya",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/cookies",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://catalogue.tkawen.com/en/'+wa+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trust-score",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/sallemine-lotfi",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.algeriacertify.com/trainer/dr-djihad",
+      "code": 429,
+      "error": "Too Many Requests"
+    }
+  ]
+}
