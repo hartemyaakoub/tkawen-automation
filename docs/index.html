@@ -3,76 +3,144 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TKAWEN SEO Engine — Live Dashboard</title>
-<meta name="description" content="Real-time dashboard for the TKAWEN SEO Engine. Tracks 12 daily/hourly automation runs across the TKAWEN ecosystem.">
-<meta name="theme-color" content="#1d4ed8">
+<title>TKAWEN SEO Engine — Live Growth Dashboard</title>
+<meta name="description" content="The always-on growth engine for the TKAWEN ecosystem. 22 autonomous workflows, 11 platforms, $0 infrastructure — watch it work in real time.">
+<meta name="theme-color" content="#060a18">
+<meta property="og:title" content="TKAWEN SEO Engine — Live Growth Dashboard">
+<meta property="og:description" content="22 autonomous workflows keep 11 platforms fast, indexed and visible — running free, 24/7. Every result is public JSON.">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--blue:#1d4ed8;--blue-2:#3b82f6;--cyan:#22d3ee;--ink:#0f172a;--ink-2:#334155;--mute:#64748b;--line:#e2e8f0;--bg:#f8fafc;--ok:#16a34a;--warn:#d97706;--bad:#dc2626}
-html,body{background:#fff;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
-a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
-.container{max-width:1280px;margin:0 auto;padding:0 24px}
-header.main{padding:22px 0;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:10}
-header.main .row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;font-weight:900;font-size:19px;letter-spacing:-.018em;color:var(--ink)}
-.live-dot{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;background:rgba(22,163,74,.08);border-radius:999px;font-size:12px;font-weight:700;color:var(--ok)}
-.live-dot::before{content:'';width:8px;height:8px;background:var(--ok);border-radius:50%;animation:pulse 1.6s ease-in-out infinite}
+:root{
+  --bg:#060a18;--bg-2:#0a1024;--panel:rgba(255,255,255,.04);--panel-2:rgba(255,255,255,.06);
+  --line:rgba(148,163,184,.14);--line-2:rgba(148,163,184,.25);
+  --ink:#f1f5f9;--ink-2:#cbd5e1;--mute:#8ea0b8;
+  --blue:#3b82f6;--blue-2:#60a5fa;--cyan:#22d3ee;--violet:#a78bfa;
+  --ok:#34d399;--warn:#fbbf24;--bad:#f87171;
+  --grad:linear-gradient(92deg,#60a5fa 0%,#22d3ee 50%,#a78bfa 100%);
+}
+html{scroll-behavior:smooth}
+html,body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+a{color:var(--blue-2);text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+::selection{background:rgba(96,165,250,.35)}
+
+/* ambient glow */
+.aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.aurora::before,.aurora::after{content:'';position:absolute;border-radius:50%;filter:blur(120px);opacity:.35}
+.aurora::before{width:640px;height:640px;background:radial-gradient(circle,#1d4ed8 0%,transparent 70%);top:-220px;left:-120px}
+.aurora::after{width:560px;height:560px;background:radial-gradient(circle,#0e7490 0%,transparent 70%);top:120px;right:-180px}
+.grain{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E")}
+
+/* header */
+header.main{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(6,10,24,.72);border-bottom:1px solid var(--line)}
+header.main .row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;color:var(--ink)}
+.nav-links{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.nav-links a{font-size:13px;font-weight:600;color:var(--ink-2)}
+.nav-links a:hover{color:#fff;text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:12px;font-weight:700;font-size:14px;cursor:pointer;border:none;transition:transform .15s,box-shadow .15s;font-family:inherit;text-decoration:none!important}
+.btn-grad{background:var(--grad);color:#04101f;box-shadow:0 4px 24px rgba(34,211,238,.25)}
+.btn-grad:hover{transform:translateY(-1px);box-shadow:0 8px 32px rgba(34,211,238,.35)}
+.btn-ghost{background:var(--panel);color:var(--ink);border:1px solid var(--line-2)}
+.btn-ghost:hover{border-color:var(--blue-2);transform:translateY(-1px)}
+.live-dot{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:rgba(52,211,153,.10);border:1px solid rgba(52,211,153,.25);border-radius:999px;font-size:12px;font-weight:700;color:var(--ok)}
+.live-dot::before{content:'';width:8px;height:8px;background:var(--ok);border-radius:50%;box-shadow:0 0 12px var(--ok);animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 
-.hero{padding:60px 0 30px;background:linear-gradient(180deg,#f8fafc 0%,#fff 100%)}
-.kicker{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:rgba(29,78,216,.08);color:var(--blue);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}
-h1{font-size:48px;font-weight:900;letter-spacing:-.025em;line-height:1.06;margin-bottom:14px;max-width:780px}
-.lead{font-size:17px;color:var(--mute);max-width:680px}
+/* hero */
+.hero{padding:96px 0 40px;text-align:center;position:relative}
+.kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(96,165,250,.08);border:1px solid rgba(96,165,250,.25);color:var(--blue-2);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:24px}
+h1{font-family:'Space Grotesk','Inter',sans-serif;font-size:clamp(38px,6.4vw,68px);font-weight:700;letter-spacing:-.03em;line-height:1.04;margin:0 auto 20px;max-width:840px}
+h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:18px;color:var(--mute);max-width:640px;margin:0 auto 34px}
+.lead code{background:var(--panel-2);padding:2px 8px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--cyan)}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:64px}
 
-section{padding:50px 0}
-section.tinted{background:var(--bg)}
-section h2{font-size:24px;font-weight:900;letter-spacing:-.01em;margin-bottom:6px}
-section .sub{font-size:14px;color:var(--mute);margin-bottom:26px}
+/* hero stats strip */
+.stats-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden;max-width:900px;margin:0 auto}
+.stat{background:var(--bg-2);padding:26px 16px;text-align:center}
+.stat .n{font-family:'Space Grotesk',sans-serif;font-size:36px;font-weight:700;letter-spacing:-.02em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+.stat .l{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-top:6px}
 
-.grid{display:grid;gap:18px}
+/* sections */
+section{padding:64px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+section h2{font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;letter-spacing:-.02em}
+section h2 .accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+section .sub{font-size:14px;color:var(--mute);margin-top:6px;max-width:620px}
+.sec-link{font-size:13px;font-weight:700;white-space:nowrap}
+
+.grid{display:grid;gap:16px}
 .grid-3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .grid-4{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 
-.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;transition:border-color .2s}
-.card:hover{border-color:var(--blue)}
-.card h3{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:10px}
-.card .num{font-size:32px;font-weight:900;color:var(--ink);line-height:1}
+/* cards */
+.card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .2s,border-color .2s,background .2s;overflow:hidden}
+.card::before{content:'';position:absolute;inset:0 0 auto 0;height:1px;background:var(--grad);opacity:0;transition:opacity .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--line-2);background:var(--panel-2)}
+.card:hover::before{opacity:1}
+.card h3{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
+.card .num{font-family:'Space Grotesk',sans-serif;font-size:38px;font-weight:700;line-height:1;color:var(--ink)}
 .card .num.ok{color:var(--ok)}.card .num.warn{color:var(--warn)}.card .num.bad{color:var(--bad)}
-.card .note{font-size:12px;color:var(--mute);margin-top:8px}
+.card .note{font-size:12.5px;color:var(--mute);margin-top:10px}
+a.card{display:block;text-decoration:none!important}
+a.card .desc{font-size:14px;color:var(--ink-2);margin-top:4px}
 
-.workflow-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 18px;background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;font-size:14px}
-.workflow-row:hover{border-color:var(--blue)}
-.workflow-row .name{font-weight:700;display:flex;align-items:center;gap:10px;color:var(--ink)}
-.workflow-row .meta{font-size:12px;color:var(--mute);font-family:'JetBrains Mono',monospace}
-.status-dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex-shrink:0}
-.status-dot.warn{background:var(--warn)}.status-dot.bad{background:var(--bad)}.status-dot.idle{background:#cbd5e1}
+/* workflows */
+.wf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.workflow-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;background:var(--panel);border:1px solid var(--line);border-radius:14px;font-size:14px;transition:border-color .15s,background .15s;text-decoration:none!important}
+.workflow-row:hover{border-color:var(--blue);background:var(--panel-2)}
+.workflow-row .name{font-weight:600;display:flex;align-items:center;gap:10px;color:var(--ink);min-width:0}
+.workflow-row .name span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.workflow-row .meta{font-size:11px;color:var(--mute);font-family:'JetBrains Mono',monospace;flex-shrink:0}
+.status-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);flex-shrink:0;box-shadow:0 0 8px rgba(52,211,153,.6)}
+.status-dot.idle{background:#475569;box-shadow:none}
 
-.table{width:100%;border-collapse:collapse;font-size:14px}
-.table th,.table td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line)}
-.table th{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:var(--bg)}
+/* tables */
+.table-wrap{border:1px solid var(--line);border-radius:16px;overflow-x:auto;background:var(--panel)}
+.table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+.table th,.table td{padding:12px 18px;text-align:left;border-bottom:1px solid var(--line)}
+.table th{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);background:rgba(255,255,255,.03)}
 .table td{color:var(--ink-2)}
 .table tr:last-child td{border-bottom:none}
-.pos-badge{display:inline-block;padding:2px 10px;border-radius:6px;font-weight:700;font-size:12px;font-family:'JetBrains Mono',monospace}
-.pos-1-3{background:rgba(22,163,74,.10);color:var(--ok)}
-.pos-4-10{background:rgba(245,158,11,.10);color:var(--warn)}
-.pos-11-plus{background:rgba(220,38,38,.08);color:var(--bad)}
-.pos-none{background:#f1f5f9;color:#94a3b8}
+.table tbody tr{transition:background .12s}
+.table tbody tr:hover{background:rgba(255,255,255,.03)}
+.pos-badge{display:inline-block;padding:3px 12px;border-radius:8px;font-weight:700;font-size:12px;font-family:'JetBrains Mono',monospace}
+.pos-1-3{background:rgba(52,211,153,.12);color:var(--ok);border:1px solid rgba(52,211,153,.3)}
+.pos-4-10{background:rgba(251,191,36,.12);color:var(--warn);border:1px solid rgba(251,191,36,.3)}
+.pos-11-plus{background:rgba(248,113,113,.10);color:var(--bad);border:1px solid rgba(248,113,113,.25)}
+.pos-none{background:rgba(148,163,184,.08);color:#7c8ca3;border:1px solid var(--line)}
+.mono{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--cyan)}
 
-footer.bot{background:#0a0f1e;color:#94a3b8;padding:36px 0 28px;text-align:center;font-size:13px}
-footer.bot a{color:#67e8f9}
-.strip{height:4px;background:linear-gradient(90deg,#22d3ee 0%,#3b82f6 40%,#1d4ed8 70%,#0e7490 100%);margin-top:22px}
-.loading{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--mute);text-align:center;padding:30px}
+/* reveal on scroll */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+.loading{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--mute);text-align:center;padding:34px}
+
+/* footer */
+footer.bot{border-top:1px solid var(--line);padding:48px 0 0;text-align:center;font-size:13px;color:var(--mute);margin-top:40px}
+footer.bot strong{color:#fff}
+.strip{height:3px;background:var(--grad);margin-top:36px}
+
+@media (max-width:640px){
+  .hero{padding:64px 0 32px}
+  .cta-row{margin-bottom:44px}
+  section{padding:44px 0}
+}
 </style>
 </head>
 <body>
+<div class="aurora"></div><div class="grain"></div>
 
 <header class="main"><div class="container">
   <div class="row">
     <a href="/" class="brand" style="text-decoration:none">
-      <svg viewBox="0 0 152 40" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="TKAWEN" style="height:32px" dir="ltr">
+      <svg viewBox="0 0 152 40" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="TKAWEN" style="height:30px" dir="ltr">
         <defs>
           <linearGradient id="pl-back" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
             <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#0c1a3d"/>
@@ -91,89 +159,129 @@ footer.bot a{color:#67e8f9}
         <rect x="11" y="11" width="18" height="18" rx="4.5" fill="url(#pl-mid)"/>
         <rect x="20" y="2" width="18" height="18" rx="4.5" fill="url(#pl-front)"/>
         <rect x="20" y="2" width="18" height="18" rx="4.5" fill="url(#pl-shine)"/>
-        <text x="44" y="29" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="-1.5"><tspan fill="#0f172a">tk</tspan><tspan fill="#1d4ed8">awen</tspan></text>
+        <text x="44" y="29" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="-1.5"><tspan fill="#f1f5f9">tk</tspan><tspan fill="#60a5fa">awen</tspan></text>
       </svg>
-      <span style="margin-inline-start:8px;font-weight:800;font-size:15px;color:var(--mute)">SEO Engine</span>
+      <span style="margin-inline-start:10px;font-weight:700;font-size:13px;color:var(--mute);letter-spacing:.06em">SEO ENGINE</span>
     </a>
-    <span class="live-dot">22 workflows · 24/7</span>
-    <a href="queue.html" style="font-size:13px;font-weight:700;color:var(--ink-2)">+ Queue post</a>
-    <a href="https://github.com/hartemyaakoub/tkawen-automation" target="_blank" rel="noopener" style="font-size:13px;font-weight:700;color:var(--ink-2)">GitHub →</a>
+    <nav class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#workflows">Workflows</a>
+      <a href="#serp">Rankings</a>
+      <a href="#trends">Trends</a>
+      <span class="live-dot">LIVE · 24/7</span>
+      <a class="btn btn-ghost" href="queue.html" style="padding:8px 16px;font-size:13px">+ Queue post</a>
+      <a class="btn btn-grad" href="https://github.com/hartemyaakoub/tkawen-automation" target="_blank" rel="noopener" style="padding:8px 16px;font-size:13px">★ GitHub</a>
+    </nav>
   </div>
 </div></header>
 
 <section class="hero"><div class="container">
-  <div class="kicker">LIVE DASHBOARD · UPDATED HOURLY</div>
-  <h1>What our automation did<br>while you slept.</h1>
-  <p class="lead">12 GitHub Actions workflows run autonomously across the 11-site TKAWEN ecosystem. Every output is plain JSON in this repo's <code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/</code> directory — this page reads it and tells the story.</p>
+  <div class="kicker">⚡ LIVE DASHBOARD · UPDATED HOURLY</div>
+  <h1>Growth that never sleeps.<br><span class="grad">Watch it happen live.</span></h1>
+  <p class="lead">22 autonomous workflows monitor, index and promote the entire TKAWEN ecosystem around the clock — on <strong style="color:var(--ink)">$0 infrastructure</strong>. Every result lands as public JSON in <code>.data/</code>, and this page tells the story.</p>
+  <div class="cta-row">
+    <a class="btn btn-grad" href="#overview">See today's numbers ↓</a>
+    <a class="btn btn-ghost" href="https://github.com/hartemyaakoub/tkawen-automation" target="_blank" rel="noopener">Audit the source →</a>
+  </div>
+  <div class="stats-strip reveal">
+    <div class="stat"><div class="n">22</div><div class="l">Workflows</div></div>
+    <div class="stat"><div class="n">11</div><div class="l">Platforms</div></div>
+    <div class="stat"><div class="n">24/7</div><div class="l">Always on</div></div>
+    <div class="stat"><div class="n">$0</div><div class="l">Infra cost</div></div>
+  </div>
 </div></section>
 
-<section><div class="container">
-  <h2>Overview</h2>
-  <p class="sub">Latest snapshots from each automation. Click a metric to see the underlying JSON.</p>
-
-  <div class="grid grid-4">
-    <div class="card"><h3>Workflows active</h3><div class="num ok">12</div><div class="note">24/7 cron-driven, free</div></div>
+<section id="overview"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>Today at a <span class="accent">glance</span></h2>
+      <p class="sub">Latest snapshots from each automation — pulled straight from the JSON audit trail.</p>
+    </div>
+  </div>
+  <div class="grid grid-4 reveal">
+    <div class="card"><h3>Workflows active</h3><div class="num ok">22</div><div class="note">cron-driven · free by construction</div></div>
     <div class="card"><h3>SERP keywords tracked</h3><div class="num" id="serp-count">—</div><div class="note" id="serp-top10">loading…</div></div>
     <div class="card"><h3>AI surfaces probed today</h3><div class="num" id="ai-count">—</div><div class="note" id="ai-cited">loading…</div></div>
     <div class="card"><h3>Schema errors today</h3><div class="num" id="schema-errors">—</div><div class="note" id="schema-pages">loading…</div></div>
   </div>
 </div></section>
 
-<section class="tinted"><div class="container">
-  <h2>Workflows</h2>
-  <p class="sub">Click any workflow to view its run history and logs on GitHub.</p>
-  <div id="workflows-list">
+<section id="workflows"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>The <span class="accent">engine room</span></h2>
+      <p class="sub">Every workflow, live from the GitHub Actions API. Click one to inspect its run history and logs.</p>
+    </div>
+    <a class="sec-link" href="https://github.com/hartemyaakoub/tkawen-automation/actions" target="_blank" rel="noopener">All runs →</a>
+  </div>
+  <div id="workflows-list" class="wf-grid reveal">
     <div class="loading">Loading workflow status…</div>
   </div>
 </div></section>
 
-<section><div class="container">
-  <h2>Latest SERP positions</h2>
-  <p class="sub">Where each TKAWEN brand domain currently ranks for its target keywords (DuckDuckGo organic).</p>
-  <div id="serp-table">
+<section id="serp"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>Where we <span class="accent">rank</span></h2>
+      <p class="sub">Live SERP positions for every TKAWEN brand domain and its target keywords (DuckDuckGo organic).</p>
+    </div>
+  </div>
+  <div id="serp-table" class="reveal">
     <div class="loading">Loading SERP snapshot…</div>
   </div>
 </div></section>
 
-<section class="tinted"><div class="container">
-  <h2>AI citation probe — today</h2>
-  <p class="sub">For each generic intent query, do AI-style search surfaces (DDG with AI Overviews context) cite a TKAWEN domain in the top results?</p>
-  <div id="ai-table">
+<section id="ai"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>AI engines <span class="accent">citing us</span> — today</h2>
+      <p class="sub">For each generic intent query, do AI-style search surfaces cite a TKAWEN domain in the top results?</p>
+    </div>
+  </div>
+  <div id="ai-table" class="reveal">
     <div class="loading">Loading AI citations…</div>
   </div>
 </div></section>
 
-<section class="tinted"><div class="container">
-  <h2>Trends</h2>
-  <p class="sub">Stars growth + npm downloads + SERP positions over time. Built from the daily JSON snapshots in <code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/</code>.</p>
-  <div class="grid grid-3">
-    <div class="card" style="padding:14px"><h3>⭐ Stars growth</h3><canvas id="stars-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="stars-note">loading…</div></div>
-    <div class="card" style="padding:14px"><h3>📦 npm downloads · 30d</h3><canvas id="npm-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="npm-note">loading…</div></div>
-    <div class="card" style="padding:14px"><h3>📈 SERP top-10 %</h3><canvas id="serp-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="serp-note">loading…</div></div>
+<section id="trends"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>Momentum, <span class="accent">charted</span></h2>
+      <p class="sub">Stars growth, npm downloads and SERP top-10 share over the last 30 days — built from the daily JSON snapshots.</p>
+    </div>
+  </div>
+  <div class="grid grid-3 reveal">
+    <div class="card" style="padding:18px"><h3>⭐ Stars growth</h3><canvas id="stars-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="stars-note">loading…</div></div>
+    <div class="card" style="padding:18px"><h3>📦 npm downloads · 30d</h3><canvas id="npm-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="npm-note">loading…</div></div>
+    <div class="card" style="padding:18px"><h3>📈 SERP top-10 %</h3><canvas id="serp-chart" style="margin-top:8px;width:100%;height:220px"></canvas><div class="note" id="serp-note">loading…</div></div>
   </div>
 </div></section>
 
-<section><div class="container">
-  <h2>What's published in <code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/</code></h2>
-  <p class="sub">Every report your engine has ever generated, browsable.</p>
-  <div class="grid grid-3">
+<section id="data"><div class="container">
+  <div class="sec-head reveal">
+    <div>
+      <h2>Radical <span class="accent">transparency</span></h2>
+      <p class="sub">Every report the engine has ever generated is committed to the repo — browsable, diffable, auditable.</p>
+    </div>
+  </div>
+  <div class="grid grid-3 reveal">
     <a class="card" href="https://github.com/hartemyaakoub/tkawen-automation/tree/main/.data" target="_blank" rel="noopener">
       <h3>📊 All reports</h3>
-      <div style="font-size:14px;color:var(--ink-2);margin-top:6px">Browse every JSON snapshot the engine has produced.</div>
+      <div class="desc">Browse every JSON snapshot the engine has produced since day one.</div>
     </a>
     <a class="card" href="https://github.com/hartemyaakoub/tkawen-automation/tree/main/.data/competitors" target="_blank" rel="noopener">
       <h3>🕵️ Competitor diffs</h3>
-      <div style="font-size:14px;color:var(--ink-2);margin-top:6px">Day-by-day sitemap diffs for YouCan, Shopify, Accredible, Credly, Daily, Agora.</div>
+      <div class="desc">Day-by-day sitemap diffs for YouCan, Shopify, Accredible, Credly, Daily, Agora.</div>
     </a>
     <a class="card" href="https://github.com/hartemyaakoub/tkawen-automation/tree/main/.data/psi" target="_blank" rel="noopener">
       <h3>🚀 PSI history</h3>
-      <div style="font-size:14px;color:var(--ink-2);margin-top:6px">Daily Core Web Vitals across 18 URLs (mobile + desktop).</div>
+      <div class="desc">Daily Core Web Vitals across 18 URLs — mobile and desktop.</div>
     </a>
   </div>
 </div></section>
 
 <footer class="bot"><div class="container">
-  <p>© 2026 <strong style="color:#fff">TKAWEN Automation</strong> · <a href="https://github.com/hartemyaakoub/tkawen-automation">Source on GitHub</a> · MIT</p>
+  <p>© 2026 <strong>TKAWEN Automation</strong> · <a href="https://github.com/hartemyaakoub/tkawen-automation">Source on GitHub</a> · AGPL-3.0</p>
   <p style="margin-top:8px;font-size:12px">Built by <a href="https://hartem.tkawen.com">Hartem Yaakoub</a> · Part of the <a href="https://tkawen.com">TKAWEN</a> ecosystem</p>
   <div class="strip"></div>
 </div></footer>
@@ -244,10 +352,8 @@ async function loadWorkflows() {
     div.href = `https://github.com/${REPO}/actions/workflows/${wf.path.split('/').pop()}`;
     div.target = '_blank';
     div.rel = 'noopener';
-    div.style.textDecoration = 'none';
-    div.style.display = 'flex';
     div.innerHTML = `
-      <span class="name"><span class="status-dot ${wf.state === 'active' ? '' : 'idle'}"></span>${wf.name}</span>
+      <span class="name"><span class="status-dot ${wf.state === 'active' ? '' : 'idle'}"></span><span>${wf.name}</span></span>
       <span class="meta">${wf.path.replace('.github/workflows/', '')}</span>
     `;
     root.appendChild(div);
@@ -268,12 +374,12 @@ async function loadSerp() {
     else if (p <= 3) { cls = 'pos-1-3'; label = `#${p}`; }
     else if (p <= 10) { cls = 'pos-4-10'; label = `#${p}`; }
     else { cls = 'pos-11-plus'; label = `#${p}`; }
-    return `<tr><td>${t.keyword}</td><td><code style="font-family:'JetBrains Mono',monospace;font-size:12px">${t.target}</code></td><td><span class="pos-badge ${cls}">${label}</span></td></tr>`;
+    return `<tr><td>${t.keyword}</td><td><code class="mono">${t.target}</code></td><td><span class="pos-badge ${cls}">${label}</span></td></tr>`;
   }).join('');
-  root.innerHTML = `<table class="table">
+  root.innerHTML = `<div class="table-wrap"><table class="table">
     <thead><tr><th>Keyword</th><th>Target</th><th>Position</th></tr></thead>
     <tbody>${rows}</tbody>
-  </table>`;
+  </table></div>`;
 }
 
 async function loadAi() {
@@ -288,13 +394,13 @@ async function loadAi() {
     return `<tr>
       <td>${r.query}</td>
       <td><span class="pos-badge ${ok ? 'pos-1-3' : 'pos-11-plus'}">${ok ? '✓ cited' : '✗ not cited'}</span></td>
-      <td><code style="font-family:'JetBrains Mono',monospace;font-size:12px">${(r.top_3 || []).map(u => new URL(u).hostname).join(', ') || '—'}</code></td>
+      <td><code class="mono">${(r.top_3 || []).map(u => new URL(u).hostname).join(', ') || '—'}</code></td>
     </tr>`;
   }).join('');
-  root.innerHTML = `<table class="table">
+  root.innerHTML = `<div class="table-wrap"><table class="table">
     <thead><tr><th>Query</th><th>TKAWEN cited?</th><th>Top 3 hostnames</th></tr></thead>
     <tbody>${rows}</tbody>
-  </table>`;
+  </table></div>`;
 }
 
 loadOverview();
@@ -302,6 +408,12 @@ loadWorkflows();
 loadSerp();
 loadAi();
 loadTrends();
+
+// scroll-reveal
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 async function loadTrends() {
   // Lazy-load Chart.js
@@ -320,7 +432,7 @@ async function loadTrends() {
       canvas: 'stars-chart',
       note: 'stars-note',
       label: 'total stars',
-      color: '#1d4ed8',
+      color: '#60a5fa',
     }),
     drawHistory({
       kind: 'npm',
@@ -338,7 +450,7 @@ async function loadTrends() {
       canvas: 'serp-chart',
       note: 'serp-note',
       label: '% in top-10',
-      color: '#16a34a',
+      color: '#34d399',
     }),
   ]);
 }
@@ -381,8 +493,8 @@ async function drawHistory(opts) {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { ticks: { maxTicksLimit: 6, color: '#94a3b8', font: { size: 10 } } },
-        y: { ticks: { color: '#94a3b8', font: { size: 10 } }, beginAtZero: true },
+        x: { ticks: { maxTicksLimit: 6, color: '#64748b', font: { size: 10 } }, grid: { color: 'rgba(148,163,184,.08)' } },
+        y: { ticks: { color: '#64748b', font: { size: 10 } }, beginAtZero: true, grid: { color: 'rgba(148,163,184,.08)' } },
       },
     },
   });

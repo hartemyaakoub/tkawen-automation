@@ -4,62 +4,83 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Social Queue · TKAWEN SEO Engine</title>
-<meta name="theme-color" content="#1d4ed8">
+<meta name="theme-color" content="#060a18">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--blue:#1d4ed8;--blue-2:#3b82f6;--cyan:#22d3ee;--ink:#0f172a;--ink-2:#334155;--mute:#64748b;--line:#e2e8f0;--bg:#f8fafc;--ok:#16a34a}
-html,body{background:#fff;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
-a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+:root{
+  --bg:#060a18;--bg-2:#0a1024;--panel:rgba(255,255,255,.04);--panel-2:rgba(255,255,255,.06);
+  --line:rgba(148,163,184,.14);--line-2:rgba(148,163,184,.25);
+  --ink:#f1f5f9;--ink-2:#cbd5e1;--mute:#8ea0b8;
+  --blue:#3b82f6;--blue-2:#60a5fa;--cyan:#22d3ee;--ok:#34d399;
+  --grad:linear-gradient(92deg,#60a5fa 0%,#22d3ee 50%,#a78bfa 100%);
+}
+html,body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+a{color:var(--blue-2);text-decoration:none}a:hover{text-decoration:underline}
 .container{max-width:880px;margin:0 auto;padding:0 24px}
-header.main{padding:22px 0;border-bottom:1px solid var(--line)}
-header.main .row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;font-weight:900;font-size:19px;letter-spacing:-.018em;color:var(--ink)}
+::selection{background:rgba(96,165,250,.35)}
 
-.hero{padding:50px 0 30px;background:linear-gradient(180deg,#f8fafc 0%,#fff 100%)}
-.kicker{display:inline-block;padding:6px 14px;background:rgba(29,78,216,.08);color:var(--blue);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px}
-h1{font-size:36px;font-weight:900;letter-spacing:-.025em;line-height:1.1;margin-bottom:8px}
+.aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.aurora::before,.aurora::after{content:'';position:absolute;border-radius:50%;filter:blur(120px);opacity:.35}
+.aurora::before{width:640px;height:640px;background:radial-gradient(circle,#1d4ed8 0%,transparent 70%);top:-220px;left:-120px}
+.aurora::after{width:560px;height:560px;background:radial-gradient(circle,#0e7490 0%,transparent 70%);top:120px;right:-180px}
+
+header.main{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(6,10,24,.72);border-bottom:1px solid var(--line)}
+header.main .row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;color:var(--ink)}
+
+.hero{padding:70px 0 24px}
+.kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(96,165,250,.08);border:1px solid rgba(96,165,250,.25);color:var(--blue-2);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:20px}
+h1{font-family:'Space Grotesk','Inter',sans-serif;font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.03em;line-height:1.08;margin-bottom:12px}
+h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{font-size:16px;color:var(--mute)}
+.lead code{background:var(--panel-2);padding:2px 8px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--cyan)}
 
-section{padding:30px 0}
+section{padding:34px 0}
 
-.field{margin-bottom:16px}
-.field label{display:block;font-size:13px;font-weight:700;color:var(--ink-2);margin-bottom:6px}
-.field .hint{font-size:12px;color:var(--mute);margin-top:5px}
-.field input,.field textarea,.field select{width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:9px;font-size:14px;font-family:inherit;color:var(--ink);background:#fff;transition:border-color .15s}
-.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 3px rgba(29,78,216,.08)}
-.field textarea{resize:vertical;min-height:100px;line-height:1.5}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px}
 
-.platforms{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-bottom:18px}
-.platform{padding:10px;background:#fff;border:1.5px solid var(--line);border-radius:9px;cursor:pointer;text-align:center;font-size:13px;font-weight:600;transition:all .15s;user-select:none}
-.platform:hover{border-color:var(--blue)}
-.platform.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.field{margin-bottom:18px}
+.field label{display:block;font-size:13px;font-weight:700;color:var(--ink-2);margin-bottom:8px}
+.field .hint{font-size:12px;color:var(--mute);margin-top:6px}
+.field input,.field textarea,.field select{width:100%;padding:12px 14px;border:1.5px solid var(--line-2);border-radius:12px;font-size:14px;font-family:inherit;color:var(--ink);background:var(--bg-2);transition:border-color .15s,box-shadow .15s}
+.field input::placeholder,.field textarea::placeholder{color:#5b6b83}
+.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--blue-2);box-shadow:0 0 0 3px rgba(96,165,250,.15)}
+.field textarea{resize:vertical;min-height:110px;line-height:1.5}
 
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer;border:none;transition:all .15s;font-family:inherit}
-.btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:#1e40af}
-.btn-secondary{background:#f1f5f9;color:var(--ink);border:1.5px solid var(--line)}.btn-secondary:hover{border-color:var(--blue)}
+.platforms{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:4px}
+.platform{padding:11px;background:var(--bg-2);border:1.5px solid var(--line-2);border-radius:12px;cursor:pointer;text-align:center;font-size:13px;font-weight:600;transition:all .15s;user-select:none;color:var(--ink-2)}
+.platform:hover{border-color:var(--blue-2);color:var(--ink)}
+.platform.active{background:var(--grad);color:#04101f;border-color:transparent;font-weight:800}
 
-.output{background:#0a0f1e;color:#e2e8f0;font-family:'JetBrains Mono',monospace;font-size:13px;padding:24px;border-radius:10px;white-space:pre-wrap;line-height:1.6;overflow:auto;max-height:420px;margin-top:18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:12px;font-weight:700;font-size:15px;cursor:pointer;border:none;transition:transform .15s,box-shadow .15s;font-family:inherit;text-decoration:none!important}
+.btn-grad{background:var(--grad);color:#04101f;box-shadow:0 4px 24px rgba(34,211,238,.25)}
+.btn-grad:hover{transform:translateY(-1px);box-shadow:0 8px 32px rgba(34,211,238,.35)}
+.btn-ghost{background:var(--panel);color:var(--ink);border:1.5px solid var(--line-2)}
+.btn-ghost:hover{border-color:var(--blue-2);transform:translateY(-1px)}
 
-.step{background:linear-gradient(135deg,rgba(29,78,216,.04),rgba(34,211,238,.04));border-left:3px solid var(--blue);padding:14px 18px;border-radius:8px;font-size:14px;color:var(--ink-2);margin-bottom:14px}
+.output{background:#02040c;border:1px solid var(--line);color:#e2e8f0;font-family:'JetBrains Mono',monospace;font-size:13px;padding:24px;border-radius:14px;white-space:pre-wrap;line-height:1.6;overflow:auto;max-height:420px;margin-top:20px}
+
+.step{background:rgba(96,165,250,.06);border:1px solid rgba(96,165,250,.2);border-left:3px solid var(--blue-2);padding:15px 18px;border-radius:12px;font-size:14px;color:var(--ink-2);margin:18px 0 0}
 .step strong{color:var(--ink)}
-.step code{background:#fff;padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid var(--line)}
+.step code{background:var(--bg-2);padding:2px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid var(--line);color:var(--cyan)}
 
-.toolbar{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.toolbar{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
 
-footer.bot{background:#0a0f1e;color:#94a3b8;padding:36px 0 28px;text-align:center;font-size:13px;margin-top:40px}
-footer.bot a{color:#67e8f9}
-.strip{height:4px;background:linear-gradient(90deg,#22d3ee 0%,#3b82f6 40%,#1d4ed8 70%,#0e7490 100%);margin-top:22px}
+footer.bot{border-top:1px solid var(--line);padding:40px 0 0;text-align:center;font-size:13px;color:var(--mute);margin-top:40px}
+footer.bot strong{color:#fff}
+.strip{height:3px;background:var(--grad);margin-top:32px}
 </style>
 </head>
 <body>
+<div class="aurora"></div>
 
 <header class="main"><div class="container">
   <div class="row">
     <a href="./" class="brand" style="text-decoration:none">
-      <svg viewBox="0 0 152 40" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="TKAWEN" style="height:32px" dir="ltr">
+      <svg viewBox="0 0 152 40" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="TKAWEN" style="height:30px" dir="ltr">
         <defs>
           <linearGradient id="qb-back" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
             <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#0c1a3d"/>
@@ -78,21 +99,22 @@ footer.bot a{color:#67e8f9}
         <rect x="11" y="11" width="18" height="18" rx="4.5" fill="url(#qb-mid)"/>
         <rect x="20" y="2" width="18" height="18" rx="4.5" fill="url(#qb-front)"/>
         <rect x="20" y="2" width="18" height="18" rx="4.5" fill="url(#qb-shine)"/>
-        <text x="44" y="29" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="-1.5"><tspan fill="#0f172a">tk</tspan><tspan fill="#1d4ed8">awen</tspan></text>
+        <text x="44" y="29" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="-1.5"><tspan fill="#f1f5f9">tk</tspan><tspan fill="#60a5fa">awen</tspan></text>
       </svg>
-      <span style="margin-inline-start:8px;font-weight:800;font-size:15px;color:var(--mute)">Queue</span>
+      <span style="margin-inline-start:10px;font-weight:700;font-size:13px;color:var(--mute);letter-spacing:.06em">QUEUE</span>
     </a>
     <a href="./" style="font-size:13px;font-weight:700;color:var(--ink-2)">← Dashboard</a>
   </div>
 </div></header>
 
 <section class="hero"><div class="container">
-  <span class="kicker">CONTENT QUEUE BUILDER</span>
-  <h1>Add a social post to the queue.</h1>
-  <p class="lead">Build a queue entry → copy the JSON → paste into <code style="background:#f1f5f9;padding:2px 5px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">.data/queue/social-posts.json</code> in the repo. The Postiz workflow picks it up every 8 hours.</p>
+  <span class="kicker">✍️ CONTENT QUEUE BUILDER</span>
+  <h1>Ship a post to <span class="grad">every platform.</span></h1>
+  <p class="lead">Build a queue entry → copy the JSON → paste into <code>.data/queue/social-posts.json</code>. The Postiz workflow drains the queue every 8 hours, automatically.</p>
 </div></section>
 
 <section><div class="container">
+  <div class="panel">
   <div class="field">
     <label>Platforms (one or more)</label>
     <div class="platforms" id="platforms">
@@ -127,13 +149,14 @@ footer.bot a{color:#67e8f9}
   <pre class="output" id="output">// Pick platforms + write a message above.</pre>
 
   <div class="toolbar">
-    <button class="btn btn-primary" onclick="copyOut(this)">📋 Copy JSON</button>
-    <a class="btn btn-secondary" href="https://github.com/hartemyaakoub/tkawen-automation/edit/main/.data/queue/social-posts.json" target="_blank" rel="noopener">✏️ Edit queue on GitHub</a>
+    <button class="btn btn-grad" onclick="copyOut(this)">📋 Copy JSON</button>
+    <a class="btn btn-ghost" href="https://github.com/hartemyaakoub/tkawen-automation/edit/main/.data/queue/social-posts.json" target="_blank" rel="noopener">✏️ Edit queue on GitHub</a>
+  </div>
   </div>
 </div></section>
 
 <footer class="bot"><div class="container">
-  <p>© 2026 <strong style="color:#fff">TKAWEN Automation</strong> · <a href="https://github.com/hartemyaakoub/tkawen-automation">Source</a> · MIT</p>
+  <p>© 2026 <strong>TKAWEN Automation</strong> · <a href="https://github.com/hartemyaakoub/tkawen-automation">Source</a> · AGPL-3.0</p>
   <div class="strip"></div>
 </div></footer>
 
