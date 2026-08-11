@@ -1,0 +1,54 @@
+{
+  "scanned_at": "2026-08-11T08:08:12.536864Z",
+  "total_new": 2,
+  "total_seen": 2930,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": [
+        "https://youcan.shop/en/partners"
+      ]
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 838,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 613,
+      "new": [
+        "https://www.accredible.com/blog/introducing-skills-frameworks-choose-your-framework-or-bring-your-own",
+        "https://www.accredible.com/webinars/align-your-credentials-to-the-frameworks-employers-already-trust-group-demo-live-q-a"
+      ],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1184,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
