@@ -1,0 +1,84 @@
+{
+  "scanned_at": "2026-08-17T06:58:00.781067Z",
+  "summary": {
+    "checked": 300,
+    "broken": 15
+  },
+  "broken_links": [
+    {
+      "url": "https://tkawen.com/formations/'+x.u+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/academy/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/academy/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.instagram.com/tkawen.dz",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/u/bentrad-badisse",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/login",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/trainer-panel/login",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/u/moussaouimuustapha",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/org/login",
+      "code": 429,
+      "error": "Too Many Requests"
+    }
+  ]
+}
