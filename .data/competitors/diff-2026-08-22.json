@@ -1,0 +1,100 @@
+{
+  "scanned_at": "2026-08-22T07:30:29.721462Z",
+  "total_new": 0,
+  "total_seen": 2651,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 557,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/1mbb",
+        "https://www.shopify.com/affiliates/roblox",
+        "https://www.shopify.com/carbon-commerce",
+        "https://www.shopify.com/careers/candidate-guide",
+        "https://www.shopify.com/careers/candidate-guide/ai-usage",
+        "https://www.shopify.com/careers/candidate-guide/are-you-ready",
+        "https://www.shopify.com/careers/candidate-guide/compensation",
+        "https://www.shopify.com/careers/candidate-guide/digital-by-design",
+        "https://www.shopify.com/careers/candidate-guide/leadership",
+        "https://www.shopify.com/careers/candidate-guide/shop-floor",
+        "https://www.shopify.com/careers/candidate-guide/why-it-might-be-hard",
+        "https://www.shopify.com/careers/candidate-guide/world-view",
+        "https://www.shopify.com/email-verified",
+        "https://www.shopify.com/enterprise/webinar/bfcm-ready-fashion",
+        "https://www.shopify.com/enterprise/webinar/growth-stories-omhu",
+        "https://www.shopify.com/get-in-touch/grow",
+        "https://www.shopify.com/logout",
+        "https://www.shopify.com/partners/simon",
+        "https://www.shopify.com/plus/reconnect",
+        "https://www.shopify.com/pos/accelerate-innovation",
+        "https://www.shopify.com/pos/jewelry-store-pos",
+        "https://www.shopify.com/pos/resources/pos-total-cost-ownership-report",
+        "https://www.shopify.com/pos/shopify-vs-clover",
+        "https://www.shopify.com/pos/tco",
+        "https://www.shopify.com/pos/unified-data",
+        "https://www.shopify.com/pos/unified-experience",
+        "https://www.shopify.com/ppc/affiliates/opera",
+        "https://www.shopify.com/ppc/affiliates/tailor-brands",
+        "https://www.shopify.com/ppc/business/build-online",
+        "https://www.shopify.com/ppc/business/freelance",
+        "https://www.shopify.com/ppc/business/make-money",
+        "https://www.shopify.com/ppc/business/marketing",
+        "https://www.shopify.com/ppc/business/planning",
+        "https://www.shopify.com/ppc/business/remote-work",
+        "https://www.shopify.com/ppc/business/side-hustle",
+        "https://www.shopify.com/ppc/business/start-sell",
+        "https://www.shopify.com/ppc/business/work-from-home",
+        "https://www.shopify.com/ppc/channel/chatgpt",
+        "https://www.shopify.com/ppc/channel/google",
+        "https://www.shopify.com/ppc/channel/pinterest",
+        "https://www.shopify.com/ppc/channel/tiktok",
+        "https://www.shopify.com/ppc/channel/walmart",
+        "https://www.shopify.com/ppc/compare/dropshipping-suppliers",
+        "https://www.shopify.com/ppc/compare/shopify-vs-hostinger",
+        "https://www.shopify.com/ppc/compare/temu",
+        "https://www.shopify.com/ppc/dropshipping/ai",
+        "https://www.shopify.com/ppc/dropshipping/aliexpress",
+        "https://www.shopify.com/ppc/dropshipping/cj-dropshipping",
+        "https://www.shopify.com/ppc/dropshipping/dsers",
+        "https://www.shopify.com/ppc/dropshipping/oberlo"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 615,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1184,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
