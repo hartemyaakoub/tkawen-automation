@@ -1,0 +1,147 @@
+{
+  "scanned_at": "2026-08-24T09:31:20.766279Z",
+  "summary": {
+    "pages_scanned": 142,
+    "errors_total": 22,
+    "pages_without_schema": 24
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 21,
+      "missing": 10,
+      "samples": [
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/themes",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/themes",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/tools/schema/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 14,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://algeriacertify.com/c/ai-data",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/office-general",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/languages",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/personal-care",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/protocol-hospitality",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/logistics-operations",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/security-operations",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/health",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://algeriacertify.com/c/programming",
+          "error": "fetch failed: HTTP Error 500: Internal Server Error"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 27,
+      "errors": 0,
+      "missing": 2,
+      "samples": [
+        {
+          "url": "https://tkawen.com/products",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/solutions",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/company",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
