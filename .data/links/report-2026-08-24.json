@@ -1,0 +1,89 @@
+{
+  "scanned_at": "2026-08-24T07:01:17.099622Z",
+  "summary": {
+    "checked": 300,
+    "broken": 16
+  },
+  "broken_links": [
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.tiktok.com/@tkawen.online",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://mystoq.com/academy/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/academy/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://algeriacertify.com/trainer/fkron-sbah",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://www.instagram.com/tkawen.dz",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/wiseformation",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/u/bennianadir93",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/u/rezag-rimes-nour-el-yakine",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/developers",
+      "code": 429,
+      "error": "Too Many Requests"
+    }
+  ]
+}
