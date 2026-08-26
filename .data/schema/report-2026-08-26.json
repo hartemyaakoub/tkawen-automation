@@ -1,0 +1,111 @@
+{
+  "scanned_at": "2026-08-26T09:26:29.333419Z",
+  "summary": {
+    "pages_scanned": 147,
+    "errors_total": 22,
+    "pages_without_schema": 23
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 21,
+      "missing": 10,
+      "samples": [
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/themes",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/themes",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/tools/schema/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 29,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://algeriacertify.com/answers/tawzif-kafaat-mwathaqa",
+          "error": "fetch failed: HTTP Error 502: Bad Gateway"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 28,
+      "errors": 0,
+      "missing": 2,
+      "samples": [
+        {
+          "url": "https://tkawen.com/formations/",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://tkawen.com/products",
+          "error": "fetch failed: <urlopen error [Errno 111] Connection refused>"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 0,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 10,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
