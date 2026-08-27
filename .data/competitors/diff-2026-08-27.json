@@ -1,0 +1,58 @@
+{
+  "scanned_at": "2026-08-27T18:05:54.166034Z",
+  "total_new": 4,
+  "total_seen": 2654,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 203,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 559,
+      "new": [
+        "https://www.shopify.com/install/balance",
+        "https://www.shopify.com/ucp/2026-08"
+      ],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 615,
+      "new": [
+        "https://www.accredible.com/webinar-video/align-your-credentials-to-the-frameworks-employers-already-trust-group-demo-live-q-a"
+      ],
+      "removed": [
+        "https://www.accredible.com/careers/sdr-aug-26"
+      ]
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1185,
+      "new": [
+        "https://www.daily.co/blog/announcing-pipecat-phonellm-alpha-1/"
+      ],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
