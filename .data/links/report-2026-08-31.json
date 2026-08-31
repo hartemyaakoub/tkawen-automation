@@ -1,0 +1,44 @@
+{
+  "scanned_at": "2026-08-31T12:59:05.663766Z",
+  "summary": {
+    "checked": 300,
+    "broken": 7
+  },
+  "broken_links": [
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/register",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    }
+  ]
+}
