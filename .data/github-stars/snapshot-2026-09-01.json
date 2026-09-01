@@ -1,0 +1,187 @@
+{
+  "scanned_at": "2026-09-01T17:42:29.405666Z",
+  "summary": {
+    "total_repos": 22,
+    "total_stars": 23,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "repos": [
+    {
+      "name": "hartemyaakoub/tkawen-automation",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 3,
+      "pushed_at": "2026-09-01T17:03:54Z"
+    },
+    {
+      "name": "hartemyaakoub/seo-toolkit",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-02T12:02:18Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-js-sdk",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-02T12:02:17Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-php-sdk",
+      "stars": 2,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:51Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-python-sdk",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:49Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-themes",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:49Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-openapi",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:49Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-cli",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-02T12:02:17Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-examples",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:50Z"
+    },
+    {
+      "name": "hartemyaakoub/awesome-mystoq",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:49Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-status",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-08-12T01:59:01Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-postman",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:28:37Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-mcp-server",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:50Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-wilayas-dataset",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-08-12T00:40:01Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-react-components",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-06-04T08:36:50Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-fakeshield-rules",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:12Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-yalidine-bridge",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:51Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-maystro-bridge",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:17Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-whatsapp-bridge",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:40Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-webhook-tester",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:34Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-discord-bot",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:06Z"
+    },
+    {
+      "name": "hartemyaakoub/mystoq-zapier",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-05-28T16:39:56Z"
+    }
+  ]
+}
