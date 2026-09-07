@@ -1,0 +1,44 @@
+{
+  "scanned_at": "2026-09-07T11:51:05.140888Z",
+  "summary": {
+    "checked": 300,
+    "broken": 7
+  },
+  "broken_links": [
+    {
+      "url": "https://www.tiktok.com/@tkawen.online",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/login",
+      "code": 404,
+      "error": "Not Found"
+    }
+  ]
+}
