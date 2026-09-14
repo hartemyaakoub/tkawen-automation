@@ -1,0 +1,64 @@
+{
+  "scanned_at": "2026-09-14T12:05:47.711804Z",
+  "summary": {
+    "checked": 300,
+    "broken": 11
+  },
+  "broken_links": [
+    {
+      "url": "https://mystoq.com/' + _store + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + _store + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://tkawen.com/formations/'+x.u+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/company",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/u/laiche-hala",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/u/abidi-ahmed-redouane",
+      "code": 429,
+      "error": "Too Many Requests"
+    }
+  ]
+}
