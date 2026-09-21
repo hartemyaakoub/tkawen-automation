@@ -1,0 +1,84 @@
+{
+  "scanned_at": "2026-09-21T12:15:22.701221Z",
+  "summary": {
+    "checked": 300,
+    "broken": 15
+  },
+  "broken_links": [
+    {
+      "url": "https://tkawen.com/formations/'+x.u+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.tiktok.com/@tkawen.online",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/register",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/' + esc(safeUrl(w.url)) + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + esc(safeUrl(w.url)) + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://status.tkawen.com",
+      "code": 405,
+      "error": "Method Not Allowed"
+    },
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/' + esc(w.url || '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + esc(w.url || '\" (found at least ' ')"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/login",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/u/allouche-nadir",
+      "code": 429,
+      "error": "Too Many Requests"
+    },
+    {
+      "url": "https://algeriacertify.com/trainer/yaakoubformation",
+      "code": 429,
+      "error": "Too Many Requests"
+    }
+  ]
+}
