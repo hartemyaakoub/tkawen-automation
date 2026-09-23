@@ -1,0 +1,62 @@
+{
+  "scanned_at": "2026-09-23T12:34:02.756348Z",
+  "total_new": 10,
+  "total_seen": 3091,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 618,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 558,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 625,
+      "new": [
+        "https://www.accredible.com/campaign-state-of-credentialing-2026",
+        "https://www.accredible.com/reports/2026-state-of-credentialing-report",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/appendix",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/credentials-deliver-but-the-career-payoff-still-lags",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/learners-are-confident-but-need-more-help-proving-it-to-employers",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/operational-practices-behind-successful-programs",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/programs-face-mounting-pressure-to-prove-value",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/sharing-is-working-guiding-whats-next-isnt",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/the-career-connection-learners-want-and-the-data-issuers-dont-have",
+        "https://www.accredible.com/reports/2026-state-of-credentialing/the-path-ahead"
+      ],
+      "removed": [
+        "https://www.accredible.com/careers/vice-president-of-sales"
+      ]
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 92,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1198,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
