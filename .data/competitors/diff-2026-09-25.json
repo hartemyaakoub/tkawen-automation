@@ -1,0 +1,57 @@
+{
+  "scanned_at": "2026-09-25T12:34:21.741704Z",
+  "total_new": 4,
+  "total_seen": 3094,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 621,
+      "new": [
+        "https://youcan.shop/ar/blog/posts/app",
+        "https://youcan.shop/en/blog/posts/app",
+        "https://youcan.shop/fr/blog/posts/app"
+      ],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 557,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/resources/retention/forter"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 627,
+      "new": [
+        "https://www.accredible.com/webinars/from-course-hours-to-skills-data-redesigning-l-d-programs-for-proof-of-capability"
+      ],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 91,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1198,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
