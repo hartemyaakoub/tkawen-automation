@@ -1,0 +1,985 @@
+{
+  "scanned_at": "2026-09-25T19:05:40.565488Z",
+  "summary": {
+    "total": 105,
+    "new_today": 14,
+    "brands": [
+      "Mystoq",
+      "TKAWEN",
+      "Algeria Certify",
+      "LIQAA",
+      "PharmaPro Algeria",
+      "Hartem Yaakoub"
+    ],
+    "lang_country_pairs": [
+      [
+        "en",
+        "US"
+      ],
+      [
+        "ar",
+        "DZ"
+      ],
+      [
+        "fr",
+        "FR"
+      ]
+    ]
+  },
+  "results": [
+    {
+      "title": "Yaakoub Hartem: Engineering the Trust Layer of the Digital Economy - Issuewire",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNWhOdWtTUzUwRFIxYnFSbzZwZ1ZxSFpWX1JjTmhmak5SWl83djM2NUNFZFlLanFKOGVoeUJsdkNrY3pzVmVQOXVMS1FpN09JcDNnUXk2enZLeWZ4VzBkaDVyaXVwRTB4a2Q4RFlBMUxZckJxc2l6MEZSbm5XUXFOMHBNLTRFV2phVVAybWJ4UHJPZmstSlZfQmpoN1ZiOVhrLXl4NVNDRFBTakVt?oc=5",
+      "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+      "source": "Issuewire",
+      "query": "TKAWEN",
+      "lang": "en-US"
+    },
+    {
+      "title": "Des formations en ligne gratuites grâce à la plateforme “ANETI Tkawen” - tekiano.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLVpZRXJPT09fZ3A0R1gyYmZfUlAtZUgtM2hOVDBINGlteWVSenNsTlhOWnZ4OWZhTGFJZTgtcEJ1OTlmNVVnR1BpbFg1NC11NzFkakoyV3BRYkRlb0J6VldSZ3IyRWxGMXN2Uk5rbWwxTE1VWk01TnAySlRWVUhNQ3F3NHFOVEdxR2xvRm9vcFdnenlQRFFJcEluNU1ITjFhYUV6SUlVNNIBrwFBVV95cUxQdHpmalFCQkVuX0VmNVVZNi1aS0FqNTRQNGJKS1JFdFFjM1NSTGhHMWphYWNCU3Jsd09IbWJNOHJseDI4eUZCUzl1Q2QzZ0o4TmNUcDliX20tY2NzNVBIeS16cktvRkl1djFwSmktbGotVFU3MWFXM0VaN0V5NHdPbDVhd1pTSmxzbmNfeXFUSkRLVzVNRnc3M3hCbXNvOENQeXFLd1pfQlMzaEM1dm1z?oc=5",
+      "published": "Tue, 14 Apr 2020 07:00:00 GMT",
+      "source": "tekiano.com",
+      "query": "TKAWEN",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "EXPLAINER - Algeria elections: What happens after provisional results are announced? - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZzVCMW5xd0t3MDVqMjBMV1FERXBKVVdUaFFidXlRdjJUU09EM1lqUWNLNDBYbjdrTEU2Z0lzUXIyUWFxR0JRQUd5TngxOUNpT2hsbHVCVVZjTDdMR3hMZ0xmeVBSbEJUdjVRdlQzS1FLUTNxRS1ZMmR0SEktUTV4cU1NN3NiM0RCcGt4U3BXZzlNZ3pCaVAtNm9IM3RqbU9pYWpWekFTUFJjaVlaMWlfUTJCOVRrRWNWMy1VWEdUOFhiOGs?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "source": "Anadolu Ajansı",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Africa welcomes its newest drone pilot training center as Algeria secures first national accreditation - Business Insider Africa",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeDBRSGljMEV6dWtiYWsxdHdTeW5GNXg2d1p3NjNzemIxYm1OWVpCS3loQzVycC1PbE9mdTE2d0xmYnh3MV9FWlB4SGRtX1A2SFZwQkI3Y09qRGZBLTVROFJicElCeWZqQWx1dXoxWXpVZGVsV1FjTjcyZUhYV3FfaXZMMDh0S1lfWTMxSUNjOEV2UUFCRVlLcWhaTUthSmVzZFN2TFNPT2VCSk9vMkZfRWVVeGhlY1JTRjlSTW4xQUxWVFZJdEJmTDNqVGc2YWhhX1A1dg?oc=5",
+      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "source": "Business Insider Africa",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria Advances Toward WHO ML3 Certification for Medicines and Vaccines System - AL24 News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPODN1a2FzcXVuQ3ZQYzE1cUNxVzI1MndIM24yalAtYml6Mk5CTlVwWjduZ09mSXo5QnFrd1hQODVHT2p6N2x6MFpEVUV5RHZQX2J2Y1YtN1R5bk1fQ0Z3Yld2WloyV2cwcVNjUWpBNHJ5QnJCZHZJSDRfQm5XNmpqNkMxVHJicU90TXB3R1l0SzFLbUlvenJlVmhtQVEtRkNBeXBuRjN3?oc=5",
+      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "source": "AL24 News",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Legalization of Documents for Use Abroad: Issuance of the Apostille to Begin Today, Thursday | Algerian Radio - الإذاعة الجزائرية |",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SemJkYlFnZV9DRGlNQ2tra2NyalJlTHFTREpFLUY4eGc1cWZieW53WGVaUWNUWjZLc1psX1B2dzZseXdlaVJvMF9ab3p0anJIUWNj?oc=5",
+      "published": "Thu, 09 Jul 2026 14:33:45 GMT",
+      "source": "الإذاعة الجزائرية |",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria Earns WHO Certification for Eliminating Trachoma, Marking Major Public Health Milestone - AL24 News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUZyNlhOb2lsR1ZWbV9ab3pKUFh2UFljSXFPOUtjWFpvdHdzNHpVLURyUm5tT2tnMmt0NDdaMFF6S3pPWGltbTBqN0VpaGE0dlhmYmlwTzQ0elhIWEJmeHg5MVFkb0VuM2FaX0gtZkVZdUVBaVNLbkdmQjJSaU5jMGZpNk1MVnhVdjJIRkN5RDEweFpYY1VkdmpFM3lJcnA3NmtrZ25QOVVnTWladlhFQnJ5N3JsWEpuYVE?oc=5",
+      "published": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "source": "AL24 News",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria receives official certification of trachoma elimination - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa1N5Nk1WTlpMczk3cHBkTlpHaUt6VHNWRi1ZVWtLRTlWa2o5X3d1YXFfZF90ZVJjWmFVYktpRVJUcWJOWVRzajdOWnVXVWx5RzdQNXEyUHltY1FIbjNNSjVsUzN4ekUxQ1dtaHF1Vlpic0dSSXZvdFdYOGtYQks1TkZoYjV0QmVZb3k5RWdweFBZUFU4aUh0d3E5VFE5SXNKenFPbmF5VHUzc0JRbzZoQmJpcmFhTGMzWUhMMUNn?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "source": "aps.dz",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "GCAA joins elite group issuing aircraft modification STCs - Gulf News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNXFFaDBUbjRpTGZoQVo4R0s3ZV9BN2dpSE5qRl9ZSFQ0YXI3WkNndmx4cExwZ1Q4aFRtSGppT3ppUlhBRTV1XzNoSTQzdWFFNTVFSzZvOW1JSm1lRUFENjQ0dzV2M1pYdVQ3cUxJU0c1THZiR2d0dWpxaXZwalRSV3M2ZkNsejVVUEJOd0lTRzNvRmtNQUQtOW9QbEw2VVpoaV9SdnZFMGd5R3Zy0gG_AUFVX3lxTE9BNlAxZHRSQmZxbk0wa3hKQkpTN0U0LU9tQmQ2bTNwRE5ybFM4U1VMZE1CdnNicnd3bnZ5b0hYNFlQZ3VBRmF2dmVrYW9RTHREQnE4R1gycFBGTVVlMWdJdlZUV2VISGdKRW1rME9vMDZvQkkxZzIwTGZ6bTl2UThGQUZvNGFhODNvV2hYMkFuVDZNc0VxRkxlOW43dDRabnltNVdIUkpJV3FyZXpLYlRiSG43QzczczRfLU4xRzVr?oc=5",
+      "published": "Fri, 01 May 2026 07:00:00 GMT",
+      "source": "Gulf News",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "The Grand Mosque of Paris: Economic Role For Algeria Disturbs the Far Right – الشروق أونلاين - الشروق أونلاين",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEcxUGVsZ3p5cy1qZHlJMTRldmpZdVlaN2V5ZHg0b2M0eUk0WXEweWFQdUpGVjF6TzV1cWJkcVpQWnVtSy16aTJ2VDRRWUdtSG1pZjhEU3lRcXp0anVSRmRBN3lzeklMOVRvV2VET2RmMzR1Zm5USHU4R1A5Z29oYTlQeGFVWVJHU2o2WU5vYXZOS0tlVDdlSE5KbWxoOUt0bzhveEVDdGw?oc=5",
+      "published": "Sat, 04 Apr 2026 07:00:00 GMT",
+      "source": "الشروق أونلاين",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "AMAN - APS - Digitalization: Algeria's First National Data Center obtains Tier III Design certification - Alliance of Mediterranean News Agencies",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pN3hPakZHSnBjeE9zdUxuMmdXX3pMckdMbERqanZKZWppOHZWZVpNWXlodWdOOUlQalVGU2lCamdPWk4tZlFhRE0xR29WTkNjN3BrREVjajkyUUZUM0dDSkZlZHZVUQ?oc=5",
+      "published": "Tue, 24 Feb 2026 09:39:48 GMT",
+      "source": "Alliance of Mediterranean News Agencies",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Yaakoub Hartem: Engineering the Trust Layer of the Digital Economy - Issuewire",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNWhOdWtTUzUwRFIxYnFSbzZwZ1ZxSFpWX1JjTmhmak5SWl83djM2NUNFZFlLanFKOGVoeUJsdkNrY3pzVmVQOXVMS1FpN09JcDNnUXk2enZLeWZ4VzBkaDVyaXVwRTB4a2Q4RFlBMUxZckJxc2l6MEZSbm5XUXFOMHBNLTRFV2phVVAybWJ4UHJPZmstSlZfQmpoN1ZiOVhrLXl4NVNDRFBTakVt?oc=5",
+      "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+      "source": "Issuewire",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria’s malaria-free certification - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcXpvcHdrRGU5cERYSGJXMkFYcEVIQTVLcXBJUUFPSllIejdnUEE4di1kMUZVVVRVd3lsUGNMVFI2djFqWllPMnkycGR5aGs4anJWN2V5UnBEVFJBZzhKTk9QTW5nTWFteE5CYmNtcjFUTDQ1QmttbXFhQTFBQmxDNQ?oc=5",
+      "published": "Wed, 22 May 2019 07:00:00 GMT",
+      "source": "World Health Organization (WHO)",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria court certifies President Tebboune’s landslide re-election win - aljazeera.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXcwaERhZ2xKZUlOLXhEY2w3bDYwWTFDSHR2eU81bmh6VHE2ZWplSmh2Vy1JUkVZMnFCeWZiVXplS1g1UHZLTDVrdWRacTJJaGgwc3V0T1BjVlMxeWUxWmVQVkJVVWZaWFRNRXpHS3JCWDZlSXdxSDItclluYlo5UDdKOTdrbUZGbktTLXI5TFJtV0tRVXNUamw1QThIbDIta2FCeE5rYWZHT3A2elJj0gG0AUFVX3lxTE1taXNoX1BxRzdzb3JDNmU4VUtyem00ZUlnVkdMbHNEM1l3N040QXNzS0tKNVpUTlBWLWtqUFlyYjRDaXpxRmV1Z2p6TmJ6VnJ6VTdOai16bkQteHoyTm1GX1FkT3JSY2MzZWZvRkdqc0FFejZPX2w4bzAyQ3RLa1FkMXluMGxNZkRMR1dvTGNpT3ZiWmRUbzkyRUVzNGNfUXVSQXJnODZoNXlRTUwxT1M5UnljMQ?oc=5",
+      "published": "Sat, 14 Sep 2024 07:00:00 GMT",
+      "source": "aljazeera.com",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria’s financial reforms are showing progress. Washington should take note. - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYnVPRXkya1lPbVBRZ1JSRGstVEs4b0s0UzhDS2VhY3ZTcnRidkRfaGRoRUlTbm56bTNxMzlQaHJGMWJqTmNrNzhqRTVRS25vUE1LNlItVnZWX1VZSkhoVUVaX05PM3Q3eC1VMnVmZEtkLVFNVWVKVTlsVHNLbXhFNVhNRWQ2dUtTRUdMOFJWUzluUUlGSWtHTnNSSml3Nk5ZeU5GQXBLTjVSUGNOaV9IVVhTR25XdU9TblBSTm5FajJkMEE?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "Atlantic Council",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria Waives IPO Fees for Startups Until 2028 - We are Tech",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV1NEVFMzckNHVWFTenJsNHBtakEwMUJsMmpIWllSSWpuV09sOWRTR2RzcUxOakREcGVZdVVtQjZ6aGtvX3JuWWVnQURxZ3dEWHRCWXVobUFyZFFHR1pfWWZCaUxtdl80N3lPNlNwNGo0b1N0OG5od1JMZE0zdk9iUE8yTTVKWjE5NEpUUTZLUmxDeG1MS0NkTzJRdUdDbkN3eGI5RDNTa1ZLWWZmS21N?oc=5",
+      "published": "Tue, 03 Feb 2026 14:38:40 GMT",
+      "source": "We are Tech",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algerian court certifies Tebboune’s landslide reelection win - AP News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeWxWUXJoal9Cd0loMTRRamJPZjNwYVRJS29XMlNLZVc0ZGFqTFJEX0NwZDRpYkRwUTBXd29Ub2h6OVEtTUFJYXp5YVVRb2NJOVF3YXlSWVJueEpUblkwaDBRZkhSbU16U2JiclZ4czF1NWZrbmV0SWREeENWZi1DeHh1SFJramx4aDVBVTBrcVBYLXBlangwcHhCdzJoS0JrbGdkV04wVnhGVkpD?oc=5",
+      "published": "Sat, 14 Sep 2024 07:00:00 GMT",
+      "source": "AP News",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "September 2025 Open Source Hardware Certification Roundup - Hackster.io",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHRKMEJnTDhiNmIxRDVZTl9HQnNOWXJsQWxLdGlsZXlyeUtOa2xhaERsaml5eDlycWJHSC1TVGRSSlItOTAwMEUwSV9Fc0Y0TnJDOHdpVlREc2pjVld3RUxMQ3FMaTUzMm15NHpVVFZsYVNPbkJkQTk4aDFaYVduYnp6Z3c1THhxcWpSWnJsdnoyM1FnUTdHaVJ6NHF5MElt?oc=5",
+      "published": "Wed, 01 Oct 2025 18:23:10 GMT",
+      "source": "Hackster.io",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria’s Presidential Election: The Enduring Stagnation - Moshe Dayan Center",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQXhza1ZnTUwza1FMUFdKLTJBSVhlS1hXcUZ6bHEteXJlQlp3enpLTW1QUlpwNEpKT1lKOS1aejVWSDNzR3BOa1lpYmxJOTE1MFNjNF9zU1BzSGdPMXhhaWxUVUMtUEV0c08zLVBGWlRESzVFdVpuWnN4c3lvZWQ5c19n?oc=5",
+      "published": "Tue, 24 Dec 2024 08:00:00 GMT",
+      "source": "Moshe Dayan Center",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria's Imane Khelif wins gold. Will this worldwide controversy spark constructive change? - 3 Wire Sports",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWllOWHRqb1JSNGdZQXZHV1dNeUdmZnphQWliUUxUMTZvY3NnYXppOWFSaWcyRjcxU0t3YmJnYTJPMm5iM3g0VTctVWYtZE5pSHh2MzVyVDExUGtuWUwxZmhkcHRnaDhLeWM4UzRGYkYzb21ZSWhHbl90MHZZSkVabTN5RF9CUlFpVmd5X2NRNUpVSDQ5X3ptOGhoRjBhSFVpem1id1FjT1hDdzFrQzFiLUdHVU5uWU5RSkJjcVQ4LXBqbGVoYUM0UUtZbDA1d01B?oc=5",
+      "published": "Fri, 09 Aug 2024 07:00:00 GMT",
+      "source": "3 Wire Sports",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria and Argentina certified malaria-free by WHO - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjZYdklqMjZNV0toUUhoWkh1cnctTFRJS2xwY3JsenE5N0k3alpnVDZOa2ZlT3lya3Bza0YwMDdfNTMyRUxaYWwzR0pWRS1Wa1M1bk5aUTdmZWlFUHJXUDZWeHZTR3pfVWoxekNjc0RMWnhTVlhnNlViQktBSmhsTlBaOFhYSWJKNGNSTnFxODNhdWNhVFlB?oc=5",
+      "published": "Wed, 22 May 2019 07:00:00 GMT",
+      "source": "World Health Organization (WHO)",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Algeria launches online system for lawyers to access certified court decisions - We are Tech",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUWN6Nm5mQ0IzbHRKdTVoOFlJcF9UNVJYU2RGb2trZnZJMmJjNHozT0djZ0lheFdqY0dXWXRqMFhlRDMwZ2FCRnk3aWNuc3lLV1M2MDluZ3lhdE0xM1ZRdTRocHBWZHI2aU5IN3dTMWt2MWprbERkOUVpZjRZRWZKaElUOHNxMjFzYzU4Z2VTTDFrMV9QWlp6LS1SYmRPTkN2T3dxRVJyMVBrRzIwb2lJaVNSRGEtVkR6WlNHZ1g3YlNTLWU4OVFn?oc=5",
+      "published": "Mon, 16 Feb 2026 23:30:15 GMT",
+      "source": "We are Tech",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "WHO certifies Cabo Verde as malaria-free, marking a historic milestone in the fight against malaria - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQTNtVUM0RGVVRHVjbEJSSTJuaDMzNXg2YUZRQlgxdzNYdmFFN3VJYzZ5MTBPblVRZHdITkI1cHdKbnh0WXF0Nl9halNGVmdiY2l0SGVzdWx5WERmQkkyalZBZUJTLTl5djJoUGpSemVyU3pTVnBCZlNJMml2dDZBMU1xRzEweDNsS29QeFJOM2lXbndaT3FzbkptdURTM2kxQWJfcmFGbTV6WEhEbjU3aEpFUDZIMjFMR2hxZ3hPR1RIbHNZVnpZU083WGsxbUtWdnFyQUhZaw?oc=5",
+      "published": "Fri, 12 Jan 2024 08:00:00 GMT",
+      "source": "World Health Organization (WHO)",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "The first OSHWA certified open source hardware from Algeria @oshwassociation - Adafruit",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmFwbHh3VklQMG1WYmdnOFdMbFgxWDJBRkRQNGVxODJtcENBTTRlU3pvTWFRN0pPcjR0NnRiZlJnb3FxaWhkZ2JSU0xuWWhMZnVqM2htWTRhbHhNNngwZXZjZzRkTGRZci1EMXV0Wmh1MGlOOXAxWXQyYk1vS2NNMi1SM3p4cEtSYjRWNm8wcWtCbjNIQ0lXZlpueDVBLTJpTDdYQ290b2wzUzY0RENKaC1vNA?oc=5",
+      "published": "Tue, 23 Sep 2025 07:00:00 GMT",
+      "source": "Adafruit",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "Lloyd’s Register to Certify Chinese-Built Corvette for Algeria and LPD for Thailand - navalnews.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWmdvWFlvODlTMHRQNEM1X0ZLb3lRb1NmRmk3S2RsdjRPM0Z0YkQtWlJMbl9IRTR0Wk54NzQxSWo4T3R6Y0ZGcmZLMG9mSFQ2MHFrX2w5OFAzdkJTZTFhWDdQWGdPV28wc2RHODVSYVU1TlU1aGJZdldfSGN4bHI4eXlfSklMdlFKemg3anVGV09STE4xOUpVOXczUG5iS2x0MFdCX1llTnN1UFNZaDNZandIaFp3T3NjWWVTV2hqQUJaUUl6elVz?oc=5",
+      "published": "Thu, 25 Jun 2020 07:00:00 GMT",
+      "source": "navalnews.com",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "BugBitten A malaria elimination catch up- Algeria leads the way - BMC blog network",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMWhzYzM1c0xjVGV3M3AzTXdkVUI5Y0NYRmYwZVlkVGNqUnJwMWhOYkxYVWh1QURSWTZLNVM2Y3RTcG1laDBOcVdZTVBUUkc3Sl9GMnAzUmJNTEtmZFdSNWt3UHRvX2M3clVWWXNXSUdfMXJ1UW8zZzlPYktBVS10LVdzazNidW5iMDRUZDRINjREdHU2VFhad0NhbmZUeFBLN3pmNDZMcEM5dw?oc=5",
+      "published": "Fri, 09 Aug 2019 07:00:00 GMT",
+      "source": "BMC blog network",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "What Algeria can teach us about agricultural innovation and sustainability - Agroberichten Buitenland",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQUZMX2FNaTBWdjNxa0kxR2Q1MGp1bE55bWZ2Z1QtLWJtRy1UTGJJSWt0bEk1NFFIcmduZnRDUmMxRWE2bV9xbjdNbTF3cHktaUllRWNoSFlwS0lFTEt2aHluUlNnZTFJYVJ6SkY1cm5NUGVfajdfckdlZVZOX3pMTG1fbTIwTkFqZkZoQjJXWDRyR0JsYm83bXR0dTJrc05DOVMxeHNxY19mdndHb0lVYkFPdjBqcUswVENaZlZXRjN0ZzZiNmQ3WjBxbWFCc0prMmlTQnBn?oc=5",
+      "published": "Wed, 29 Jan 2025 08:00:00 GMT",
+      "source": "Agroberichten Buitenland",
+      "query": "Algeria Certify",
+      "lang": "en-US"
+    },
+    {
+      "title": "وزارة الشؤون الخارجية - الجزائر / MFA - Algeria. . تعلن وزارة الشؤون الخارجية أنه ابتداءً من 9 جويلية 2026، تاريخ دخول اتفاقية لاهاي المؤرخة في 5 أكتوبر 1961 الخاصة بإلغاء شرط التصديق على الوثائق العمومية الأجنبية (اتفاقية “الأبوستيل”) حيز التنفيذ بالنسبة للجزا - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxNQ09XV3BUYlY3Q21DOXg5TXZYQTlaaklRLTJZS2gwRWV6bFNFT09oX3FYcUxJbDFOa2dVQnJsSEFVZldnQWtYTWVTY2NkbDRTc0VNZzZqUDR3d01WXzhTZ3RCMWttQUQ4bG9zLXNjeko3NzZRNV80elhMUUdxSjIwNXpGUzdHN2EtQVlEQ2UxYkJiZW5rYktoNTBUSEV4WHhjeFlmcnNCTzlPVXdVVXpVREVIMDl5NjQ4dnNINnh3MkhuSG85OWpwZy1EZGZnU21JMGZEc1VLVFNKaXlvSjBLSTBtNXpjMEl5UG5OY21pVG1KZG0ySDVBTkNUX1l6RGhaVGdEaGd3Sy1Jbjl1emVtTl9OOU5yQzZTTTRXQmozZEcxOVZRVEZkbXVRNU5QSGNlb1BLREp0MjhNUWJvQXFzY0d1ZE5TMHRzb0lTdDZQYWtzVDh5dXN3UkRXTnByZGZRaXA2dDFJNks2OFhLNENoVTRUeXZmelRDU1VDNnFQcFI0cUV4ZE5kWDBWa0ZfUjcxdGwwcDN6OTVFX18xT19jeXlSYUF5cC1OUjdIZmU4QjBCTnhMYjBTLTR4LTgta0luNVZkVlJBdHJpeFh3bVlmNEFtVkVtRTNyTUlKMm5UNHpfZXExb0JDdHVJVXFXVXVBTVY2d1JsYjhBaEdxWnNqZ0lCb1Z0WF9FLVdZRmVLSlIzd0lvUHNtaGNGWmRWXzg5SndkWnhrWkN4cFlwTWJsTE1PbmJrLW1ZdXcwZXBxelVUZjEtY05VMUwzOUFKZVVIMDg5MXlwUDRhWENlVWpRMW9KZkZoMzd6YXMtel8zYVd0OWZJQ2c?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "facebook.com",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الجامعة الجزائرية تكسب رهان الجودة - ech-chaab.com",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPUy1kUUx5dUtIdmV2dlMzM2U5VWVaV2dUOHhlOG8zYllYbWFHNVRySFZQRzBqbE5wN2tzQXNzYjU1Z25OaG5UZ2laX0xzNjI0MHlmSFJ5ZkxUZVhRazlPanJuZGQ1ejhJV1A5Y2hRWWNQTGViUm5xR3VpZ3VOeVFSeXNkbTZLekp3T2V6d2NTUy1OQV85cDVweVhxWGo4ckludHVpUmhfM2MwWlVhZXloUWVuWktyZ0EwU1Nvd2tMOVNWWUNjNlhwZDlta2tzazJWZDZPMnRYb29SWmQzZkxoLVRZblhvTXpxcGZybWpDY3NKT0lrbGtxNG1XYVJrZ2k2clduVWhVNk5EZ21oQjRNV3psVGR1ak9yVzRFQ3kzdmxCekk2WXdoVFlnaEdRT3FJRmR3bmFXWE9kN1R3QnBPa1pfRWFNekFkR2c?oc=5",
+      "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "ech-chaab.com",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "مركز البيانات الوطني الثاني بالبليدة يتحصل على شهادة التصميم العالمية Tier III Design - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxQRnV3LUlXOHB3STFvbWFzMjA3RzliTl9FdDlmdkZWb2lFMzkzOHRBenpGX0pZdUgwdTgyYkoteHFNdEZzQ3VlNE4yVEdieTFtM3lCUDJoU3FULUdFNU5TdXBBbHVSdEtzakJxTEpOdl9HTmlramw4dzREVnpidm00VTh6cURMdDZYY0t0RThDclRqUHZNb1YtcEZ2ZjI2QXhLRmlSMmluTHJLenVDZm1RVWNCWGNXcVdzQXJCMkMtWWFZVmNScVJCOFlTbjctdXUycFZfemxWZEwtbVpEUUFrbmM1VU5uTDZBcUdyNjAtUkF6d1F0MkNvbTRoQTJpVFlRQ0ZDRHZwbTRJR240TkVoZnI5WVNURXRtc0o1Mk9KTUJRNno4dDNGVmpnTXBMYWJoMVQwN3lSLUVjSjJNTzl6dGZfY2kxYUpIU2FLcS1ocXBWdlhOMUU2ckNQMndkWFMyNlpDblJiMFZxWDhCVUNSeTdKeVZxVkxJbHFmRV9BUjJTMDBBek50QVMzcndEd2NtLVVUMjJFakw2dFNxZ0VUT09sYUkyTEdxN0ZDMEZtazlhUGJtTTluQWJDUWtQVkVNalQyUkltdEE0eVBjbHZLS1VFd1NyQkRFVHY2RGJ2UDFvWHJpQWN2d0c3aklwMlBnbWlfb2Q4NUMyNHg4OWU3UTlISW1fRUZiS3M5aTFtTWoxOEI2bnVHX3dySGhBOWd2Qzk1aEVMVTlCZGtIRGNySmUxV0xva3MwaGpEY1RlazVmOWdkU2p4SzJJT25WR1hfUjVoTVhTalBCOGhPNFBfUS1HZGFHWjB1NVY5b2l2cw?oc=5",
+      "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "aps.dz",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "شركة كوكاكولا إكواتوريال للتعبئة بالجزائر (ECCBC Algérie) تحصل على شهادة أفضل مكان للعمل لعام 2025 - internews.dz",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOMl9LemJWclFmSlhlOU54bGRlUHpOemRicW90OTUwWEl6MDJneEhhNmNfdWlsUS1fb3FoZkItQjJQRkczaGNobVU3ZlZUN0M0eW1acUJ6bU9YeEdQcHpwU2lxb2E4MHhDZy0xbFIxdW5OdmVqd1NWRGZkSGlxdEhPYlh3Y3EwUE4yVUlBLTBQY3dNQ29TT3NrUGF1Z2c0emk1bFM1cXVVY3NEWGQ3R1k1bTZHZkFhaGM2VUxxamhyUDJ3SFJRbTl2MWExdXlFTXBWY0x2cnFmMVNJdGNXV2plQmpwNTVVMm10OGVkRFJ5NDJzckxvRHRjeWlJS3hEanh2MDJMeGJ0aXREZjFhR3VDeXVGQ191WHlqb0N1bFFBY0J2VWxiaXJEQkFtS1VkeXhhRmZYek9QNVo5VXF5UkJhYjZwdllCZ1k?oc=5",
+      "published": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "source": "internews.dz",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الجزائر تعزز سيادتها الرقمية باعتماد دولي جديد لمركز البيانات بالبليدة - La patrie news",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYVRqU2JDMmFrMk13QlNLa3BCQjJsLXhwbDBxeXRWRHV6b3pvSkd4UkdUaWlrcUExQ3M1bWVzZEdybkhBTzM5a2ozVmJzOUNkdWROYWJGdWZCd3p6Y3ZhWUEyVGVIa3VrQWRPRF8yRWFZVDZrLXFKazFqQWlaZS1pbF9YaVJjMVlXQVFjcXhLRWlwUlpJZndHOS1wcGJvUHNVSjFMOVhwTzFVbGF1bjdKdFA1cDZ1cWF5RW9IRUI2Z1ozdXZ6am05UXQ2QmM1YlVOaXJGQ2JfSmhwX0NOUjY0ZnNrSEctaXJKcXB0TjROSl9BLTBuWkczZHNQQ0tqUGZuZ0NyeEdpazJ2RzdvYV81X1ktR1o4U1dPcndHRENBa1BEUm5EaXB5dWszZWh1dFJJVGZKWUx4Z0VPckozTHhNT2dSbEhJWUk?oc=5",
+      "published": "Wed, 02 Sep 2026 16:23:33 GMT",
+      "source": "La patrie news",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "تصنيف دولي لمركز البيانات الوطني في المحمدية – الشروق أونلاين - الشروق أونلاين",
+      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNelJDSG03X2VLOWVlNkVTRnRFUFRubHFyM1ppXzlyc1BTRlMxTXk5dTVENXJxOVNzM3JDdFNHbVNpeEV4WXFxZGs3eWVGZW5YUGIydXFhRjRsYnVvY1hCeVpCQUlkbmpaRGRBNTl1Z1JLSXdEc1dxd1RKazRsYXo1YlhoYUFsS3BCdHVLalExZlBFNWhXaDhXWGRjaXhQMXQ2VThCaWpRb0NmN3pRM0dEbmNHWkI4TTA4aHZVdG1pNGt6MFhvSHBIeXZLNjFidFpVTWhob3Nna3d4eDNMVTREYTdMTXdwRU9BcVZ5V2JRNmJOM1MtZTVtUEtMR3RvaDNSdEVlMkp3R1NHV1NPVmI5LXg0ZTR6d3EtOFpWcjdPYTdEcllsQjlTN1hiZUhiUVdMSU11eEYwQ3Zra0MxMVBwRE5fQWhZYnFqSDRBVXJB?oc=5",
+      "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+      "source": "الشروق أونلاين",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "مركز البيانات الوطني الأول بالمحمدية يتحصل على شهادة تصنيف تعكس نضجه التقني وجاهزيته - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMixgVBVV95cUxQdC02Q05xVUhoS0RhNWRZMEEtNVVObXVnZHNrekQxZ2ItNTRFV2docFJTbjFvcmZLV3hwdGE0Yll3cFk4VzdiSDhsYktzbEo4bjRFeElVWldzMk5QSzZMcTFWSDFwYkh6V2ZDUVFJaFFHZVVFSkZRNUZXYl9zNndzX3doVVJJQnpLdkNKSEdTY3h4OEVtT21MdHVyVVhTaHYzcWZQUG00VUdRWU51QmdqcmpISy0tQXNZYWFvRWlkaEo4VGc3bGFBYUZteWR0VE4wOUgwSG1ORXlaMElkVjRBT2xRZXZyOTRCSk9WcnBxWnlIQWlhRVNFbkZ5LXUwOVJSWl9tRFMwSi1HTkN0LUVxVkpSN0pTQWh0aGw3UThmanVPN01lR0Y0ZE1JY09YRGpfZDdUOUtCT19LcEFSYVc1RnEteVpocXBodmFmc2k3Nll0SUx3aHItUUFpQS1nM0ZnUW5BS0VLQjJaNHRTQUl1bld6QVZIakkyejZXcFFxbmUzRFN3Q0dUTy1fUndxUzA0M1B0allVMnRIcm80WXNZaGY0eENSeW43b0o5TjYxdmpQQnZOc01KQzgwSzZQOTN1LTlwSEpqVWF5aXE5b054U1BKVnR5UXotRFBweFdfVGo1MThqZGFHU1E1V1VuTkRzb0tuY1o2SWFmNERnZ0lyUWhnUHZHUzRITHMtZjJ6VXppOERHQXBhYi1NVlRiVWNDVzJJOUs5NEo5ak13bGR2dzlJVEFZckVMVVhSdm9MdlBzOVdjNUhHaVMtZnFrNjdxMF9ydHBHT2pFVC04c2RvVzAzaXJfbHJUXzluVWpWTjNkSzJ5ZDlQblJuQVNpNXd4Y3ppQllWX2VZRlppdlQ1WWlDN0tjTXYzcFVYRFZPMW1fZjB2SDJvaEpURE40YktjdTQyMWRWdGJudWNnTXJGYy1hLXJOZw?oc=5",
+      "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+      "source": "aps.dz",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "\"لافارج الجزائر\" تتحصل على شهادة ISO 14001 لجميع مصانعها للأسمنت - تادامسا نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONHdmQ3hpTUt1SEFRNDYtLXdrYl9oc3VKZnpabERFOVdoMVJtYnBjWWh3YmRTNGtyall3Sy04ZDJsT2VaMHZvTGdCbTRKaTY1My05QUVJQU1IaWFIN29RQnJMaFVOSEdQQ0ttazV6MlU2WDhEVWJPNUNrYUw5dm5HWHo1cS1IcGp3b3F0LV9VX2FCLXZOQlRmeXhSRk5wbTNnYlFJazNneXo4dm9BclhLUE5UZXJ2Ti1oM2hOellqaVhzRnpCb2lTSGZuNFVWR0d6RFpFd2hheXJJdTdSSE03UnI1NVUxS3g0U0pKMkhFTUhocnlvb0JGMGZWaWh1S1lUNWhGWGVva3FlMXpZSHFoSS1rV2pOTVBSSnRkRkdSQzZ1cXh2LXhERXBqZTY3MWdDOXRIeFk0NTBPLWVQajJQOA?oc=5",
+      "published": "Mon, 26 Dec 2022 08:00:00 GMT",
+      "source": "تادامسا نيوز",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "هذه هي المؤسسات التي حازت على شهادة \"إيزو\" - الجزائر الجديدة",
+      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNV0N1cXl5SUd2UndPLXpSWTJHQ3N6TGtPZnc0emoxbmMyVVVPU2VTZ0cwWmdVSUNlSDJ1TTRqUTJRMXY1NUxlYmo4ZUl6MUVNYUM2dVVrdHdnbi1qaUx4YUJncDlIZDJHZlFhdm0tQWVGVlZScURvM19pajlGUG50all1THdZVXMwSFJyMllnUjlOOHhvTU1MSTlCaEx0aVdXaUYtM2QtcWVKYlRNWG51UlZiOEZCSVdidDU3b0tzZnZCeTB0dUVnb2tHcV9acGJtVm5wZDV4VE5jRkU3VVhqWUY5TGlvUDhIZnF0TlhnMHE5VWgtZ1hYLXc5NFpCbEVXUDEzdi1CZDRxUGNWaGNqM0lnc3ZlYTF0cERBQk5lcGo5dS1XUGpoVzhBN3drMW1vZXlrUnNzZm9OeGZ3VWFRcmRFa2tUR1h5d3V3Mw?oc=5",
+      "published": "Sun, 17 Nov 2024 08:00:00 GMT",
+      "source": "الجزائر الجديدة",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "شركة دانون جرجرة الجزائر تنجح في الحصول على شهادة المعيار العالمي المرجعي لسلامة الأغذية - دزاير تيوب",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQSzdxTFJhNE9JNzBtOXFtWVo4SHVoWXZZeUo2eVdzdFcwUk0wUDZ5ZXp6SFlUZm9XZ0lmS0l3YWRON011VHFrZ2NqZHlJbkVfdXhVZElnblBuRFNLbmNqSnJub0lrQ3ZCaFkxVnBxUmI5bGs4eXVhTDZpNVA4QmRZUlMtaXMyWEpscjRLZFB3S09kV1QwTm9ieUk4cmd1Rk90NmxZNjlqdExLQk9KUjlfM3dXakJOREF4VmNVYkY3eklfVGdqdmFzcjJsSTBBNl80amM1YTFMMl92d05EejVady1rbW11amxyRE1mY1RtbzBUNF9oemlJRFl3Y1hOQ291Yk5OZ2R4QWRJYXZtT3FkNm1GZWRkNHVqanZEQkFSbmg4b2ZKUlp6ZklvaTQyNEdiUnZrUEhNZTd6bGJTaHpEMmFObUtOeE9h?oc=5",
+      "published": "Sun, 04 Jul 2021 07:00:00 GMT",
+      "source": "دزاير تيوب",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "\"كيا\" العالمية تتعهد بإقامة صناعة حقيقية ونقل التكنولوجيا لمصنعها في الجزائر - Elbilad",
+      "link": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQYnZRU2JkVHhueHYwN3BFVWpQY25nMU05WXJzaDh1UlRRenh1TDFwT2N4M1hZNVNVX19EN0dPQ01xMnExcUtLZWs4cHpkVDBxY1BLdHMwNUZJN09WQTZQbkgweFRXV0FYWHpsSXlkZFExa1VKOWlBMXEycGxieGpJelBVVnhtNWJ1U091UE5zY1EyVjQ2cHdLeWJwVWY1a1RIR2RTcTVvVWwzRFdzdGNMal9sNUdPVkZxNG9uZFQ3dmhHWldBMWp4elQ0MjdBZ3U0R2R4d2VHUzg5Mm5EYVEwYzBrcEFSSmdvV3F3NUdJQUJlNkdmaVJ6c1RiczUwbFRlcEdSV2hiZmdkSkhoNXJydHBOb1IzNWhSSFhfTTFFSDc5UWRqTkpRN0FCWGFvbE9SNmw2VWFVM2pfR0hHeV81MnR2QW1YdXIxbFVYVjZnaVFYcW1wVjBSNzZxYkh1TmFUX2RDVzdLTGRzWmNZOWt2Y3N2aXhpRFpTa3hBNzBDY2NFZ1hOTkQ5UXM2V2lUSmxwLUY0QTFFWGRwZy1YQ2xnaHQyb0RoVmszMWllZFhPSms0S3lJb0VSdmFEMmFxM29GVEpEellBcXdDVnZKemx1dkhfUlZTdjc5NFdWaUdBQ2ZDZVd4Y3Baanc5U0Q5SENqdjQ5dTZMT3RabTl0Mm1pMWNCWF9RNHJYR1c3WExSWTdwa09lMTFFdkFGcktPWjYwcjRHbmZhZ2RNbU9sTnpWbzVuMDJSY2NiNzM0eW9XWGYyUkFFRXNCSHRUeDZHTm1hZk1UM1ZXVEJhYjVXZmc?oc=5",
+      "published": "Wed, 06 Jan 2021 08:00:00 GMT",
+      "source": "Elbilad",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "منح الدكتور أبوغزاله شهادة 'شرفية' من رئيس المجلس العلمي في جامعة البويرة في الجزائر - صحيفة الرأي",
+      "link": "https://news.google.com/rss/articles/CBMizwVBVV95cUxPZlhPRGVTanl2S01TSkdxd2lmb0JOOHhtWGJzeUpmZW9wZ3ZQUE1vMzRTTTNCNDFRSUJvUkZ1QkdwTnpHV18zLTZ2RzZrY0dlaTBKdmVGd2p4WmdVbFpEcUdKbFFVaXFmN2Y4MGxhTUJwMWRRQk9GdXdPeUZpeDRIbWtQMmVmVFdSV0xXN0p0NXdOVGpkTU92bkc0UTExUEtuU3FPM1dZdHYxNXlpZE1mcUo2ZTRKR3F5RHdYSXJLRXFJWGVJN2F1bDB5Z2U1NnR4M29wRlMtS0FrRUJGa2xXbU10OEkzR2Vwam5lVlFnUlA3aTdUT1YwZEUzeHpvX2lQR2d6a1czM19VY2JqaTc3TC14N1lWVXFaTTlYT3F3LW9NMlB4aTZZdHNhZWF5UHhmb3Ria2Z4WWVNMUY4cnBCazBWOGJmMzIwaXpaWEFmaDNZa240NldqdjZqZm5Edm5FbzZaSUVRVG9EcEpHZGt0bld0VEJBZ29BcFpqMDMtZ2c4LWN1UHVaY1pTZnFsTGZJLVpzMG5CaG9Jc3NuLVpmcHhyV0J1OWV0dEJkeVliQ1ZvRmxJRnhzRXlNTGRYUWFqODNEdzdQN2NVaDBtNmFTOHRsc0FkbnBwcVYxZzVhMnh5T3E0X0FwRzlmRTdFbEphWmJjRjI4Q09wV3Zwc3cyM215RjBGNWFreUliRm55VU9pTzRIcGJjai1fSkFIbHY5eExqai1nbkctc0tZWVZGXzFKNmlzb2FTd2hkMzNUenNHbHY5NG1meGdSNWNWRkFBTlFxVm1rdzJuTDlucTVNZnd3NE1hM2U3MFlWSTFXdklfUlcwM2xsY1hsTWVybGhjdUdUR1RxSkozX1hTYUxheXRqakF3M3NzeVJvQkVHdzA0VHlraS0xbm1vYVBxUDlHQ0tOZGJ3Y0k1MHRtQW00dlBrY0VZVDdnTzcxSXBzQdIB1AVBVV95cUxOdDZudERUc3dxWnNzaXhFMVFRcDVKdnFhVGFsdHl1cllDQ0hNVW9yRkd0UjRXNUtqOXNDU3plX1NkczBKUDJ2eGRsdXBtWVhwTmFKRHdZVzk5YWgzQmNSZnBUVXZweWVXeHlXdjREaHNsT0NXSUkwV3EzMFhFU2FTaW9xRjBWVzlja0ltMjhaRU1GcU8wamdqM0V6MnJPc1BwYVNYSjlXWHdmTTNSRUtJMmhqY05VVnZ2SndZcnJpbW8tOEM4NVhRMHpvdGFGOW0xWkgydTdOenNlZGRKRXh3c0VWWHlsNUNCMTlyUUJHQXdkVkx4ZHJpMXVYSFNDbWdTTUp0aVMtYV85a2d1X2k4N1czZkhzNmNqQl9RaVpQNk0zVzhuN0R3VmZ0QmRlNmxieUhrbTBPNktTdVo5VHhwVk94ZGFmWTBwaUtVSnoyZXhrSXZ6ZTNYQkJaV3lSSWZZdjVQemdPa0tST29jMDEwTGtrMF9zVmU5bzdiNUllb3JydlZQSjJXVExEdDFyZ0txQk9HNENuUnZUREtScS1wLW5wV1JTVU84NnlNaUVNeV9ZMXMzMUQyODZCWE9XRXdKX0Q5c2tPMFNOVm9MT1RWRnAwVXBpN182OTQ2OHA2Z3BFNGYtTHI0Wld3RkNTUmxvZzNJcUQwZ3JQMm8tc0d3ZktfclJ0NWpPSkEwSGV5OXBVbmlpbmZ1dmFUUVpyenY1M3ZNN1pEc1M3aFZsbHFIZTNiWWRfb2pDT1k2T2lGX29KdHoyRWY1SnZjQkw1R3A1TFRrZWx5dk5iZ285UXVXbEhZNnlVT1JuSk1tRk5JT19DWWRfM1R1TTdSVEhxLUZ3LWgwcHFEUGpTUmY0dmdYV1p0cXR3bnFGOGExUkxYOG5GOXowbkdvSFNSLTBsa2VKbGdieDJoaGZxVkhhb0tGekg5MzdfMnZuc05rUVYyMGM1VEl5?oc=5",
+      "published": "Tue, 12 Dec 2017 08:00:00 GMT",
+      "source": "صحيفة الرأي",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الجزائر تتصدر ريادة إفريقيا في التقييس والاعتماد بأكثر من 11 ألف شهادة المطابقة - تادامسا نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQNF9UUGVRaG0wZ3ZyWGoyamh0aUpteWRNV2w3OTlRTXBtWl9RZ21XNkhIQWtBNHVGSjdUNG4tWFNqTmhkVWVJaGFwTXktODE1TVhkS2YzTW55NVlaamJxbGlLSVlCQkpkVnk2N182Ry10TFZQc1RNcml6Q21fSFZPNEh2S3ZDdjc0TEY5YzRSa2l5bTRTM3Y0aXBVd2c1TmxTUjVra0VyZ3FIQlhwY25iZm5TSFVjUFhvTVB6bmdNTHFVYmFhWGNLRlhJaC0xM1FMNzV2ZThvOHRBVWFCWVlOMExBcFVpRXBwb3VHMHoxZ1NsSEhjaFBHRndxYzU5cWZMYlVHUklDRC1uWVU5OHI4YkNZbjJwRlUxSjMtZERaVUh3Zw?oc=5",
+      "published": "Sun, 17 Nov 2024 08:00:00 GMT",
+      "source": "تادامسا نيوز",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "شركة الإسمنت لعين الكبيرة بسطيف تفوز بجائزة الجزائر للجودة لسنة 2018 - sawtsetif.dz",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ycDlDY0JUN09ha25pUVBSVVJEZWdmZ3Z3RmhfYnd6ZlRobnNYQVo0SjFzZFhQX0R0NmIyUG9XVUk1TjYzU2dF?oc=5",
+      "published": "Tue, 18 Dec 2018 08:00:00 GMT",
+      "source": "sawtsetif.dz",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترامواي: جميع وحدات شركة \"سيترام\" تتحصل على شهادة ايزو 9001-2015 - Autobip.com",
+      "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNbVJxdk8yVzh6cXdVbEQyRlpKekM0QnZyWlgwX1lLdVJfMHZaR3lrZ2dscXhYSlZudUltb29obVlFRW5pRV9mZDVMRFpGTkpRNlJIRzJtU0lNTmhuTHJlNDVjSTE2TFowT21ueTQ5NTRmSDByTFVwWW9CVjA3NXFQT3UxUXJXOFZGSXYxeHU5bDRLOGNPQjRLVkszbEhHcDB5eldDeW1EajY1Uk5XZ21CaHF6dVJLeUlJdzNsMlQ5QUd6ckViMjhYUW1uMHN6N3Y0UkowNGFyaEg2RVFydW5UNW5tSnFrc1VGQ1MtOEVGeklVUWFlUVdfTUdxV3piaElKancxbzN0NU9TTmNJYlkzZUJOeC1PbFFNYzRfelJEZldWMU9rNXp0R2hHRlBkSkNJWDR4Sm9EOU9JbTc0ajd5VVJzRnVWRGk0WmRCNDliQ29PeWx5YnNNT2d3VHZNMElqVWliQy0wMUNNWmJZNGpmMVNWemVwTUdIcUYwakNQSFNmZHp3c25nTUxtV3NjMGZLcG5tMW82cWE3VDVUWmV6RzdKc3E3UjhpdGhBYjl3WDRKdS1fczJubWs1Qm5WSnVpaWlqREJ0cFFxOG1mUHFOYw?oc=5",
+      "published": "Wed, 05 Feb 2020 08:00:00 GMT",
+      "source": "Autobip.com",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "شروط جديدة لتصدير المنتجات الفلاحية نحو الخارج – الشروق أونلاين - الشروق أونلاين",
+      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQdHR3M01PeURGYWNwakMwYjVySTVQRWtmcXlzSWRqeGVkcDhkR3k3SlB4THZQazVsM2t0QnMxVF9GWkNpNmZMREdJcmdXa2ZSWktzR2hXTHFxZUVSZjl5OEF6SG91bzREbHdZREhVeTd3Q2JEQW9uMVhPY2FHRl95OHVNbzlVWjlVaWRleEZPbC1zRWdxaEN1UUU4bk5fZjhxU1ZibkNWV1ZSZFhLdU40azdwRzZSZ0RXR0RpcDl4ek54eTVSVmh1aUpHR1hyRUdDTzl0QU1IUXNBTXUzVGVHcmlPVnphTDdudlNqaGlqUW12ZGpRdmVHdm9UV0tPQUpRb01OdE9SRFVOajFwdXR6SWF1ZUs3T2RxNXFxeE1vTHhuRXBxb3dzOEU2N19uSGxWak4wVkRCMzFKR0RSYmlCZ2ZmTDlkVXlnVy1BUQ?oc=5",
+      "published": "Tue, 07 Aug 2018 07:00:00 GMT",
+      "source": "الشروق أونلاين",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "اعتماد شهادة الأبوستيل في الجزائر.. رابط وتاريخ الحصول على الشهادة - قناة ومنصة المشهد - أخبار العالم اليوم",
+      "link": "https://news.google.com/rss/articles/CBMizARBVV95cUxPeW5DUEZTVU9BRGpmSkpEX2tvY1k4dE5WVzZTTDRqamJQcS1pRDdkaU5NNmdtTlB4QW5UUWZ3RDZhSFg4YzVCWXEyVGJjZmNDbXpVMUxtOTJTeVI3VDhvU3BBUDluZ0hUaUFFYjNnSC1SbVAtN0R4YWxXOVBORnU2N1lNcTA5eGlhM2dGYy1mNWdxWnRLSkVHNkRhUTg0OFZDN2lWSHZ2QUNuMy13NjZmVjRuMlR1STNGOFpQSUQ3bU4tU19fWXhTdFJ0cW9GSUhtMkdZN0xDX0pjM3h4RFJlZWRZWUk2bkhwUGdaQWFTVnpGR0tTQ2RkenBFX1JndGVDV3BUbHJNbExDUzNmX00zeEhBVnE5M1R3bzczN25NOHEtOWlVcVFxOENYTFN1SDlfR0ctZE1OcDZvTU5zeXFWYkZoSGFHdXBVNVk2dnB3VnlrTmUtNm02UEVseXdSRm1WS1NaRkxSZDNUMnUteHlaNnVaaXpoc0YweHljeUZvRjZobU00Qm1rOFUwdE5DVUUwVUVPLWtjUU15eVVoa0VaS0cyVEpjVldUWGZyVENvWThmVVVOMXlzUU01aldRVkI3ZGl0RHFXTW8xdE9INDB5TzVnRUxRX3M4eU9DYTZEeTVoMGRFM2ZoOVRYZTF1ZlduRzRXTWctTVkzcXpIeTUzUnFUdTVFb0dTY3VsMVRfaGtGcXJ0cUdfamVXdTlNa1N0a1UxMGNvbDAxN2pIUGhMRTgzUmJfMDVEc1Vad0UyNXFUMTYzM09zbVhpOWPSAdIEQVVfeXFMTVFsSjlKOXpuUGtCa2c1NGlyVFB3QWh4NDZvY043c1hIam80Qy1ib0hVQUdHd3ZyZG50MnYtdUdnSjlqLWdmVGdqSHE4YnRnUDJRNGZpemhkTjZJVTNFOEdtdnFTbUFtbTBiQWVEOTRLeFF6VWszUmpHNEVrQTBOVjhWVTZyTmlkZzY5MUpYQVVFcWhNeTVmQ1Zqd0VXRVBxRURsMy0xVkhwX0cxcmctMHY1STVvYjFub2V6Qnk2U3gxWDY3RERjSl9FM1dzWGU0c2pFc1dtM3ZqTjRDOW9hZFZRYWp1d05YeGJfT1pia19HcE5FQ25PREh1NkhfVElJWUswSDl4dVktN1JFZkpxS00xQUR0Zk1ScFpCazlWTGVNN3RRV2ZlaTktYlhEdXUyQzZSQW9rWXNuS0owNmhxZ0p4OHRSQUNZdWxzRnM2bjMxVUg3LXB5WFozMjZGcDlORmx6TnllUDd4MUxwYml5dDlXeXlJcnRpRjFQZDF3Yl9TQkJ0YUZxMEdCejZiVE5MNVFsN0xGeDRnczRFQjE4TGsxVXVsRWZEV3IxYm1lVVphYm1CT2U3eXFyVS1FUnFiNjAwWTctYjdoREN1NHh3c0Vpd1NKTnl4bTY0QzUwQXlYRTdJNzE3VkxVWU1VdnhCQVV5WlY5VS1CZ2tvUllaaDdFWjBRcENQTlR1d1RGQlExdnFHSUZLcko5OURNN1RMQUlaNXo3MXlnSXRXUVJxNGU5UUxaWmROR3Fpc21oZ1ZwZjVDMXBDdlNCaWtfYlVFSU5R?oc=5",
+      "published": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "قناة ومنصة المشهد - أخبار العالم اليوم",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ابتداء من غدا الخميس.. الجزائر تطلق إصدار شهادة \"الأبوستيل\" عبر منصة إلكترونية - أوراس",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQeUhMOGxXV3BMbGtVT2tscWpwZElJMjdnV252a3RzcXBGNjBqek9MQ3dpNTlOcEpEUzY5Mmd2RnYtR0Voa1Q1WlZKUVdfWkVZWndycWFwTEk3N2t1TzY2SHFjdXh5bWxPbkVEVm5RSXZhRDg2VU9NdTJVcHhfZU9mTmgyZTQzNkJPQWJJRnh4TjhsbTV3M0toNlhtT0VFd1pOS0FsaVpicjhHSGllZ0dsTXQ4aW5uZnc1QS1BVC10TThNOXFvZkkySEQwY3huenZoX2ZHSkZOVWNIRDVhR2VMdnNyYTcxeTktNElmR2pmWm50ZXNzVnI0WllHTFJBUUdsT1oycFlqNHloaU5aaU5fcm9kckdsX0dROUJBTm5aRE9sZ3lubnBtS0o0eEUzUXY5R0Q1QkF0d3E5SXc3eTFXbElncw?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "source": "أوراس",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "IMF qorannoo liqaa Itoophiyaa xumuruun doolaara mil.261 raggaasise - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNk9Gb0t3YmY2QVlhNktkTGc1VXIyY1k5VVRydllGamh1VUJKRHlLQmItdlJtNmlrZjVhbTlxbDRuNE1EWGlVY0RwSGFwc3lKV3oxbWVWNGY3VnlEc0pCX1Myc9IBaEFVX3lxTFAyUGxmYjNOWi1TTzluMzFuQVdSS3NGLXRob3lfUFFDUUg2UkFxdEFqYnFOSXZrNW5YdkdWSXlqYkFQUkNOVGFuX0FkUnBWaVVFV09TTEdOZWlxa1lOanFfaG5Uak1lU3FD?oc=5",
+      "published": "Sat, 17 Jan 2026 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Waliigaltee faayinaansii liqaa addaa bittaa mana jireenyaaf oolu mallatteessineerra – MM Abiyyi Ahimad (PhD) - አዲስ ሚዲያ ኔትወርክ",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE91Y0ZwOWs1Qk14LXN3VzFZV040UlpLaWRzRF9mTTdTS1hQdHJWQm92SEI0NGlhcS1tR3pkeV9oNjJqbTBBd3IzNA?oc=5",
+      "published": "Thu, 03 Sep 2026 08:06:58 GMT",
+      "source": "አዲስ ሚዲያ ኔትወርክ",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Meet Liqaa Naser - CanvasRebel Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfTFNBYTMzUHNLLTZEQkl5dG9QZ05HekExelFPYUNnczJDSk9JdllLNWpPT19qbERUSkhrLWhWbXpBdzd1QVJRT2hQUDAyYnNxb0FZ?oc=5",
+      "published": "Mon, 17 Jun 2024 07:00:00 GMT",
+      "source": "CanvasRebel Magazine",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan akkaataa hojmaata biyyoottan garee 20’n dhimma fooyyessa kaffaltii liqaa irratti Saa’udii Arabiyaa waliin marii gaggeessite - addisstandard.com",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcTlhVF9NcEtjOUhMcVl6Q3lpcVMzVkZBWW1IMGxPeUJMVGQwQkJORzRGREdKZVdhLUQwZGE0d3VMSXhsdldlZEdfbHl6ZWxCTklMVkVhb1NyLXFuWE5GMDZQRWZaZnMxbTBGVXdibTlqUGZud1NHVXlTUFdXNVU1Q3NDSUNxM2xRNVIza2NFdWw4Z0RPaEZlZEljMndTeHljMG5Lc21lWjhWS3JseWRrNmpFX1dGaldlYzhOVlhOWmRqdDdmSVNYaVVjdi1MdDVxTmNVZFVhQmRnaWwyWHlydHFKaW9UZDBpdkpUdHhfajd4TE0zcXhxbTdHNTdrUzNJVVE?oc=5",
+      "published": "Thu, 26 Mar 2026 10:04:52 GMT",
+      "source": "addisstandard.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Tajaajila liqaa diijitaalaa qonnaan bultootaaf kennamu cimsuuf… – Welcome to Fana Media Corporation S.C - Fana Media Corporation S.C",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWFhhMVlrSjZGUHVYZWxTT3RBcUZDV0M0eHJ1S2lhckUxZ0JZN0pFQlQtRlRaaV9rMEZYQndSRDNzVnJBWm5aYlMwMTZKMVdrU1IwU2w2dk5vXy0zbEYyMFMtVEhOLUY1SkdfLVNTYlpjZ3E5TTUtMktjUkR5ZHIwN3l2NF9adE5JQV9pd1hHRTVHeEMtTXhyRGp1U0MwNTA?oc=5",
+      "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "source": "Fana Media Corporation S.C",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Liqeessitoonni mootummaa Itoophiyaa himanna jechaa turan akkamiin waliigalan? - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxVW5ONGhub21oVWJXdEFzem1pMlFGV2M4d2Z6Q2o4WGVDc0ZMTV92Tml5NWtJZ1FieDFTcHRId1ZNNXV4bFNOTi02dzh6MXhBOWVHTE5nYkJkZVRPdWpIUWZ1NNIBaEFVX3lxTE1tX0NlWkYzdEZpX2hIYXN5SjlBSXVFNkFrNWtSYjZxNl9HNVhFeDdINEN2Y2tFUkptWkxZTUtNU1BtdzlJTWkzWFZIaTYzNlhrbEhWNzRUekwyNVVPTXFEVEJWOEN6M193?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itiyoophiyaan liqaa ishee hurgufachaa,abdii ishee horachaa gara fuula duraatti tarkaanfachaa jirti - Itti aanaa Ministira Muummee obbo Tamasgeen Xurunaa - ENA English",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kRmEwSWpkZEM3OURuZWFIZDJvdUM2bTNyT1l3Y2ZxcklUNFo2NzFHRmpzOTFNcktHMWF6QkRNZ3RYOFo2c0FsdGJQX0RpdUZlZ3c?oc=5",
+      "published": "Tue, 09 Jun 2026 18:19:04 GMT",
+      "source": "ENA English",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaafi Xaaliyaan fooyyeessa kaffaltii liqaa biyyoottan Garee 20' jalatti walii galtee waliif mallatteessan - addisstandard.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeEtpdTlqMGNEZ0RjSTJzVXBvQ2JOSTJtT1NObmFuT0VVLUk2UzhnZGZyNVhfem8zOVZkWW1RUGxpal8tVlo5YlRNeV96d2ZpZzY1NHh0NVBrWDBKSDRpQ0JLLTdQU3NjY21Fc3dLVzdfSURJaS1FNmpRYjJkcFd4UUx3TnlJV0lIa0lzaUNLbjRCdE12R2lQSDhXWkpTQ3RLSWZYbGVJNkxkdFdwVFJXS2x1QnFzVkVXWEQ5VnBGeWRwWEJrZTRQeHB2UG8yT1BZaXdYT000V3p5N25mRG9BN3U3SDY?oc=5",
+      "published": "Wed, 18 Mar 2026 13:47:17 GMT",
+      "source": "addisstandard.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan liqaa Chaayinaa doolaara bil 5.38 'hamma tahe' yuwaaniin kaffaluuf marii'ataa jirti - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SSFlWTXJXb0J5VnY0UHY1U0FORWJQaU42YXI0Y25LQkplREJfVDlvUzJvaGVLNkx4UE1jNGplSFg1eEJnTmVuTm9yS2JzVWEwWjNaT1R1SllaVVdac0xLLUtzUdIBaEFVX3lxTE4wVGZsVXphcWdCd0p0SEdTWVhtY1pic2h2cE1hYkJObkJzeTN2N0xVSHdBeVBJNlBvamJKcmtxUVZqVkFSeWw5OTV5aFpLUGczYm42WVpKTWVkSUFRbTF2YVZveWFzRkFR?oc=5",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan liqaa deebisuu irra deebiin mijeessuurratti investeroota waliin marii jalqabde - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Y2lCVWFjZHFqaDlmY1BQdlNnOF9tOE9oYnlIbWJKTHJrbFBXc0l1dl9maFVhZ3BfMEIzaFNNbERsczY1MDhlMzlwMjloMFVkVHg3c0YyaWZLc0ZjSndyajJHMNIBaEFVX3lxTE16UUF0THdLeUVMbXVnN1FvUHJLOFpNdl9jX0s4NXFMVnJ4aDlSa2tsSWxzNmVPbm5faFItOTZMOW5vMWctRm1GZ2hFS3hPU3J2YXdJaU4tYi0taVJUUW5WVWJRMXZVWFkt?oc=5",
+      "published": "Wed, 01 Oct 2025 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Humni bittaa Birrii Itiyoophiyaa addunyaarraa dadhabaa ta'uun Sadarkaa Sadaffaa irratti galmaa'e - Bluumbargi - addisstandard.com",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZEtqZjhzZElFQjFmTy1ta3RpMnIxTDdCdlctRkk4Um9oMEtWOVVqZm9pSVc4N0pCekphbEtOQUV3N016blRrR200SDNHMzdpeHZaT2ZDNi1ucXNoMlB3b1hFSGFyZ29SVXV2Yng0clhQLVRudm8yMklUQ1o4dFo2S0hkYnNvS1RpNHFyNk9rbmVRanRtTHBEcGdyMmctOVlrVGJ1MWpxc0x1aVZGQUVibzBtaGdPc2tzVnZjWWE5TFdfa2RGOWxTdXZja3lKdGdVOXlLNUxIaF8xM01h?oc=5",
+      "published": "Tue, 23 Dec 2025 15:35:19 GMT",
+      "source": "addisstandard.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaa fi biyyoota Afrikaa liqaa IMF waliin gitintiraa jiran - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xRWM5cUFEa094NVozVURqcTJEVDg3N1JaWlJzT040NTB0RFdlelM1OU1EcDFwNmR2WlM4dDh2RGFXM2paSnkyemlqV0tUMGl4VjFuRWFFV2FuZWZiMWc1MlNvZ9IBaEFVX3lxTE1FVkpLV2V0bHpqRl9kbjFXS3JmQk1uWVJrS3lSUjVwRldPYTVTME10djdkVWlHWFJBV0tvY21ZMkVWS053V2hpUzQtV0tFb1VTVDFDMTRPektpWTNYMi1malZfdlozLWJU?oc=5",
+      "published": "Sun, 09 Nov 2025 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itiyoophiyaan maallaqa Doolaaraan Liqeeffatte Yuuhaanitti jijjiiruuf Chaayinaa waliin marii eegalte - addisstandard.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTGFyNkJ3MVFYVmtnWldCeHBWd2FUQS12UVZCT0RSZ1pBLVF2TmpQV3owdUNieUdTMVFaV3BmMExQT0FJV1dCSS1DbExaNF9hVHV6Q2wzaVVUeU52SkZadmI1VUg1Qm1lTll6R0xCUEtXNWROVlYzQTM3NEl0dlFBX2I5b2dSV1QwMGdOUXg4ZVRrMDJGaGRWclF0ZDdOcnBqWHRFVklLWm13M2xWRFM4dHVDc1JrVDM4NFluS0pOb2NaNUhvS0RQZWttS0VMV1NsNGFxVQ?oc=5",
+      "published": "Fri, 24 Oct 2025 02:31:02 GMT",
+      "source": "addisstandard.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Liqaan Ameerikaarra jiru doolaara tiriliyeena 37 gahe lammiilee biyyattii yaaddesse - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvVDhUblkyZzNUSDZWbGNTVWFJNUxqM1pWRXJvWDFyam04eXY1c0tSdTFkUklNV1hJekIzTWpnOUZRQnZXSWxEVmRodlU3ZGd4S1ZRUlNvQWdfOWI3TzRpZW1sTdIBaEFVX3lxTE9lbDhFc1MyMkpESjNJUkhxUXNBdjlDNXN2bzY1eXlWeEk3WF9lSVhqRllVOWNRYVMtVHMyRUZMTUJBZlVWcmdPb0c4dklHT01PckFNX2VtbjNpQ092WS14RmFNTy1RV2tR?oc=5",
+      "published": "Sat, 05 Jul 2025 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Diinagdee: Dhaabbileen liqii idil-addunyaa Itoophiyaaf liqaa gadi dhiisuu tursiisan - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0M2JzbkJRMlR6Z1JzbmdsX3VsNVNfT0o2cFUzSmdMWVRRdU0zZXNzMnctZWdIZXhBV0hpSkYwNkZMRlFrWmZ6amF1QlJLTFRBUGgzT1hiVVPSAV5BVV95cUxNR0xFWk5Wd1BGclRheDVIU0ZObUpjSXh2eVBVX0k5empQenNrZVV3NVY1ME9DTmtTUjBxeEVrbDV5MmN5b3h2U2Zremh6Z21JYXlsbnJ5dGtJUHA2ZDF3?oc=5",
+      "published": "Wed, 18 Aug 2021 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Dhimma ulaa galaanaa fi rakkoo nageenya biyya keessaarratti Pirezidant Taayyeen maal jedhan? - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1teG5QaG1xTmdNN3ZxN25mOE5FVHRJbzl4a3J5Tlk2SlVpaC00UENLcjFPSTdnUU9EOGtkZ2x3TUlSTmduZ3VNTjVnM1VDYVRCc2hfbzk4NlVMZVc1U2E3OTNSONIBaEFVX3lxTFBxWHZvRzFVX1lNOWE3U1dVaENRelIwa3JhY3B1UExaSUh4ejdlSGNETl9qUzdRcjEzWUZpTnAwVDJxWEJ4UHh1bUlWM29EU2wwREV0QzVVeXgyUXJzSTdyM1BYYUR6QWFD?oc=5",
+      "published": "Mon, 06 Oct 2025 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan IMF irraa liqaa dolaara biliyoona lama gaafatte - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zM1ZKWTNieUNqTFl2OFFuc3FJRnlVUFFGOGp0LXdiYU1TMXg1S3lQYlUzNWMzbjk4TGtqYWVRQ2p2U1pWVjFQdzNTeUVxYTBsZEMyU3cydWtvWjMzRkNDS0JOVdIBaEFVX3lxTFBBR0ZHS3hxMW9jc0Z2TjlZM3l5X0s0eFRSaVhhdTZDYkdYdG5vQzd0UnhTWTViR3BuSjZGdzdOQWNNZG5IUlF6ZHhqUTdzdlFRb3R2Q2xUSGppMURFemZ4VnhlM1QxVHY3?oc=5",
+      "published": "Fri, 14 Apr 2023 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaafi IMF dhiyeessii liqaa yeroo dheeraarratti waliigaltee jalqabaarra gahan - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlYWN0MTB0aE1iRUNIZDlzOFFuZEQ1aFFILXdfQTBoeXJONlQ4UkNTSVhLVUlqR0gwZW5UcUh2RDBxOVRvMEV0Uk9sTml3Q3BNX04tT3RDc0M5Y0NfaDVDZjlQUdIBaEFVX3lxTE9senJRdTJOSktOUGpGNUpqa2RUeTBPZ0V0YVFydWxoakZTRmU0U0thMmd6Mi1hRXh6STVydEtHNVVuWFlYSmc0ZDZuZXZaRzlFNnE5eGhGZEM2Z093OUpud2FlT3VsSHhP?oc=5",
+      "published": "Sat, 28 Sep 2024 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Qaala'iinsa jireenyaafi kuufama liqaa egeree Itoophiyaaf 'yaaddoo' ta'an - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEWExHd1l6bTJFN2lVeF8yVi05VlhPMmItSjY0OGExWWNJN0JtV0dtVFZBdFY3dWdtcUJBTTVaN3hZYWxlM1hUY0otc3dLcURKNEhHUDJMd2JuOFRaNEpiajZQUdIBaEFVX3lxTE84aWJiUGllTzNkb2V3dWpNRUZRZ1hYWkgxSlFCYVFiNHZFMURaMlRaSmpIWkdEUG9JamhWN2JGcWpoX1A0bTZnZmI3R05MdmxyX0haUlBmQUdXM3NVWmtDVjU0b0psNzRo?oc=5",
+      "published": "Thu, 26 Dec 2024 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Dhorkaan liqaa ji’ootaaf ture diinagdee Itoophiyaa hangam miidhe? - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jSmNLOTJ4V0xnWWJSQ05va2tzTk9hSmpKbWUtOURPNU1qWF8yYlJHeVpKa2plSGQ4eXhnXzJWN1F2WUhFU0oyeG5KUnIxRTVCeDcyMmMtZm3SAV5BVV95cUxQMlc2amxUTm5jZ0JsbGRzMXF5R1Zyc28tQnNtQWVWMk11em5saFBCME9pSkJPSHdsUlZLYnNnMG9iYVE0VWc4VHVjV2hPaVJ0MGljRURMMzUwb0JBcWln?oc=5",
+      "published": "Fri, 03 Dec 2021 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan tarree biyyoota liqii kaffaluu dadhabanitti ramadamte - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sTE5DWTU0MU1fbGlqVTBwcWkwYTlqSXZQT25DcHFkU3NrSjJPUjJpN05wd25DU09iX1BrNDJScGNhQUoybkxzdHc1aWplTlJubmFBbTA4c0lGWU9VeHd5SEJaWdIBaEFVX3lxTE5tY2h5a1FISGJPNWZ5YUtlTzlCazJSSHNXNFF4cmtRcjZzY1pvTHVqMy1pWWcwQjdMRnc3MVZoTU5WQTYyV1RzSG9acVdMbnItUGYyTGQ4MEx5Y2NhblZOYjE4REl4OEhB?oc=5",
+      "published": "Fri, 15 Dec 2023 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Al Mawto Firaq Wa Liqaa - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tR05XOTdsVWN1cDMwaHN0NEVnVzYzanZQeHpveXhnRjZsNm1YQXpVV2ItV1praG1jUjZqUDVuVEJPVkVpOGd5dVVZMFFta2ty?oc=5",
+      "published": "Sat, 07 Mar 2015 08:00:00 GMT",
+      "source": "YouTube",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Chaad liqaa Aangoolaa doolaara mil. 100 looniin kafaluu eegalte - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wZWVVNEdIVHpIblBpOHAyUkp0UDR3ZjZJVTVmaFF0Z0FHSTd2MWFsOEJhYXAzN0JIT2g5MC1tM0ZQWXMzTk5zZFRJT3NCT0MxS21qajFzYnfSAV5BVV95cUxNZENnOWxHTW1sSG93U3hMUHhKMC1RUjhPbl9KNkZJbEFxX3hlOGFyRHAzSFF0di1ILUZWd0o2cmtYQjZxdkJmRVJWdExIbzVoZ3NGTkpmOXNMLWZfWVdR?oc=5",
+      "published": "Tue, 17 Mar 2020 07:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Itoophiyaan dhala liqaa boondii kan hin kaffalleef maallaqa dhabdee miti -Ministeera Maallaqaa - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PNVFrNTg0RGZkNkZzczJ1bUVLNjNpODRaUkM5aWJ0dFZ5a2lZYmtxbk1pdEpiZktHMUI1TjVtNW4yREd3czBSUnU3OTMzc0FObjJ6Tk40c0tacklNTENnZ3Y4TdIBaEFVX3lxTE1SRVFuNXR6NG5LM0dQTW1XSGN1LUtFXzNScUh1V0ZLTG14a1V0VzhwRGNmTGFDdFNiSExwOEQ0ZXJZWFZrWldYcV9KSEp3eUZCdXhobExJTUNfYXYxMVlURlBuWWQ0cFUy?oc=5",
+      "published": "Fri, 15 Dec 2023 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "Yuukireenitti butaantaan namoota liqaa kaffaluu dadhabanii caalbaasiif dhiyaate - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04dE4tQkU1dDkyQXBPTHdXTTZmUVRnNkNtTHZ1X05zUjZUTEZsUU9xTVFNMG5WN1J3SHpPeXBBdzZ6azltZmhtZkZmVmwxTllhM1RmT2FGS1jSAV5BVV95cUxPbkdMTnozLXZjY1NndFdVVzBiUFRQSU1mcFB1ZWFNYzNZX2hWUUNQcXpTczNTTVRSS0lFczYtVWNpdTVuTmpDWk80Qm93aWxQWlA1N203VlluV0NxbUF3?oc=5",
+      "published": "Tue, 16 Feb 2021 08:00:00 GMT",
+      "source": "bbc.com",
+      "query": "LIQAA",
+      "lang": "en-US"
+    },
+    {
+      "title": "الرئيس الصيني يتوقع لقاء ترامب مرتين إضافيتين هذا العام - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxNcWM5QldqRTQ3UU16TEs0NzJiZnMzQXFnZm5tZi1WQXZqRlVueWVUd1oyZzZveGE5NmFUcjdxMUkxYnBwWGhZY2hSOWtlX3B1eUFKTmR6YTZFVFBhS2VwMUxMc2kyMldMa1U1YmFkODAwZldtWmVkNExYNXA3ejVCZVlUYUUwLXd2Tk9nM053ZF8tMHFDbDg5MEc1TXVCNjhSdE51SWgyQUFaSFRBMkFDREo3dV9rQTd4WmZTeWpLdWxQN1VTajFuR2FaWTVFMG1wVUw2cWVkNl8zLUFkOHhsRVNmMENLUU9rZWJTOUQ5Y1ozbEh0NlVkVnVWcWRpOVU2VUdpZTlrRVRxMXdQa1N2dFJlOHY1X3o4VmVyTmtQMkFzQVo0N0dFSHhkUUpiOE5PS3puZ1h2bk5NbzB0SE1IdzlFT0k1MjluNHA3b0E5cXFraDFRVUxWT0pzM3p2NzFiZWVXSGozM2lvdUtBc3dZX0VXNG9US1JHdjhRVzJhcWlxMzVPZzgxZHRvdEhnSHdtbm5FcHhnb0NKdWFRQ0xMeU9oNmsyd08wVlNCdGZNb3BJQ0k0VC0wTnlhcGJPVC1nTnc4OFJ3eGFtZHBRVnByaUttZG5Ybmh5VmfSAd8DQVVfeXFMUFZYbHZ2TGd0dThmX0phQlZvcTh2QVN1ai1aeDFMTklDeTRGR01hUHlOYXhqT0djRzU5bVpKYjZWOGVka1hfeWFoYXV3LW9jSVNQVVp4WWJVQnhGZk1HX2wwWUZvcHVraEhFcFVDdVcxMW13WTNTdlhZWUhVSU5xaUtZZWZnd3l1dXhEZk1nVmZjZk9odkg0ME4wSllubHN3clJHX3NHSXpvenFaWFA4eW8yWUcwTEllTGRYOEJiV2R3ZDJ3OGVCaGg4T1lfcDdqX25ER3R6ODkxYlhTVmpVSGk1R01iNndZenFRSkJxWU4wMjhXYTZYT00xcktwNFQwTmU0QXFET3lJNm90ZldVX2c1NUVqWnlSUGlqMjhWTld4UkdlSlZNQ3gteEpJNkpKRVJFSUxKV1lucWdUMWExaWN0ZFVWWXZkd1NpbHRGTlh1UmxvTjVYQXpTbzZRWUVULTh1WVNQY3R6bmJQb1AtSXdEUHkzMTJ1X2xPbWZpbDljdEFoSjRVdTR0UlhacGxNVnE3NFdGUE1fSERwaWtuaVB1ZmZqb2hMZV8zTTZVbk9JX0M0bGRPRW45WWdobldUUjBlT1JELTBDRlphTzlIdjZrUWV4T2syRkRyUnpDcDA?oc=5",
+      "published": "Fri, 25 Sep 2026 15:57:07 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "محمد عبد الغني أفضل لاعب في لقاء الزمالك ومنتدي درب سلطان ببطولة العالم لكرة اليد - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPTnZRTm1NTDl0VlFRZE1uWVkxb1R4U2hsNHZYdU9PM0ZLUFc5aWZiNF9PTDB3aHBzWHp3YVhRbUhSUkNXWlJucmVBOUhvWTdnN3BmSWdjeDN0Z3dPdlk3WFpVOGVpYmZPX29lUDB3TFhublJ6eXd3RTFIMHJBVEJuTnY5NndHZjBpcDU2cEpxeUhRX1FKLWhlNGVwT0Zaa0V2Mkx3N3p6cDl3WHBhc20zUmtFQ1Fhd2xvWlBCc2hQTmNWTzdkNi1CX0tHSGJ4M2hscGJBejV2bXNqX2xMb2kzUHlNcjlsOHZCR3dvM1lnTHRITUU0SXR1UUstQ0JhQlVLemJFNk9YWXNBRmlOM0t3WXNpS21yeFBnVHNUUnk5anNwOEluOTBzc0ZnNFF5MDluMkxaRWNUZXF1RmRSeUZyZkFZeVU0QnNvSUhzWEpxS3hiRHROQlFtTXA4NnFKMU9WUnF0VTNTT2NEZjQzTHZmZFluclZJWnFWYTJ0N1MtVlNuSm9BYnlfQWlOMTNQMURhRmFvemNkTkdTNWpoeHlTQW84MTBIN0lveVVIYWcwc0tmZEFlWHfSAbADQVVfeXFMUGNTVFdBYVhkVGE3MG14cHh3Z0NaN1JvZVJPc29TZTVrdUh0el9BS29xSThxQ3IwZGZ5UXpEMFlsVG5oZ3VsN29GOUNtVldMQl9VYkFScmJFSEtuaWZZMU80WVdHUXc0M3NDWlhXRURaLWxCQWxPWTMyV3M4ZmhqR3VSSjFfNnJQNGhkd3FiQ3hCZVp2enMydVliS2gxNUJEMzhHZjhWUTJsWXF6amFVMEtzMFdZNHhRN3l2TXJLdnIzNnRMUFJiWEUwZ3NlT0hzb0NvSnI3aE5xVjFuM3FQQ2hPUlRSYVZzZXpwdVRnenM5bFFLd2dVY0ZLU2Y0Z2Q3ZDFqUnhSNU5YTENGUlJxUzRJMEctX1RjcmdIUk5rWXVJS1lfaUt2VVFkNHZ5RFN5VTVlQ1RYNVBYb2dKMWU0ZS1SQU1UR0IxUmRlRGFEbVJhUVJ1TWZ6SHltY240RTNwd09LbFFYd1hxZ1Y1bkdORnRMb3RLZ0NMYWlERnJ1aUlwblFoS3Z2WlJFQjBqZDdzTlhoYkd4ZlFQQ21jbVotOFRTR0dyN2ZCU2h2cFZzelZE?oc=5",
+      "published": "Fri, 25 Sep 2026 14:35:00 GMT",
+      "source": "اليوم السابع",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "جولة لنجوم منتخب مصر في فندق الإقامة قبل لقاء أنجولا - الهيئة الوطنية للإعلام",
+      "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxPQnJ4TE9obGRwQ0hDa2k2ZjFJeWR0VWxtaDhZQmo0ZlREZHlGTVIzX2F5NmNNQU5fb0xYLUl4aUFtNnA2ZEM2Q051ajA3QTZvNVltczRYZ25QLUJkb1NZUHNKTGpkeDB2c0h2VXJXckNmdjI3SmxLN0NjWUtZeTQzMWdYWkkzbm12eHl6TEM2dS1TYjBjRmZrSTQwTHRtNjRzNXhiNy05WjBoX2d0blh4cG1VUWtMbjlGRGd4ZUQ1enR1N2VsV0x1UzV0Y3N3cDI1UTJPVWx1a2h6dktoR0NiOEhzN19nakdhSXVjU0RWOE5mQmdYdksyM3YtQk9CRENtVDNqZFdGeEh0VHFjMTZsYjBWOHlqUEVQRVhFR2xwdXpXcXI3bDJzRXlUQkJSd01hb3FoNHREM1hsTWxVaG1aaUJ2cGJJSklUMzNvbzlyVzFNNkM1NGY3ZDN3cXVtbTVUMDBMSFhjRVhhY200UE53SDR3MkwxckpLNkdjOWRiaEpyVlVIMGlJT2hQdDhrR3c1WHJkcFYyZWwxTy1xd004T19LN3VNRVhjOEgzQXgzRkRyU0FiYktQMXp5aHVvTm8?oc=5",
+      "published": "Fri, 25 Sep 2026 13:28:00 GMT",
+      "source": "الهيئة الوطنية للإعلام",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "تأييد أوروبي للضغط على طهران.. وبحث هرمز في اجتماع دفاعي - الحدث",
+      "link": "https://news.google.com/rss/articles/CBMiwANBVV95cUxPMjVDY3FObjZ6WjhNUEIyX3FhZHk0d2pNS1lBNkkwTTI4czBTYkEwalJnR25ad0xuRF84RmVGbE1DRnhQa0VzM0I1UHBadXVvZUc5MWJWVmFvbUhiakVydlh2YURYUHAzRGZlNEYtOHI2dHZhb25IOTN6b3RSUnYtb0ZYczB2V2VDOEtzUHVLSFRHZ0ZwaUtISTU4cUtyWUJ0OFFLOFN0Q3pROXpva2lOZUJ5WkFGZ3JfZ0htLUF1dWlCMDNyWExrQkxUUUV2dE9aQ1ZmWlktbTV0NTlzMzdjRzRZbmFpemlSRXdRby1TZUp2VVM3cG9yM3dkUDFxbVBRUmk1bU9NV2lZWjlON3JtMXo4bW9tNzB3MkJuTU0tRFlkZXBiRlNQaEJtemFIVnZkb21GeWpkTjFfWFlWeF90VGlZbFRCdzRPN0JvT0F0M3NVU3VPZThOb2lDX0t3WGpBc1lDNmpCNEc0MmNZVFduZHM3YWhTQWtMcFU3X05sY1lHYlNEOGx3eUw1NEJBYVY4ejJCS3hnSlcxbHJtNzE0bFB3SWhwWEJFenJtZGx5Mkx1bFFxQjhxMEl1UTBsb2p30gHOA0FVX3lxTFB2QnhzRDFpUGUyeldDR3d3VklCMWVrUEdSVUp3bEdVYWFFZmV2Rm56QW9hVVZDTmY2eFBwVEV4ZURNZ2c3d3A0Ni1HdEdfcXlnYTVZYS11UEFTUVF0XzlHekJRNHVNdk5xRDZtZEU2VmgxWDQ3X0gzRWRpeERGY2N1VmVQNjJweTB3T3JmQjl4aWVIbVRFMWkwT1hLd3BhVnNPTU0wbk9WajdPdG91UUhIN0hPQy1IN0dlZjE3SzhKSGdlazZiRmtKem9xaUFIczE3ZktGQ0Z4LWR4M3VRTFEzajd1VUpwR051Y1JXMDE1Qi1Pdy1Ld08wZGtobUtwUXF2bU5pZ1hoWEFoU1RSM3I5OVltVHNGWE84MmI2TExaQV9aZVJnR3ZuVUE4UGkxbVo3VmhzRWZOUFFRVEphSWVYREQxdDNXdE40UHltRlNUNURMRmdsS0pNdjJMaHgwcDZBYmJoYmZERDk4QnZIX2RLR3ZVYkFJTGtZSzZMc3pyelViaC1XdGFOU19wMk0tVDRpYlJxNVFFQmpDZ1BpdjNaRHhMdVAzVlpiWklwUEJiX1c1ckp0ZkltQmpQVVdUYlZoUHlCRjUzX3dYT2t5UQ?oc=5",
+      "published": "Fri, 25 Sep 2026 08:54:00 GMT",
+      "source": "الحدث",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الرئيس الصيني: أتوقع لقاء الرئيس ترامب مرتين إضافيتين هذا العام - بوابة روز اليوسف",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtMG5kaFMwWEdpZHN3SW1EamxISFhkTXl5dENlVnR2bkVXbnZhQ3dxUHM0dDE0SDBGREFZeHJkT052ZjQ1WVIzQ2Z2aVBkUQ?oc=5",
+      "published": "Fri, 25 Sep 2026 16:56:36 GMT",
+      "source": "بوابة روز اليوسف",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الكرملين: لا تفاصيل محددة بشأن لقاء ثلاثي بين روسيا وأمريكا وأوكرانيا - بوابة دار المعارف",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04TzFWSWJ2RzQybm03OXZvblE3cWpUa0ZTc2VMTnRPTk5WZjVBSXBaY04zSmtGSU96OHlaSGZMYWVZbEI0ZTdpbEtieVRQeWk0clE?oc=5",
+      "published": "Fri, 25 Sep 2026 12:22:40 GMT",
+      "source": "بوابة دار المعارف",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ضربات روسية على أوكرانيا بالتزامن مع لقاء زيلينسكي وترمب - الشرق الأوسط",
+      "link": "https://news.google.com/rss/articles/CBMirgRBVV95cUxQdGJoNkg4bWl3c09mU3NOajFKa2N1d0VZWXhuTDBLY2xERUQ0RFR3ZTM3Nm1vbjd3dWlxMDcxSV9FRlNFU1ZJTHJhay1Xb3lWOWNIS3pla3JENUtGOUNfclpQYm5MbE9ieUF1cWhLTU94ZUpoMTBsZjdHZzBVNkY3a3J0cWpfQ1RpZFpjM3BFeEp3MG4wdEhKUDdFNWxLc2JWN0FQX0F1aDZ3YjhoYndTM0tSVzJNbi1KY09ET3dTMDItWnFHRTJZZWNlQmZuZ25FNHdwSkYxRTloUG5DaDFnanZKOEF0RGVodnFkWU41c19OX184b0tDSnNJTVhkUmtBemlTQnpGdmNNQ0FMd1AxdS1TbkZiNWUyOE5mdnh5M1Y4cFhON2pHaUdFRkZsTzhhUVNYZURxS2EwMlIxTEdoXzZTM0ppZlBvZ2tfeFg5X3V3QXdTTEM2bmI3MXdjMHlpYWI0d3BqWjhkWVYxTDh1T3NEX3B1RzNyUFJQVGpoRk52ZGlVcjd4b0dhbVpQZXJYSThiMGRUa1hlanB3eEVGUmZaM3JKbTN1c1pMNUxaOXdDNVhhSGduOFE1WUNyMm1BcEhrZ0duRmxFbHo4cHVlWFk5TWk3OVpmWnB3OEF4V0lybHFZRlpmTkQ4cklSOWlxVUs5bzExYXktVjJKaFJISkZ6QWJ2N0tQd3kyNksyR3VsdDFIMjVHTnZTaG9kcjBtMEV0Y05WaHc1TjNGM0E?oc=5",
+      "published": "Fri, 25 Sep 2026 03:32:24 GMT",
+      "source": "الشرق الأوسط",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "في لقاء بهانغتشو الصينية.. «خالد حنفي» يطرح رؤية للشراكة العربية – الصينية - صدى البلد عقارات",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPQWJKemFsTjl0a3dPNWE2OVNSYXNTWVUwLTJoWkI1MEhjNHB1aWMyM1g0cm9lRS1wR0ppcU55bW5RbURSU1MxNzFDb21XQ0NQaF9ubFdiRmM1NHBjeDNQQzFiRkowQ3J4M0dNcDI0bktid193eDVQaXpPUlhQeFZXNjNIRFY2YmpBdm84X0dVMDc4S1RObFBuSktndVhmMTJvNzV0aFBUVHlKeDkyeF9UT1JVTWV2UzFSSGVlVUZJQWpTTjhhV0xyV0ZyWFJYUjVWYlExQjFDV2VoLXNUeVBpM1BXNHJCenRUd25qblloLTk4d0ZSOHBEXzY3aWMwUGRkaGh5OTBZOHlLWlJhcm9WcGM5bHhwN19Bek1VNmFaVGpTMzRKMDVvMkRteGxKYnIxcXNSTkdZNU9EdEUzbVktMDJxYUc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:10:34 GMT",
+      "source": "صدى البلد عقارات",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قمة ترامب وشي.. ما الذي يكشفه لقاء الرئيسين في البيت الأبيض؟ - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMihgRBVV95cUxOXzhHYUd2cTRFcjlmZmV0U3duUm42WEEteUpaZk1QSl9kUmEyUVJ2blpOYkpkbTRQckNiNVhDQnZjelVWLU82SWExUTNHNDIwS3RDQmFUVGxtaGUzaTRGWGdDQzgzSkJySFNfUFAtNnA5bEhCQnIxb0p5Wmd3NG5mekhxSDFSYmVvRnVxeVdLTE1ZS2ZpTm5rV0o0WDN1RmNCUkJPNjZWcmZEX2lOVGhTMElKU0Z2NVhmbXY3alYwNnZ2Nk5lR2RUdVNCY25mNzI5ekNhdG1yQ3l3U0ppckV2Ti1IYjktRW9PZi1pSFBneHJkLTdWazkxNjMtai1nQ3JqWS14MVVjVGc1SFhmUHJBVXpJNXVpYVRvU3NjSnNiMFdSV0tzT1dxaC1NVFpNbmdpUy1ldDhyc1EwX3Itd01jTDlZUzVJcERDbHpqUVIzb3BubUtVeTNhVDQ3U3lOem1La19ZYjROODJUX2ROUnZWcmFjSW1jeV9WZGs1S0lhZC12bGtnN0NxN2JYdjROQURNd1BGVDIyNkEwdHhvQjNyakc2NFNXWVFOOERRelNYQ2R0RTlVZ09Ua3YtM3NjdDNjYkJIUGUwR2lQejY5V1FwRHBlTEMySHlhMkVwcGdEZGQ5SHhObndwNDJ3MlFYaEg3bHZqLTFPWHVTMjRQbFdQZThWcHV1QdIBiwRBVV95cUxOOVNOV0tGU2pOZzBWWHNMZ0U3QmV6ellkdl80UGRuNVpXNnJBZVJmTVNwOXRWbXBhX01zX0VKcVY3ZkY1Z3lWVm55eE1CVkpUUFRXR0NHcDZ3V2R1SDZ6b3Q2TkNLQjlDSjA5SVlJUGhqMDB0NzlFdXJkRDdnbkNYNE95aHltNGVvaHpyZmJvUGZhUnR6cnAxVnRaWFdxYlpQQW0waVdfdHJxS3A4UDlISG1RRlRKTnRILTZ3cFJSb2lkU1k5bm1KdjJPYUtJaGMyclZKN2piTXRRdmc0MGtsYlVrMS0wM1dwQzZKbU1pTUoxYVFaX19WUGJ6UkJ4MkwxYlNacXdKcHJUU1kteGxrd0Z1aTNWaDFBbndkV280MDV0N1Q2WkRTbkRTTG4yRk80THN0WDluRl9YcTZQY0JEanFCRERMTXFtVnEzNEtxb01ENUZpNEJxY3VKWVhNYXEyQV9manZuWmJ2dDFvTThacUs0TG92MFhSUzNmckRxdXZEM1dsekhiSG1Pc1YyMU15d1lqaWpZQ29NS1diVHVqaWlQNHRKY1I4UUtnR2c1M0JDV1FLUUlQakJCM0NEUGJqVzlVVXhuUEVfdlp5clhOS3ppc092WjZSUEpxMHJNWHVzend3aGV0NWNlN0U5V0otNHk4bXhuQ2VGemFoYnRYbk9zRUZJN1pTQ21j?oc=5",
+      "published": "Thu, 24 Sep 2026 22:01:39 GMT",
+      "source": "Masrawy",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "رئاسة مجلس الوزراء المصري. . لقاءات واجتماعات وأنشطة مكثفة أجراها الدكتور مصطفى مدبولي رئيس مجلس الوزراء، وذلك على هامش اجتماعات الدورة الـ 81 للجمعية العامة للأمم المتحدة، نستعرضها في سياق الفيديو التالي: #المركز_الإعلامي_لمجلس_الوزراء #رئاسة_مجلس_الوزراء - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwVBVV95cUxOSzc5aWRYbGRnOTNPTVlhTkRBNVZ0MDdUelhpQjhKWUtNZjdtSVBGRnk2NlZFWWhlUDhmMnBzSVdvRjdkSHE0R0dvNk5oRFBNTlkyQWx4dUJOamFDV1BxeEhKQTBmT29CbWZvU0Z2cFd2bFhXcnBkOVJ4MEQ3c1U3VTlMVUgyZXNrZGl5OHRNTmVxTWxJZ2loX3doRFMzZHUxUTNaTGZ3cGp6Wk1fSS1NZHNScHVCTVQtRk9FQUpZLThVcUw0bVpnTVVHcGc2VmY3ZjZYRDlSbUx5LTQyTkEtNkJmYkUyVlhNVVFXaHZEaVQ2Z0dEUEkwWGxDVFcwUF9IVF9vNTlyQWVWdUMtVFFYU3ZVWW1KSlZORkRUYU5yT05uUGJ3bi1VVE5XZnZPNzBIWHJpYm9IOFBXcWJ1dzRpSi1zQnpUQXpNdmtWenZPTUVMYVlrR0RKVDZsaUtOWjRsUWRjcmhfTkhrb2dCUTdsanFHTFRWQ2RQWmdFMm5BaHJ3Nkg5QVNoVjJQZ21iZ3U0MGFORXFLaV9ZLTZwMHpBNWhOUzlNNFoxSmhFTHhzdllFbnZ4VXUwYmVHaGcyNDRYNUtiWHlkZXZSa2tqbWc2a0xSWmJlMGNreWU2NkFLVFJUUTJjVkJDUG1udzloY0w4YzktQXh6SmNFbmJjc0ZIUUFwZWRqUE8xWWljcFhia1RTcWlETzU4SE40NXdXSGJhazE1dEVMVnU4VG5aXy0tUmRpMnRBMl9tWXU2V0YxWlpTbjVPdW5mVmhDcE1hMUdCTGlHbk9yUGZYSExMVjZoV3pfZUNOdnlyenMtRFdSbmhXVDlha1Npa29UZmNSQVFtYkl3bmlONmVkRnpNbkxCdnRSRm1Qd2NydjVxZHEwM2tyRkxqVFZheXFXQQ?oc=5",
+      "published": "Wed, 23 Sep 2026 10:23:50 GMT",
+      "source": "facebook.com",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترمب منفتح على لقاء بزشكيان وأنباء عن عرض إيراني بفتح مضيق هرمز - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQU0o3VGItLXlINWlGT3Aza2VPUGwtSVhSSk9KN2U3Sk1KNXowT3hpQU9kc2hUOW1yZkc4bmJXZV9OWWxRdnVjM2M1Vnl4RURVYzBjTFM4eDJybW5GRmlPYlIxVEVNbmJvbHU1R3otNWdkc3djN2NXM2xqLWtJRzBLZFVNbFpYYzZ1QlkweHNMUHJuUHYtWkRsTWo5dktkTWxCR0NtM0h1SXd3WVlnLW56ZlpnbEV5VWZUb0ZDV3BIbElVMVVDVnlwLXpva3FJd1FSVXZoa2trLWEwTV9mbklwY1FONUZaQU56UnpOUVhjYXNGNmJqdEpQNGVvY29pLTdoWjgwczFsT2Npek1odWppNno0U2gxZ0dUTngzNjBhNzRzZDJDYXRVRUl2RnF5LUlGcUtmNHhISFdqa2FEQ0t3TWFsb2NGVy1oT0HSAc8CQVVfeXFMTU5vY3ZpZFZvVGZORDZ2RU1wMjduN3ZuQnVTd19TbnZrbGRwRFJrWFljU19tYTVybDZFeVR2ejJucHlMLUVURXBUcFRtSzZKQ18zaXgtOHdWRjlaQ05wOEZSdTJCZlN2QS0tUGZtUFE2anJXWXFpeWpZYlptdEJRWnlRdHlYSXgtc1Bpa21RVENlZWRvTDAwczVlcktyZXN2RDdqbmhlcTdWcU9HOHRvX3QzS1VCM0lvb2VrcHdIUkVnYkFBQ2ZTd1BOdkltYVM4MzVSaEZlTkxYdmVfS25VbThxeFZfeUZkU214SERSQ0k5SWROVHZfb3dGb3h0OUhBYTVTa2ppVXdsZHluQmI4QkUyN0dyOUxCWVhVdmF1Qmd2dHRkaTJmSm5aclMxN29JcTk1T1VpTHF0UjlDQzVad3Q0eGFTQWlIV093V3RKcWc?oc=5",
+      "published": "Tue, 22 Sep 2026 11:24:49 GMT",
+      "source": "الجزيرة نت",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترامب منفتح على لقاء بزشكيان.. هل ينتهي عصر المقاطعة بين رؤساء أمريكا وإيران؟ - CNN Arabic",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOczFZWTRsLWticF9Ec1JGdWticUNQMEw0LXl1LU1nX1ZRdWRYUVhpZmtWZFE2OEZtUjcxSWt4TEd4M1dTQlJZWUZ6ZC0tSnZZM0d6TE50VGpYYllmOVRNUXdNbUJ5djFEVjBIRGItaEFCX1NRaFQyb29Vd0pjcjRGYVk4QTQwODZsLWFjbFNwcWpjUHNkUGdvMXhzaDdCTWtzMnBoOC1GYlctcGNNVUIwVEZtU2w4dkJ1eFJIUE03VE5OMC0y?oc=5",
+      "published": "Wed, 23 Sep 2026 12:46:27 GMT",
+      "source": "CNN Arabic",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "روبيو بعد لقاء لافروف: موسكو وكييف مستعدتان لهدنة تشمل الطاقة والحبوب - asharq.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxOQU0weUJrYnFmcHlZM1NhNGtlamViMzBDUXlobnNLckd2bHdWaHhqSHVZUlJQRjdQQVpINUc0VlBzdVRDT3JUMUkxd2U1bkNUOXMwRXBja1p4SjVWWjV2djZBN3dtSjhUZzNkbGRCTFhtZVUzTE1jNDdhY3FFUk9CYlNnb1I0Q3ZnNmVRM0JhTHhxX0ZBR3htN1JLQ0xFQ0FjRUFOT09QQ21lTVQ5MlBfa2EwdHVMQzBoUVE2NGlHczRWM1lRVy13YmRjekFTakpEVTBxMHppQUVjQThleUJheU1qY09wVWxNMlVuaVVlWXV4Zkl0d3NndVNUdE9KWlVuYkRKbXVMaHZheUp0OGZwclh6SlR0RjBRdzQyWlhyLVdkUEZpcWN2Y09DaEhJYkc0MVRsYlJaY3lnNFJwOVB5R0xFYlZhczNtV0RTRkRhem1Kc0lZTnRRSWpSdWdOQ05yd1ZiU29faHk5YXJLNUViMEMzSTZBNzhWa2d2V29fdVNBRkp2eUVqYmRoTlI5dlVTUHE2RC0tV2JpSlVxODlvU2tJYnJydEloOERxcnQwdmRzRE1jSk8tM191ZkQtM0lJY0RrQ2djdG05VzU5VHE4NG5rVHFCUQ?oc=5",
+      "published": "Thu, 24 Sep 2026 05:44:37 GMT",
+      "source": "asharq.com",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "لقاء عراقجي مع وزيري خارجية بروناي وقبرص على هامش الأمم المتحدة - خبرگزاری مهر",
+      "link": "https://news.google.com/rss/articles/CBMigwRBVV95cUxOOFZjTmpra3ZWY3lyRk02VUtSeUl5Wmh4dmlNTEQtLVdQS0thdU94c3hYZFJ1a1VlVzliZndzSWR5WEZfbk54Z2plQjlYYjN0MGg0dEhOclAybHNhWloxbGtlZlY5VWxiSDBHM2JxX0JOYnpWbmVwNGVvcUd2Vm5vUk9UYWgtaTZHVjdSUFd5bmtwcWZpaEdhWWNkbHdvU2pEUHRGbExsclMxNHFLekU2eUdPNE1Ncm1BREFsMzd2X0xTbnU5WXZYM1pnTG1STTZNZFlDMm92TUVVWUVVa1BBTk1yaU5URTlCYzU2UDVGSkVfSTVOVldnVFRHcTNpZEFVb3RBbXJVRDlqYUdtSE9zVm9tY3F5SGRUdTJfUDgtVElxeGRFeUNIbEc2ZDNZcVVkalZZbGhrYU5GWS05R1JBU2dlekFhLWNfbnlhT25tOGFiWWRZdWJMY0EzVi1OSTcydVduN0JjUkRINkt0LVF4Sm9vQW95dGY3aUUxVnpfYXkwd2hJQjNUMXRsamhIRWVPemdaS0xQbGc1TjNYWDJDalY5cWF6WkNZMW16eHZ0dnkyVTN2TGo1VERrajB0N0pha1A4T09aQ1FtZ2lvZk9URlRpSmFrcUZkRDBxRGF6NHZGWU16U01NNndsLTM0UWxRVVZtdE15NTJEZGZiMy1XUTJjdw?oc=5",
+      "published": "Fri, 25 Sep 2026 08:11:00 GMT",
+      "source": "خبرگزاری مهر",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "لقاء قطري - إيراني لبحث تطورات المنطقة - العربية",
+      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQQW1XYzNFTmVJd3FCcGljOFk2andobi1YSG1jR0g4ZzZTamZlX2l5MjlvWi1XX0lxVnF2emo3UG5NbExiaU5Calo4bkxHM1JRUW9tblhJWEstRkN3d3h4YkV0QmpDQTdvb3hCR3JZNkkxb2hwcVBDakZKeWJ5NUY5TVk0YkdSd1h1Vk54V0RLVXV5WGdyaUMyMENqN2oyeWdQSmNwekJzR2VIb3JFaEV4MmRFRFVWX0dQcFNZUEJnRkxrMXV5aEtrZTdLc1FHYmJnSkxHT3NGeDRieFdVRW5uM2trNElYVFJESkQ1ZlByZVk1YmdDUF9sZldUQ1lQR29ZWElfdXlaeGhZaG1OSXZqcWc1SHpLcWw4eUQ5emJEdnFMdDFOQnBKbmFmUmxfOG14d1B4aHFkUlB1SGk1SU1XWlVISTZTampKSlBYN0xOTUpycW5CdzBqdWNoMDEyeFllNkFwRkZTQdIB7AJBVV95cUxPSEFUR3ZNTExrWHZ2VkdyeHUtMVRfRzZpd182YlpYRlQ2Nm13SEpiZjd0QWhFVFdrLUtIZ1E2ZGVQSXBNYlFxVHZFOEt2SzBNenlzcUtVU2tfZmgtUHRJYWhVUEhMbERveVVaWVBacFpBSVREWUFhelNRZTJQV25qSGV4cF9yN1ZjOVRmaTRBdVVLU0hlZ2tvYVJyZDZnbmZpd00wejYwTlhSZTJucUpXSU5leV9hbWxhTGNNQ2MyRFJJbjQxS01MN2tUcllGU0ZzZWV4SVVBc0dKTDBaUGRZVkdaY3JYQmNqa0c3ZnU2VGhhQzRuUTBrU3c4UkdBR0MyUzY2REJCdUtWSm5rZ05Zc3dXQ1RCUE90S1FOTmtEMno0a0tXXzdZd255MHJZY2YwckpYb0lGV3FLend5NGM3SGxZV3o1UjJrVU9uUW1qcDRSbTNVbE9vT25rUER1WVF0S0l1V2wwWnNsTER2?oc=5",
+      "published": "Tue, 22 Sep 2026 16:31:00 GMT",
+      "source": "العربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "لقاء بوتين وزيلينسكي.. لماذا يتعثر مع تصاعد الحرب؟ - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOcjU1elNFcTd4NE5BOENJRWJIMExIV1BPak50VVh3cUh3bklpelNQN19TN1JnalJDVFhUNnQyVmwwenhldnZSVkxSblhnTkYzaWo3VXJyWFd2WFJGbndDTHRUYmFIVzdlY0pxME9Id2dkeVFKc0Z2RThaaEh4N2RHcG5pVWVSTzEtVWM3ODVGVlhfRExYRlQ0YWp6SWNTXzVzTVkwQnZpYVU1Yl9TX3RSTW1ZeDNPMnVyb21TV1h1NmUyR05zaDFKNjZlUExtdEgyb3NEMXhEbUdDUnNYQk9IWjFzQXVmMFFTVUhJOEttM3NiZnBsMjRWb1NiSEVTZFh2SEEtZGVPTFFGMktLVXJiQ0xtSlh2X2dPc05xbEM2Wm5HWVYxUGxsNWxrTGJ6eDJlZnpEVk1TTXN4YXYxYV94bFdRcGdrcTJ4OGt4UmJYUDhhX3E3MVVIWTA4NU5yTENGUmozU1duMXVJLXo2aS1Vb1hkS2V4UmszQ1JnT3dtYnhJdG96eUlzSzNPZXVuX2_SAZQDQVVfeXFMT2hHN0J0emU3QUNvdGs2dHhkWGxaVzBqTG1FdFIzd1VuN3dVNW5HaWRYbzdPVWdhZDZIWTl4UUN2bVdQX0pZRVlIenBnMlRuXzNHZXc2MnI0ejVLYjJDSWhEZTVpWjZHemxodXlpWGRneWVqczI0WG11b2h5T0VwekhOekNHUWYzVlV1d3Bjb2ZHNjNoRE5kekI1TllCcUVCM2s5OTJ1SFlxS2dNdmNLXy1xWXF0VFFTNHg1VEV6ZzlnVjhTbUpJXzlabDBVYjBSelN1c0hTZWdsMEZfVGlyTzdORnBwTG83UldtSjZuU2J0S2hDR3U2THU0aVpTZTNxRjUwOV9aS3ZobUdNV1o4YUliSXlYbExUdlFrVmVpYm00SG1LVVFhTEh4VnJON3hiTHh2MkR0R3FvTHdJM2ljWXhoN0tJYW4tUHVWUjdyNmo3YnBKak5mQXNHaGtDLVV4cUVhWTdFdHZYdW1ZcTVFQ0Y0SExVUS1GdTU0MGY5SDBrYkpWbzRGNnVEV1ZRLUpZaFREeFM?oc=5",
+      "published": "Fri, 25 Sep 2026 07:07:22 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قبيل لقاء رئيس الصين.. ترامب عن الذكاء الاصطناعي: أريد إبقاء الأمر كما هو - CNN Arabic",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQXFTZUROTzhyaHlaMVBSc3JoWDBlT0FWa2xoRjZyVlMwR21iZGN6Mi1PUE1XREhDSHkwc3ZGRnlRS1d6MzE4dFhZWWVibFc2cW10X2hTQ2VZQWpTWm05d2ViTW5NSjNaOW9uS1hnVjhWQmstbHdGZmVnX1gzMERuMlhIQVBiLUpnZ1RYSFZvWHdIN0JQWlRzSGJWU3N2LXdzbjZNbEVn?oc=5",
+      "published": "Thu, 24 Sep 2026 13:29:17 GMT",
+      "source": "CNN Arabic",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترمب يلتقي قادة دول عربية وإسلامية بعد لقاء أمريكي إيراني \"مثمر\" - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPY1Z2WWJ1LWdUQzJoTlJGcUF4czh5dkhDamxQRWNZeEVMTjJ2dnRjNWxIeGlGOWJ3eFIxaHJwd0s4eTMyS0RiSWVQLTBldzhYVEtmSjltOXBQazBlT1BoTGc1VVFjQ0M0U2hYN3B4ckJEQ3NCZTk5aEZUc0RBT2tvb2FNQzZOQ3A5UVQ3TGxrd1M5bTM3SjlhTUhlRmpoVDZMeDZfYkNGTEgzamo2M0V5czk4YnNIWmw3bzlnZ2lYNHFlWHJEa2VXQ2g1VC1EYkdnREhWRy1PRkVxbzhTUklOQVpLdk5DMnl3cUp6WG4ySU1pVURCb2hmUkhfeUNPNW1TcHBrMXFTRjc5V3BtT0JqcVdNNGpCNFFQQk5HeTE5VkVMRmRKbmo5Z0IyM2xOWmxnWmt0MHloNUFjNWZyVlJmU2dWZG9ZTElhdEtNU0VmTmJ0NkXSAdgCQVVfeXFMUGNia3VNdDB1RXBrc0pEY2s3dmtHQ3hKZG13ampLUWd6MVdmNGVPYVJybGJ6SVZQWXh4dDlUT0MteVpiLXRQWmVmTFhCRTBLMElhWThpVnVfN213ZTE2YUpnTlc2TTZXdm5VWHp3M3dneVJhaDVkSmtaR0JmWlVEQ2FCQ3VVeVFmUlhFQlZ5ZkNYZmNvb25JZHhFUXNsYzJwYmFDYzdIVjJnbk01M01seFh1dzJ0TlhxN2l5d3pyS1I4UmMxRG5IV0I2WXEtUmFoY0wyTGgtcWdmbjdaUVE5MzVuNmVJWlpCOUZkSU9ZVWcxTFN3NXk4NUdJcktRUzZsa2FWQXp4VnhiMS03aTJtZWx0Z0hVa0dxQXFlS2otYmdxdnlYanZkdm1KaXo5dVRHS3FRNXU3bUl0S1V0cEZvU2lROURuZTBFZ0MwWDA3Y09KWWRwUjd6TlQ?oc=5",
+      "published": "Tue, 22 Sep 2026 22:47:04 GMT",
+      "source": "الجزيرة نت",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترامب يكشف عن لقاء أميركي إيراني \"مثمر\" بنيويورك - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNVlRfWm9PNnR5ODNOT1V0WEduY1lncHgtbld1bUVIVEVKQ2RJRVBJRkRvQUd6QjR0SWY1QWNxdGRUdHVOcGw5YlVRc201WkUxeXlUMURGUE5BN0lBdXZNZTBQV2pnS09ZUThhU0FzcTFxYXpLRWxBUGdtM3pwN1hGRFBmU2xBYWxNb2JBMGpJT0FRRi0ybmhwTEllT1RuclpxWDV6ci1xTVdROWtYSnVjQ1U3YWUycEhVY0FJQjVmMkFwT2g4aGdyRG1FQlVjSk92LXlfWXNvdmVycEVfUl9nNS1qejJkZDdCMTJHazdyaTNLQktxN3lpbzhOV1lGNFhyZzBPM2tQYVEzWHg3M2M3WW1kRHgtdlNWOTM5aTVDdHQyaWxjXzNlbjV1N2E5OF9VQ1hYcVZkZ1VTeEx3TWNhUGNWWDlTbE1uUUtXMGM3ZEpvd0tYNnVpTnlmQjZfcVVzMURTV2drRjhZcTJjNG9Yd2VPUzYxMlB1VHFueVE4Njg1d21WYlJV0gGMA0FVX3lxTFB3ZHQ3Q2l6MmdQVktkVjA5X1dpempMZW5RS1VrYkpaTWtNSnAzWlc4UVVlVnRlWU41LXE4MWlZZEd2RkdNWkpIa1AyaGhMU2FFQURScmJvY1dpWnViaFVLWEVVRTZQeDh2YzFlSHNqNEEzOXBIZGd4N3RyQi1oWFhZV0xnVVR0NUxjdnBfY20wUzJYVVBqTllrM0c4d3Q1akFnUkFCOWxZVjFaUmF0ZW9mV2JULTJYT2ZjdW1nSmt6ZU1IVGp1dlowVmZndkxIcnFLVU9VUTNzSkpUTmIyUk9yRVZoTkdERjBrUEV1dnRSTlZrOUN0bkdqdUNINlV6YjN3VTY4R1Q3dnhkZlZiaHZNQXQ0OGpfM3otTXZoSV9YVUJ3cDJsUzczNWxqdlZIMlFsa3pHSEwxSkoxOVEtYWs2dlN4OGtGb3gzc3FnOVNvTVJ1Z0lwVFlQSUVtOTZfd0pvbXE5dmlNM3ljREVabFZjZWJ6ZGxmbjFRVVZMSFhMVTN2eXFqSUVOMGFPTw?oc=5",
+      "published": "Tue, 22 Sep 2026 18:20:00 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "حيلة النجم الإنجليزي السابق لينيكر لتجنب لقاء بوتين في الكرملين - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQVUhGWFhTaVVmVUJsNVZrcjBTTWZ1QTFVMjdUVWE5TWJPSGU3UXV2YjZ5cGxPQnZjd00yem5MMjlwUlBDeDNkamJoZ3NqWDUwRUNBdjdZNzluWmRaWDZKTlMxMEEzWC1kYThFNk50WXJjUjRRR0lQNnhMWUNGRWxrVXgyTXBnTjdteWRBdUMyWXJZU1BieWFENnJPaVNCNWQyRXVxeU44WUFSS0otcTB5ankzYTd0aWxOQWZkNFJtN09iZElHR0FQdHFxZWY3bGJqNkVtVDdTTzhydE02SVFHN29rbGR2MXdJaEMxRWdySU5MOUpLZE9QSE05TTJ0RjU2NEpNckxVTEk3cVd0aXhQVDFTWGNDTDNEdHB4cmtKT2Rrc1Z3YXRBSnRpSlNDb21BaGpBT1JnMXJsc2YtVmlzUTYwUU1VZV9nRXfSAc8CQVVfeXFMTWpNOXZnRmRpZS01NS14S0NVTUV3WE1LaDU3VFdtdnNRV2FZWWlSM1FKRWJhS2lud096S09rZlhOR2M0b2ZsMEF1NC1peFhxNzROTVhmZmJtWGtIWHhBZ2JUVlZlMDYzSmpTNVliQUxIZ0VYOE1TRVNPNVNPakc2TDJJc2dhSlI0QklKdkdMZ2NSNDRhMzNITWJBZms2M2RQeXVSa0wtYkQyTWpPQnBOcUN2MnZHZ0VnWWU1TGFuWFFBVnhpejRxVkVrUVFDOEJxODE1QktpdlpKRVpxWVV0NWQ1WEN2Rkp4Wk9fVkYydHRSN1UwYkU2cFlkNG0xLVNKbGM2c1NMbUN2VDRsWU1WajBKY3pzYWc4WmZhdXBfQ19YRlBiYUxZSnRKS3ROT01sMU9WOXdPbUtmXzNyY3J4Q2pNVUlfUmk5WFVmN1hZRnM?oc=5",
+      "published": "Wed, 23 Sep 2026 22:06:54 GMT",
+      "source": "الجزيرة نت",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترمب يبدي استعداده للقاء مسؤولين إيرانيين في نيويورك - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPUzltamtNWUZMQTNfclBDYXJIRVlqSmI5R0dWdVJsdUVNa0JycC1xRTh2SWRPR2dLbEpKU0RpaGpidEFDaDFYYnZ1WXJUN1J4UTJJZDRaTXdwcTg1UDN4c0JTNVpvZldhdEdsTEZFOUVJU2hlbDByemRsSXoxZU8xcHd4N09XLXUyZmNjc1ZLQ081VHZjOHVfaUpoYlozdzU1M0UyWC1MQUdJRW53cUZhU3VPVEhiOGJ0SUp1QzZPdzJveTVkbWpqWkdWdF9pbGtBWk0xeUpfR2RBd0hsVXpWcGRZcmxKVGE4enR0NlFnMVZZQ2JuMmFTcEMwNThWOGJ4RE9MdVdfWndXUkVpZVZpV3RaZVo2eTNDVFdFdHdYQnBUYWhlTEhPSFMzZjlLczk5S3pfU0hhd09NNmxJTGtSSDUzTWJsNktvYk1sZFNrbzQ4U3lZSWfSAdsCQVVfeXFMUFU3emxkem4yUVRKenBXU2Z4emJhaFZ6VVRyMkNDWWtyVlFubXZfa0ZSSlNkYUlqQmJmOENSRXRGMkkwclVkMFVobVgxdUpiZGNVOHJRc0ZWNE9Fb0ljRWI2SEZxWFA2bkliV0dEc3g1ek9BQnRGWjl6ZEY1ejZZNHpLUW1vUmxjd3pVQVk3U2FCSjZDcW9EZmtGYU1DRmFLOUJXbEJJZ29kMHZJMWRRZjlVREFKdFBEbHFRLVNvcG5pVmJfckZpSm5WYm8yQThQUjhUR01ueEY3QmtXOGNPdk00N05UZGJvRTVIRUprdVd6Tzlvb1FFbDd6c2pKVzdYNnBUdzZvVjQ0Sk5SVFJBODhwenJ4bk9EcUx1N2RzaEptYm1lSGlYWWszWTVOM3ZhNGZwNzdWSEJsckpRR2tSRDlBN20wQVVxYjNPYWhFSl85b2Y4b284X0xUOW8?oc=5",
+      "published": "Tue, 22 Sep 2026 15:33:02 GMT",
+      "source": "الجزيرة نت",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "محمد صلاح يتربع على عرش هدافى تصفيات أفريقيا قبل لقاء مصر وأنجولا - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPdkI2QWlkRzh1VUhPMmRlbzY1VXpSTmsxbERPVTFOcWpRWnF4UGRWVlpMeXRDNHc1amY5azN2aHd4RGhac05NLVVrSlFkX2N1d19UZFV1VVRfMG4zLTdUVm41ZVluUV8tV0paUWZnWGRfSzVMS3JKenlFS0JObDlwZ0RYbGtYRlVEYWstWm9LWUN1N0E2NFN5UF94aDhUaUoxQU5jdkI5YjhPY0l3U0xaNTR4bkZOMlAtd0tBU0RLdDJJdkktUnEyV3p0OGpMb0t0aFFJb3d2bWN5clZYMVlISGw3SjFrUE1vcURMWFdhMUNKY3NaLVhNRUc2RGg2d1JNczRtdW0xMmQtbkRGaXVLWUQ1WGpkeFhWU2dOM2JVcTgzQ1ZpUUhDa1JNODFiUkUwSzIyWS0xMFVNQ2x1YmxtZWVXc2ZZOXEycnNkdUlBRWMzZW9PLXNZcGRMVkoyNmZaZ2dYYVB5VWh0S2lQakFweFNUQlplQnRzY2k4aGp6MDlwNS1pcFhVLXFRYXIya1NxUm50aWlIalhLQnB3U3ZZcl9DMnpaa1B6WER5N05LckFsYzlmVUdRVFFNd1FScU10SzhnQmtR0gHAA0FVX3lxTFBMUnUyM25JNVlLU2xJU3VkOGF6ajhkRUpmUU9TdTE1cEtJMmxvc0dKZU5IOWtmM0NsejRJa0lxSTlYT3Z4VHhQaWI5V2pNaGMzdjdMQlpHd1hIQXpWX1FFX3BQejBCNEF2b3BHcEl0cld1RkxJOG1EZjJOQzlTU25tUnV1eWc0Qm4wY2thaVJzTUNUbERzakVLMDZYZjFOeDZ5dzVxY2V3cUZjbUVxSkNFSWhfVElXX2VaSldsNlNlTGQwa09LY2U2VzRnYXdrTVdUOTNmV1FNQjZidWtXU0Mwd0FPODJUNDhETFZkdVVfM1RrZXNDcVZlSmZJM3NvMHdMUHdtc1ZTSmJvZkxzakdHZVk2Q0MxcmY4ZmZUaTRaM0Z3QjdNRndqRWlMMjFSY2ViTTFiOFA2dTgtOEZfLU16X08zX184NTVsVUlxVGp4UjU0YUxtd3J5QkczVHN6ZThwa2MwcXpaOXh0Wk1YM1NEcVJNRXRkTWMzMzZsck1kaXBpS1FkVlViVGdrWTZkd3FERy1DUEZoZzUzbkJlSTR4c1ppQWg1SVNWMllVUWtaa2tTWHZYc0x5dElqUFE1U08?oc=5",
+      "published": "Wed, 23 Sep 2026 17:39:00 GMT",
+      "source": "اليوم السابع",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترامب: بوتين مستعد لعقد لقاء من أجل إنهاء الحرب - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxOZVZzTTZUZjZ5Yks2Wm5EbTU3bUJISk53QUJBZzBUc01pWXdqQ2tOb29HZ0xWa1NZSkUxaE1tWEdHNzZ3TjJxckZ0bXpmQWd5MUFCeFZabjBVWEhPOTZ1NTB3ZWl6QXFuT3F0dmtDNUlHTXgxY3ZNX01FUXhmUU9pY2NHX0doSGZrUkpOVElENW1pbTFhdkNfQlY1S3VHaFBXak1LUFpnamthTE1yUEJBQWp5cXNLVFZYcFV4YVVGcHJlX2VNMHpWcmxaRWhSM1BJQldnSUZURmZDMWlmNEI1dGNUeUNMQ3padFB2bVZqdEVvZXlYM09aN3EyWlpZS2llcnFxWUZDcmVma1FNUnpUelBOMUxreVBPNGtrM0FvRmt6clhna3l1Mmw1REo5dmxtZFloRXpkTEZ4VnF1M01tMzhRVGJPZWpwR2dudl9oOFluV3pJaWxZMFdUak44M2RNMGxqLTd4bjFhLWwyUEN5bUZBXzNLVlVFTnVqYUFRTFRCUy1telN5eXBxczlzUDVFbm5tNNIBjwNBVV95cUxQbkZocEN5TDJGQmRwNXBJVmRKblF1LUNqbXNqUjB4cTFZU1JCMkJYamt0RUdKZjdIVHZRb0w2SXphODVmZXRlVVdoQXBuVlVEejNla3h1N2szcy1KaWJ1MDNqdW1KcWl0LVNIU1BVOEowa0l4QXI4dGRybFMtTGZpMm1PcndCYmlXVTBpLXM0M1ZGWFFBME5xaWxUWlFqVmJJdno5MGgyd2hLY1JjZ1dzZk1NenVNM0lXQWUtT0NSeVNZR2x2eUZrSkgtODh5MVlnUkQ0YXBTOHhWSHhHVVdNbnBHcTJNOFpGZFliMkJ3ejQyWEpzSE9UVzVfYmdrTm5XWFB0Qk1PUkFNUWtOS0hTN0czN2RQMC1pOHJwSzZoanVCSmdqM2RvT01TTUdZYVBRSk5NakpKUTlTejhDQm0tTk92UVhmRHpTZFRma2pkUEV2dnQzSjBsMkdKM2tSalNxVDBSVlVWcXBPWGdmWTRpS3JDRU5fbXFiTHBaOHlWU3pvQmQ2T3MzXzE4ZmF4X0U?oc=5",
+      "published": "Tue, 22 Sep 2026 17:59:00 GMT",
+      "source": "اليوم السابع",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قبيل لقاء ترامب وشي.. الكشف عن خفايا التعاون الصيني الإيراني - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOWFI0Y09lSUNIVlF5dVBlV0xQVG9mRDJyMmZVTkRWeFpKbGR4bU55cUdwODRDa2JjMkVlQk1CdTlVU1VEamRTblVQcTFKVUVIRGxIdWtnb2ZQNTlCUzVHZ3BnOWZORkRFVTVUcm12MVg1WUdoRDViTDcyaThBVTFGRDk4N25pYXU3LWl6MWlvVHdDb0hGTzBINktWM2E0RDktV0RyLUFwbDVOVGZTT0lIRV8tSmhMQ3FiRVluMzkzZjhSenVEbHJvM2dXRDVhTW1RVHV0MFVqdHpabFZSNGs1UGtzeXllbnZGbWtDeHRnREg3RjFETmNRcF9wRU1yUVRVaEhEM3V0MGMzV3picG82by1BZndMTTJ2WXdKem5TT2kyVU45MUhJbHRncmsxb3d3M0YtRjJ4LUtTNU1zcmFmeHNOY01tOEdSNmJfb1liN21Tc1lscG9aNGxkLUgxejkwdjRkZ2dudUt1NDhKQ0pQNFVhb3pMVE9YZWl3UnA0MlNmUmNMVTBVT1czNVp1cTZ2Q3k0dDVTSzNmanFWRzNYaVhxc2lYVFhUU2V1MnZ6UWJRTGRNamYtZFJyLU1wblB3NVlaZGIwbXZvT25oY3hkUkJXenkxUjdEbjM1MUd4SEJaR1dVenYzU2FGQQ?oc=5",
+      "published": "Thu, 24 Sep 2026 14:08:30 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "تفاصيل لقاء محافظ بني سويف بأهالي مركز ومدينة ببا - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxNYmgwejVzM1lWZDR3QVcwYXJTcFppVXc3cWwyRmc3UHB2Q3BVOW5rODZua0g0X1Y4V0VMVTl2eXJQUFNZYmpwdjhPWVE1c0J5MEZDTGhScUM2a2V1OUFWbU8wcTN3dUI4b3ZsZlZCbjZlTFVJcWhhZnY3cUFIcU95MVRWcExxVWZRbXFSUlVMcjJJMUdWejlKaFBsUDZyRG9hMWFKS2F5TkRDRFJvTElCUGtCZmhMRk9QSkc0TDhrYzhWZHBnU2tPcUVlMjEyMTR0MDNfN3lyZUlvZ012U0E0VDdfYWQ1SUk3YWVwSVNqcVNXQVNuRGpDNVNnM28zYmxKLXBGN0t2TjVCdTIyZmU2SVE5eUdLVTNyeEU2U0pOQkx3MzRzaHVMRk5uY3BUenc3ZENoRmQwX0tmN2hyeDhRdTZzU055WjVBSUl0RnVmLXRVZ05DeVRfekN1THBORWpFWDFFczY0dnMxc2dzQWlweGNld1REWHJrQ2lSOHV5dXFfZ2g0LVloUkVoWG5NakxYUEl1UERPZWRsMkNBcVZnVE13MlFDQjNMZWlHMNIBpwNBVV95cUxPVkFpOWJtR2YzOUF4cXJ2RTZja0h6VlUwOExydmVLYnk0ZURZTk4weFF6Z3dUcGJJV01LcV9uY1QteHplMmxBSWh3eTUwSWI2X0RfOTljY0Nsc05nSVpib3lTYkxCdlFueks5dXdaR2xHMFJNdlZHNVoyN2NzVFVVYXhiZlIwbW5SYlRIRXlWcDVabmRnM2ZHOURrUTM2UlR6ME9GUGlOVHo5bXdIZk9mSVRhdDcwQVFGM2xKVjdLbWdwVDZUS1NwUjlybGVLXy1pNmNiaWN6MFZUZnljZDU1eXhlQ0lVc0tVTTh5U1pVTjhQcWRlZTJaTmRiZWJlMWtIcFpzbXQtS29uNnFnWlFWcnViZmxWU2Q1TWRHc08wYi1WTVRLTlJtM2k5VkFETEtucGtHRFh2T0NDVVltMEdNWDJXTVNqQnhlTERMQ0xGdUNlMUhfU3NzR3ljb2hLaUZCZXlWWFBWLXRKWWhJN2RON2hoMTU2Zmg4WkpjUkFmR2VMSGhFQTRnazExNHN5N1QyVnhNbm94cjZDWGlMb3dwTGpZRzIyeEE?oc=5",
+      "published": "Wed, 23 Sep 2026 13:27:00 GMT",
+      "source": "اليوم السابع",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "Liqaa Marooki, musicienne irakienne, en concert à l’église de Locquénolé ce samedi 20 avril - Le Télégramme",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQX2lBSmdta0x4NjhMcmRwejJ2RllQQjR1bzZmRHYwY1NSZlczRDJoRWRyaVBBUVZfd05zVnZsSHV0QzhiYlhOWnEtYWJxUllpNnIwYXBwYmVFV01yaG9CX3dGaDUzQnh4OHpZcWEzQjRsSGNMekVSLWZGdUJ4SlNjaEt2elZhSE10T0VOWHVmcE9TZnNkLXptSzRFbVVsOTBDZjlGX2FndjFhbUlXTWdzRUtyN01hRTBYVWZENHUzSGtTR0Vka1JoazhFOVFlZGRnWmY5X2ZYV2ZIcEQ2ZkU1OXExN3N2V2NaSmp3?oc=5",
+      "published": "Thu, 18 Apr 2024 07:00:00 GMT",
+      "source": "Le Télégramme",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Al Liqaa Rend Hommage aux Femmes entrepreneuses : La journaliste d’EL MOUDJAHID primée - El Moudjahid",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRlRyWElkMVZBTXNCYjRuS0ZRLVNPNVZkVlk1bkJyMXoyeWpPZEZPeGxPX05nMVdOcHZSYnM4ZE9QTVpTWkF4OUFrSUloQktPZ3ZkZ05ocUZ3Q3p6SmlrUVVkZEhWRFpTU0xEWGFwNUFxYk9JTGlVVmdiMm5LVF85dHhGeG5PZHEwbXlfM0RhQlB3b2Y1OFFTOVlsaGQzMzVZYnlhMkQ4bE9XM2lmNlkyMjVmQ1dpOGJIOTNvNkxBMVdnNVEzZEFGN1J3c0s?oc=5",
+      "published": "Sat, 22 Feb 2025 01:26:55 GMT",
+      "source": "El Moudjahid",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Dwight Bush : “Ila Liqaa” - Quid.ma",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMb292SnVvMDE0clJOUGNUSER5eGd5OUpWMVB2VTM5X1pwTk12QTRSUHlXdkVadlYwYjg3dFd5OXFPTXRxck5TSmt4UlA4LVVtaHp1RXFXb1ctOWxsYkxPVXpKcw?oc=5",
+      "published": "Mon, 02 Jan 2017 08:00:00 GMT",
+      "source": "Quid.ma",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Médias : La mémoire sélective des nostalgiques de Bourguiba (1) - Nawaat",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWliRzI5OThfRGxTREpOeGlpRnN1dldmZFFtQ3QyWTk3TFRCMTNUOHlxU1hfeEdKSWRhbFdkd1FzSi1SSl9IUTQwVmNuWjdvM3JnOUlQcWcxWlRnZUdvNmplMml5Mkx6cTBZRk43dFlWa3g5eTUxTDNjdTlBcXNSamx2d3NBNm8wRXhlR2hoZGVPZmlY?oc=5",
+      "published": "Fri, 17 Apr 2015 07:00:00 GMT",
+      "source": "Nawaat",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Camaret-sur-Mer. Ce soir, concert du groupe Ganthalia à la chapelle - Quimper Ma Ville",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWE9CTDdrTU5kbVhSVkZ1TVFzZmRoVWw4YTBTSGdTVXZ5V1psNXBJS3g5MkNkQ1NQdkpZOEZMNkQ2Y19MaFdtcWNCLU42WkltMDJJeHE2WXhjN0FGaVY0cUtoVHlORTEtcU5hVUdlYXFFS09lMUlQRlZFNHlVRVlBcU9MZGhsSnBrWXVYY1hTRjRVUlVjMHdKaEtIdEpKWFg4Rkk1Y3dOQlBuME5fVF9EajJReHFGTFZtWkJjcXZOTzl5MDQ3aGVRNVlB?oc=5",
+      "published": "Sat, 22 Jul 2023 07:00:00 GMT",
+      "source": "Quimper Ma Ville",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Rencontre (Liqaa) (2ème partie) avec Abdelhamid Ben Aljia. Par Khaled Tlatli خالد التلاتلي. - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QRl9hUUlkanhIaFI3RG1HaVNLOGNXZmQ0UWg2YnB4amNiVm1ya2ZxV0pvZXVaemhfd1dYQTBvbnNhS1JyYnNpX1lIUU4wcE5wVkVDVkJoQzY0VVhi?oc=5",
+      "published": "Fri, 07 Mar 2014 08:00:00 GMT",
+      "source": "YouTube",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Médias : La mémoire sélective des nostalgiques de Bourguiba (2) - Nawaat",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNFl2U1IwYzJxakpmVElYa0ZQSjZDWDItX3IwTUNyNUcxNV93QzVKc2xOWG5vNzR2OEcySVhrOGlWemxMNVY3cTRBX3lCSnAtUWdjQ0tWZGNOVmw2dnN3WUhXX1oxVjdEdkw5dUYyZ1ZVNzNuYktqbzZ0RjY2d3dUR0xaY1NTVWNaLW5uUUZ4WnduMXRf?oc=5",
+      "published": "Fri, 24 Apr 2015 07:00:00 GMT",
+      "source": "Nawaat",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Programme du Festival International de Hammamet 2014 - Kapitalis",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORTFwSmtfR2RlRnE4c19qY1NTaGZ2Z2prd3c4bzdLSDFkRTViQ1V1V2EyMjdzZWVlUU1wRnVzZmp5ZHRuNGVySS1IdFpILXFlYW9FTEQ3aFBZSTFKWFY2bjVOTWlUa21DTlVjbXNMZUJIaXlmYWg2YUdSWUVhZTBCeFVyRUktS1VfQ3BNUjRPSWFJUDN6WENsbW8xanUxYi04VFNQU1J1N3JTTTJr?oc=5",
+      "published": "Wed, 09 Jul 2014 07:00:00 GMT",
+      "source": "Kapitalis",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Troisième édition de la rencontre avec le peuple : Quoi de neuf ? - Cridem",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wNXJ0eFBKdW5zaXhVZ2lsT1o3NEhWeGNicjdUcDdKSXE0c3U3Rm0xeWdzdlRfcjgtaGhBV01xdDI5NE1uYXFIUHBUZWlFV0pLdUs3QzR4SkJ4TjVO?oc=5",
+      "published": "Thu, 01 Aug 2013 07:00:00 GMT",
+      "source": "Cridem",
+      "query": "LIQAA",
+      "lang": "fr-FR"
+    },
+    {
+      "title": "Yaakoub Hartem: Engineering the Trust Layer of the Digital Economy - Issuewire",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNWhOdWtTUzUwRFIxYnFSbzZwZ1ZxSFpWX1JjTmhmak5SWl83djM2NUNFZFlLanFKOGVoeUJsdkNrY3pzVmVQOXVMS1FpN09JcDNnUXk2enZLeWZ4VzBkaDVyaXVwRTB4a2Q4RFlBMUxZckJxc2l6MEZSbm5XUXFOMHBNLTRFV2phVVAybWJ4UHJPZmstSlZfQmpoN1ZiOVhrLXl4NVNDRFBTakVt?oc=5",
+      "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+      "source": "Issuewire",
+      "query": "Hartem Yaakoub",
+      "lang": "en-US"
+    }
+  ],
+  "new": [
+    {
+      "title": "شركة الإسمنت لعين الكبيرة بسطيف تفوز بجائزة الجزائر للجودة لسنة 2018 - sawtsetif.dz",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ycDlDY0JUN09ha25pUVBSVVJEZWdmZ3Z3RmhfYnd6ZlRobnNYQVo0SjFzZFhQX0R0NmIyUG9XVUk1TjYzU2dF?oc=5",
+      "published": "Tue, 18 Dec 2018 08:00:00 GMT",
+      "source": "sawtsetif.dz",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "ترامواي: جميع وحدات شركة \"سيترام\" تتحصل على شهادة ايزو 9001-2015 - Autobip.com",
+      "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNbVJxdk8yVzh6cXdVbEQyRlpKekM0QnZyWlgwX1lLdVJfMHZaR3lrZ2dscXhYSlZudUltb29obVlFRW5pRV9mZDVMRFpGTkpRNlJIRzJtU0lNTmhuTHJlNDVjSTE2TFowT21ueTQ5NTRmSDByTFVwWW9CVjA3NXFQT3UxUXJXOFZGSXYxeHU5bDRLOGNPQjRLVkszbEhHcDB5eldDeW1EajY1Uk5XZ21CaHF6dVJLeUlJdzNsMlQ5QUd6ckViMjhYUW1uMHN6N3Y0UkowNGFyaEg2RVFydW5UNW5tSnFrc1VGQ1MtOEVGeklVUWFlUVdfTUdxV3piaElKancxbzN0NU9TTmNJYlkzZUJOeC1PbFFNYzRfelJEZldWMU9rNXp0R2hHRlBkSkNJWDR4Sm9EOU9JbTc0ajd5VVJzRnVWRGk0WmRCNDliQ29PeWx5YnNNT2d3VHZNMElqVWliQy0wMUNNWmJZNGpmMVNWemVwTUdIcUYwakNQSFNmZHp3c25nTUxtV3NjMGZLcG5tMW82cWE3VDVUWmV6RzdKc3E3UjhpdGhBYjl3WDRKdS1fczJubWs1Qm5WSnVpaWlqREJ0cFFxOG1mUHFOYw?oc=5",
+      "published": "Wed, 05 Feb 2020 08:00:00 GMT",
+      "source": "Autobip.com",
+      "query": "Algeria Certify",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الرئيس الصيني يتوقع لقاء ترامب مرتين إضافيتين هذا العام - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxNcWM5QldqRTQ3UU16TEs0NzJiZnMzQXFnZm5tZi1WQXZqRlVueWVUd1oyZzZveGE5NmFUcjdxMUkxYnBwWGhZY2hSOWtlX3B1eUFKTmR6YTZFVFBhS2VwMUxMc2kyMldMa1U1YmFkODAwZldtWmVkNExYNXA3ejVCZVlUYUUwLXd2Tk9nM053ZF8tMHFDbDg5MEc1TXVCNjhSdE51SWgyQUFaSFRBMkFDREo3dV9rQTd4WmZTeWpLdWxQN1VTajFuR2FaWTVFMG1wVUw2cWVkNl8zLUFkOHhsRVNmMENLUU9rZWJTOUQ5Y1ozbEh0NlVkVnVWcWRpOVU2VUdpZTlrRVRxMXdQa1N2dFJlOHY1X3o4VmVyTmtQMkFzQVo0N0dFSHhkUUpiOE5PS3puZ1h2bk5NbzB0SE1IdzlFT0k1MjluNHA3b0E5cXFraDFRVUxWT0pzM3p2NzFiZWVXSGozM2lvdUtBc3dZX0VXNG9US1JHdjhRVzJhcWlxMzVPZzgxZHRvdEhnSHdtbm5FcHhnb0NKdWFRQ0xMeU9oNmsyd08wVlNCdGZNb3BJQ0k0VC0wTnlhcGJPVC1nTnc4OFJ3eGFtZHBRVnByaUttZG5Ybmh5VmfSAd8DQVVfeXFMUFZYbHZ2TGd0dThmX0phQlZvcTh2QVN1ai1aeDFMTklDeTRGR01hUHlOYXhqT0djRzU5bVpKYjZWOGVka1hfeWFoYXV3LW9jSVNQVVp4WWJVQnhGZk1HX2wwWUZvcHVraEhFcFVDdVcxMW13WTNTdlhZWUhVSU5xaUtZZWZnd3l1dXhEZk1nVmZjZk9odkg0ME4wSllubHN3clJHX3NHSXpvenFaWFA4eW8yWUcwTEllTGRYOEJiV2R3ZDJ3OGVCaGg4T1lfcDdqX25ER3R6ODkxYlhTVmpVSGk1R01iNndZenFRSkJxWU4wMjhXYTZYT00xcktwNFQwTmU0QXFET3lJNm90ZldVX2c1NUVqWnlSUGlqMjhWTld4UkdlSlZNQ3gteEpJNkpKRVJFSUxKV1lucWdUMWExaWN0ZFVWWXZkd1NpbHRGTlh1UmxvTjVYQXpTbzZRWUVULTh1WVNQY3R6bmJQb1AtSXdEUHkzMTJ1X2xPbWZpbDljdEFoSjRVdTR0UlhacGxNVnE3NFdGUE1fSERwaWtuaVB1ZmZqb2hMZV8zTTZVbk9JX0M0bGRPRW45WWdobldUUjBlT1JELTBDRlphTzlIdjZrUWV4T2syRkRyUnpDcDA?oc=5",
+      "published": "Fri, 25 Sep 2026 15:57:07 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "محمد عبد الغني أفضل لاعب في لقاء الزمالك ومنتدي درب سلطان ببطولة العالم لكرة اليد - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPTnZRTm1NTDl0VlFRZE1uWVkxb1R4U2hsNHZYdU9PM0ZLUFc5aWZiNF9PTDB3aHBzWHp3YVhRbUhSUkNXWlJucmVBOUhvWTdnN3BmSWdjeDN0Z3dPdlk3WFpVOGVpYmZPX29lUDB3TFhublJ6eXd3RTFIMHJBVEJuTnY5NndHZjBpcDU2cEpxeUhRX1FKLWhlNGVwT0Zaa0V2Mkx3N3p6cDl3WHBhc20zUmtFQ1Fhd2xvWlBCc2hQTmNWTzdkNi1CX0tHSGJ4M2hscGJBejV2bXNqX2xMb2kzUHlNcjlsOHZCR3dvM1lnTHRITUU0SXR1UUstQ0JhQlVLemJFNk9YWXNBRmlOM0t3WXNpS21yeFBnVHNUUnk5anNwOEluOTBzc0ZnNFF5MDluMkxaRWNUZXF1RmRSeUZyZkFZeVU0QnNvSUhzWEpxS3hiRHROQlFtTXA4NnFKMU9WUnF0VTNTT2NEZjQzTHZmZFluclZJWnFWYTJ0N1MtVlNuSm9BYnlfQWlOMTNQMURhRmFvemNkTkdTNWpoeHlTQW84MTBIN0lveVVIYWcwc0tmZEFlWHfSAbADQVVfeXFMUGNTVFdBYVhkVGE3MG14cHh3Z0NaN1JvZVJPc29TZTVrdUh0el9BS29xSThxQ3IwZGZ5UXpEMFlsVG5oZ3VsN29GOUNtVldMQl9VYkFScmJFSEtuaWZZMU80WVdHUXc0M3NDWlhXRURaLWxCQWxPWTMyV3M4ZmhqR3VSSjFfNnJQNGhkd3FiQ3hCZVp2enMydVliS2gxNUJEMzhHZjhWUTJsWXF6amFVMEtzMFdZNHhRN3l2TXJLdnIzNnRMUFJiWEUwZ3NlT0hzb0NvSnI3aE5xVjFuM3FQQ2hPUlRSYVZzZXpwdVRnenM5bFFLd2dVY0ZLU2Y0Z2Q3ZDFqUnhSNU5YTENGUlJxUzRJMEctX1RjcmdIUk5rWXVJS1lfaUt2VVFkNHZ5RFN5VTVlQ1RYNVBYb2dKMWU0ZS1SQU1UR0IxUmRlRGFEbVJhUVJ1TWZ6SHltY240RTNwd09LbFFYd1hxZ1Y1bkdORnRMb3RLZ0NMYWlERnJ1aUlwblFoS3Z2WlJFQjBqZDdzTlhoYkd4ZlFQQ21jbVotOFRTR0dyN2ZCU2h2cFZzelZE?oc=5",
+      "published": "Fri, 25 Sep 2026 14:35:00 GMT",
+      "source": "اليوم السابع",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "جولة لنجوم منتخب مصر في فندق الإقامة قبل لقاء أنجولا - الهيئة الوطنية للإعلام",
+      "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxPQnJ4TE9obGRwQ0hDa2k2ZjFJeWR0VWxtaDhZQmo0ZlREZHlGTVIzX2F5NmNNQU5fb0xYLUl4aUFtNnA2ZEM2Q051ajA3QTZvNVltczRYZ25QLUJkb1NZUHNKTGpkeDB2c0h2VXJXckNmdjI3SmxLN0NjWUtZeTQzMWdYWkkzbm12eHl6TEM2dS1TYjBjRmZrSTQwTHRtNjRzNXhiNy05WjBoX2d0blh4cG1VUWtMbjlGRGd4ZUQ1enR1N2VsV0x1UzV0Y3N3cDI1UTJPVWx1a2h6dktoR0NiOEhzN19nakdhSXVjU0RWOE5mQmdYdksyM3YtQk9CRENtVDNqZFdGeEh0VHFjMTZsYjBWOHlqUEVQRVhFR2xwdXpXcXI3bDJzRXlUQkJSd01hb3FoNHREM1hsTWxVaG1aaUJ2cGJJSklUMzNvbzlyVzFNNkM1NGY3ZDN3cXVtbTVUMDBMSFhjRVhhY200UE53SDR3MkwxckpLNkdjOWRiaEpyVlVIMGlJT2hQdDhrR3c1WHJkcFYyZWwxTy1xd004T19LN3VNRVhjOEgzQXgzRkRyU0FiYktQMXp5aHVvTm8?oc=5",
+      "published": "Fri, 25 Sep 2026 13:28:00 GMT",
+      "source": "الهيئة الوطنية للإعلام",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "تأييد أوروبي للضغط على طهران.. وبحث هرمز في اجتماع دفاعي - الحدث",
+      "link": "https://news.google.com/rss/articles/CBMiwANBVV95cUxPMjVDY3FObjZ6WjhNUEIyX3FhZHk0d2pNS1lBNkkwTTI4czBTYkEwalJnR25ad0xuRF84RmVGbE1DRnhQa0VzM0I1UHBadXVvZUc5MWJWVmFvbUhiakVydlh2YURYUHAzRGZlNEYtOHI2dHZhb25IOTN6b3RSUnYtb0ZYczB2V2VDOEtzUHVLSFRHZ0ZwaUtISTU4cUtyWUJ0OFFLOFN0Q3pROXpva2lOZUJ5WkFGZ3JfZ0htLUF1dWlCMDNyWExrQkxUUUV2dE9aQ1ZmWlktbTV0NTlzMzdjRzRZbmFpemlSRXdRby1TZUp2VVM3cG9yM3dkUDFxbVBRUmk1bU9NV2lZWjlON3JtMXo4bW9tNzB3MkJuTU0tRFlkZXBiRlNQaEJtemFIVnZkb21GeWpkTjFfWFlWeF90VGlZbFRCdzRPN0JvT0F0M3NVU3VPZThOb2lDX0t3WGpBc1lDNmpCNEc0MmNZVFduZHM3YWhTQWtMcFU3X05sY1lHYlNEOGx3eUw1NEJBYVY4ejJCS3hnSlcxbHJtNzE0bFB3SWhwWEJFenJtZGx5Mkx1bFFxQjhxMEl1UTBsb2p30gHOA0FVX3lxTFB2QnhzRDFpUGUyeldDR3d3VklCMWVrUEdSVUp3bEdVYWFFZmV2Rm56QW9hVVZDTmY2eFBwVEV4ZURNZ2c3d3A0Ni1HdEdfcXlnYTVZYS11UEFTUVF0XzlHekJRNHVNdk5xRDZtZEU2VmgxWDQ3X0gzRWRpeERGY2N1VmVQNjJweTB3T3JmQjl4aWVIbVRFMWkwT1hLd3BhVnNPTU0wbk9WajdPdG91UUhIN0hPQy1IN0dlZjE3SzhKSGdlazZiRmtKem9xaUFIczE3ZktGQ0Z4LWR4M3VRTFEzajd1VUpwR051Y1JXMDE1Qi1Pdy1Ld08wZGtobUtwUXF2bU5pZ1hoWEFoU1RSM3I5OVltVHNGWE84MmI2TExaQV9aZVJnR3ZuVUE4UGkxbVo3VmhzRWZOUFFRVEphSWVYREQxdDNXdE40UHltRlNUNURMRmdsS0pNdjJMaHgwcDZBYmJoYmZERDk4QnZIX2RLR3ZVYkFJTGtZSzZMc3pyelViaC1XdGFOU19wMk0tVDRpYlJxNVFFQmpDZ1BpdjNaRHhMdVAzVlpiWklwUEJiX1c1ckp0ZkltQmpQVVdUYlZoUHlCRjUzX3dYT2t5UQ?oc=5",
+      "published": "Fri, 25 Sep 2026 08:54:00 GMT",
+      "source": "الحدث",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الرئيس الصيني: أتوقع لقاء الرئيس ترامب مرتين إضافيتين هذا العام - بوابة روز اليوسف",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtMG5kaFMwWEdpZHN3SW1EamxISFhkTXl5dENlVnR2bkVXbnZhQ3dxUHM0dDE0SDBGREFZeHJkT052ZjQ1WVIzQ2Z2aVBkUQ?oc=5",
+      "published": "Fri, 25 Sep 2026 16:56:36 GMT",
+      "source": "بوابة روز اليوسف",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "الكرملين: لا تفاصيل محددة بشأن لقاء ثلاثي بين روسيا وأمريكا وأوكرانيا - بوابة دار المعارف",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04TzFWSWJ2RzQybm03OXZvblE3cWpUa0ZTc2VMTnRPTk5WZjVBSXBaY04zSmtGSU96OHlaSGZMYWVZbEI0ZTdpbEtieVRQeWk0clE?oc=5",
+      "published": "Fri, 25 Sep 2026 12:22:40 GMT",
+      "source": "بوابة دار المعارف",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "في لقاء بهانغتشو الصينية.. «خالد حنفي» يطرح رؤية للشراكة العربية – الصينية - صدى البلد عقارات",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPQWJKemFsTjl0a3dPNWE2OVNSYXNTWVUwLTJoWkI1MEhjNHB1aWMyM1g0cm9lRS1wR0ppcU55bW5RbURSU1MxNzFDb21XQ0NQaF9ubFdiRmM1NHBjeDNQQzFiRkowQ3J4M0dNcDI0bktid193eDVQaXpPUlhQeFZXNjNIRFY2YmpBdm84X0dVMDc4S1RObFBuSktndVhmMTJvNzV0aFBUVHlKeDkyeF9UT1JVTWV2UzFSSGVlVUZJQWpTTjhhV0xyV0ZyWFJYUjVWYlExQjFDV2VoLXNUeVBpM1BXNHJCenRUd25qblloLTk4d0ZSOHBEXzY3aWMwUGRkaGh5OTBZOHlLWlJhcm9WcGM5bHhwN19Bek1VNmFaVGpTMzRKMDVvMkRteGxKYnIxcXNSTkdZNU9EdEUzbVktMDJxYUc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:10:34 GMT",
+      "source": "صدى البلد عقارات",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قمة ترامب وشي.. ما الذي يكشفه لقاء الرئيسين في البيت الأبيض؟ - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMihgRBVV95cUxOXzhHYUd2cTRFcjlmZmV0U3duUm42WEEteUpaZk1QSl9kUmEyUVJ2blpOYkpkbTRQckNiNVhDQnZjelVWLU82SWExUTNHNDIwS3RDQmFUVGxtaGUzaTRGWGdDQzgzSkJySFNfUFAtNnA5bEhCQnIxb0p5Wmd3NG5mekhxSDFSYmVvRnVxeVdLTE1ZS2ZpTm5rV0o0WDN1RmNCUkJPNjZWcmZEX2lOVGhTMElKU0Z2NVhmbXY3alYwNnZ2Nk5lR2RUdVNCY25mNzI5ekNhdG1yQ3l3U0ppckV2Ti1IYjktRW9PZi1pSFBneHJkLTdWazkxNjMtai1nQ3JqWS14MVVjVGc1SFhmUHJBVXpJNXVpYVRvU3NjSnNiMFdSV0tzT1dxaC1NVFpNbmdpUy1ldDhyc1EwX3Itd01jTDlZUzVJcERDbHpqUVIzb3BubUtVeTNhVDQ3U3lOem1La19ZYjROODJUX2ROUnZWcmFjSW1jeV9WZGs1S0lhZC12bGtnN0NxN2JYdjROQURNd1BGVDIyNkEwdHhvQjNyakc2NFNXWVFOOERRelNYQ2R0RTlVZ09Ua3YtM3NjdDNjYkJIUGUwR2lQejY5V1FwRHBlTEMySHlhMkVwcGdEZGQ5SHhObndwNDJ3MlFYaEg3bHZqLTFPWHVTMjRQbFdQZThWcHV1QdIBiwRBVV95cUxOOVNOV0tGU2pOZzBWWHNMZ0U3QmV6ellkdl80UGRuNVpXNnJBZVJmTVNwOXRWbXBhX01zX0VKcVY3ZkY1Z3lWVm55eE1CVkpUUFRXR0NHcDZ3V2R1SDZ6b3Q2TkNLQjlDSjA5SVlJUGhqMDB0NzlFdXJkRDdnbkNYNE95aHltNGVvaHpyZmJvUGZhUnR6cnAxVnRaWFdxYlpQQW0waVdfdHJxS3A4UDlISG1RRlRKTnRILTZ3cFJSb2lkU1k5bm1KdjJPYUtJaGMyclZKN2piTXRRdmc0MGtsYlVrMS0wM1dwQzZKbU1pTUoxYVFaX19WUGJ6UkJ4MkwxYlNacXdKcHJUU1kteGxrd0Z1aTNWaDFBbndkV280MDV0N1Q2WkRTbkRTTG4yRk80THN0WDluRl9YcTZQY0JEanFCRERMTXFtVnEzNEtxb01ENUZpNEJxY3VKWVhNYXEyQV9manZuWmJ2dDFvTThacUs0TG92MFhSUzNmckRxdXZEM1dsekhiSG1Pc1YyMU15d1lqaWpZQ29NS1diVHVqaWlQNHRKY1I4UUtnR2c1M0JDV1FLUUlQakJCM0NEUGJqVzlVVXhuUEVfdlp5clhOS3ppc092WjZSUEpxMHJNWHVzend3aGV0NWNlN0U5V0otNHk4bXhuQ2VGemFoYnRYbk9zRUZJN1pTQ21j?oc=5",
+      "published": "Thu, 24 Sep 2026 22:01:39 GMT",
+      "source": "Masrawy",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "لقاء عراقجي مع وزيري خارجية بروناي وقبرص على هامش الأمم المتحدة - خبرگزاری مهر",
+      "link": "https://news.google.com/rss/articles/CBMigwRBVV95cUxOOFZjTmpra3ZWY3lyRk02VUtSeUl5Wmh4dmlNTEQtLVdQS0thdU94c3hYZFJ1a1VlVzliZndzSWR5WEZfbk54Z2plQjlYYjN0MGg0dEhOclAybHNhWloxbGtlZlY5VWxiSDBHM2JxX0JOYnpWbmVwNGVvcUd2Vm5vUk9UYWgtaTZHVjdSUFd5bmtwcWZpaEdhWWNkbHdvU2pEUHRGbExsclMxNHFLekU2eUdPNE1Ncm1BREFsMzd2X0xTbnU5WXZYM1pnTG1STTZNZFlDMm92TUVVWUVVa1BBTk1yaU5URTlCYzU2UDVGSkVfSTVOVldnVFRHcTNpZEFVb3RBbXJVRDlqYUdtSE9zVm9tY3F5SGRUdTJfUDgtVElxeGRFeUNIbEc2ZDNZcVVkalZZbGhrYU5GWS05R1JBU2dlekFhLWNfbnlhT25tOGFiWWRZdWJMY0EzVi1OSTcydVduN0JjUkRINkt0LVF4Sm9vQW95dGY3aUUxVnpfYXkwd2hJQjNUMXRsamhIRWVPemdaS0xQbGc1TjNYWDJDalY5cWF6WkNZMW16eHZ0dnkyVTN2TGo1VERrajB0N0pha1A4T09aQ1FtZ2lvZk9URlRpSmFrcUZkRDBxRGF6NHZGWU16U01NNndsLTM0UWxRVVZtdE15NTJEZGZiMy1XUTJjdw?oc=5",
+      "published": "Fri, 25 Sep 2026 08:11:00 GMT",
+      "source": "خبرگزاری مهر",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "لقاء بوتين وزيلينسكي.. لماذا يتعثر مع تصاعد الحرب؟ - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOcjU1elNFcTd4NE5BOENJRWJIMExIV1BPak50VVh3cUh3bklpelNQN19TN1JnalJDVFhUNnQyVmwwenhldnZSVkxSblhnTkYzaWo3VXJyWFd2WFJGbndDTHRUYmFIVzdlY0pxME9Id2dkeVFKc0Z2RThaaEh4N2RHcG5pVWVSTzEtVWM3ODVGVlhfRExYRlQ0YWp6SWNTXzVzTVkwQnZpYVU1Yl9TX3RSTW1ZeDNPMnVyb21TV1h1NmUyR05zaDFKNjZlUExtdEgyb3NEMXhEbUdDUnNYQk9IWjFzQXVmMFFTVUhJOEttM3NiZnBsMjRWb1NiSEVTZFh2SEEtZGVPTFFGMktLVXJiQ0xtSlh2X2dPc05xbEM2Wm5HWVYxUGxsNWxrTGJ6eDJlZnpEVk1TTXN4YXYxYV94bFdRcGdrcTJ4OGt4UmJYUDhhX3E3MVVIWTA4NU5yTENGUmozU1duMXVJLXo2aS1Vb1hkS2V4UmszQ1JnT3dtYnhJdG96eUlzSzNPZXVuX2_SAZQDQVVfeXFMT2hHN0J0emU3QUNvdGs2dHhkWGxaVzBqTG1FdFIzd1VuN3dVNW5HaWRYbzdPVWdhZDZIWTl4UUN2bVdQX0pZRVlIenBnMlRuXzNHZXc2MnI0ejVLYjJDSWhEZTVpWjZHemxodXlpWGRneWVqczI0WG11b2h5T0VwekhOekNHUWYzVlV1d3Bjb2ZHNjNoRE5kekI1TllCcUVCM2s5OTJ1SFlxS2dNdmNLXy1xWXF0VFFTNHg1VEV6ZzlnVjhTbUpJXzlabDBVYjBSelN1c0hTZWdsMEZfVGlyTzdORnBwTG83UldtSjZuU2J0S2hDR3U2THU0aVpTZTNxRjUwOV9aS3ZobUdNV1o4YUliSXlYbExUdlFrVmVpYm00SG1LVVFhTEh4VnJON3hiTHh2MkR0R3FvTHdJM2ljWXhoN0tJYW4tUHVWUjdyNmo3YnBKak5mQXNHaGtDLVV4cUVhWTdFdHZYdW1ZcTVFQ0Y0SExVUS1GdTU0MGY5SDBrYkpWbzRGNnVEV1ZRLUpZaFREeFM?oc=5",
+      "published": "Fri, 25 Sep 2026 07:07:22 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قبيل لقاء رئيس الصين.. ترامب عن الذكاء الاصطناعي: أريد إبقاء الأمر كما هو - CNN Arabic",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQXFTZUROTzhyaHlaMVBSc3JoWDBlT0FWa2xoRjZyVlMwR21iZGN6Mi1PUE1XREhDSHkwc3ZGRnlRS1d6MzE4dFhZWWVibFc2cW10X2hTQ2VZQWpTWm05d2ViTW5NSjNaOW9uS1hnVjhWQmstbHdGZmVnX1gzMERuMlhIQVBiLUpnZ1RYSFZvWHdIN0JQWlRzSGJWU3N2LXdzbjZNbEVn?oc=5",
+      "published": "Thu, 24 Sep 2026 13:29:17 GMT",
+      "source": "CNN Arabic",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    },
+    {
+      "title": "قبيل لقاء ترامب وشي.. الكشف عن خفايا التعاون الصيني الإيراني - سكاي نيوز عربية",
+      "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOWFI0Y09lSUNIVlF5dVBlV0xQVG9mRDJyMmZVTkRWeFpKbGR4bU55cUdwODRDa2JjMkVlQk1CdTlVU1VEamRTblVQcTFKVUVIRGxIdWtnb2ZQNTlCUzVHZ3BnOWZORkRFVTVUcm12MVg1WUdoRDViTDcyaThBVTFGRDk4N25pYXU3LWl6MWlvVHdDb0hGTzBINktWM2E0RDktV0RyLUFwbDVOVGZTT0lIRV8tSmhMQ3FiRVluMzkzZjhSenVEbHJvM2dXRDVhTW1RVHV0MFVqdHpabFZSNGs1UGtzeXllbnZGbWtDeHRnREg3RjFETmNRcF9wRU1yUVRVaEhEM3V0MGMzV3picG82by1BZndMTTJ2WXdKem5TT2kyVU45MUhJbHRncmsxb3d3M0YtRjJ4LUtTNU1zcmFmeHNOY01tOEdSNmJfb1liN21Tc1lscG9aNGxkLUgxejkwdjRkZ2dudUt1NDhKQ0pQNFVhb3pMVE9YZWl3UnA0MlNmUmNMVTBVT1czNVp1cTZ2Q3k0dDVTSzNmanFWRzNYaVhxc2lYVFhUU2V1MnZ6UWJRTGRNamYtZFJyLU1wblB3NVlaZGIwbXZvT25oY3hkUkJXenkxUjdEbjM1MUd4SEJaR1dVenYzU2FGQQ?oc=5",
+      "published": "Thu, 24 Sep 2026 14:08:30 GMT",
+      "source": "سكاي نيوز عربية",
+      "query": "LIQAA",
+      "lang": "ar-DZ"
+    }
+  ]
+}
