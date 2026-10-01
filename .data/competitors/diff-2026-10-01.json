@@ -1,0 +1,53 @@
+{
+  "scanned_at": "2026-10-01T14:12:14.997035Z",
+  "total_new": 3,
+  "total_seen": 3102,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 631,
+      "new": [
+        "https://youcan.shop/ar/blog/posts/kyf-tngh-fy-altgar-alalktrony-10-khtoat-lzyad-mbyaaat-mtgrk-alalktrony",
+        "https://youcan.shop/en/blog/posts/kyf-tngh-fy-altgar-alalktrony-10-khtoat-lzyad-mbyaaat-mtgrk-alalktrony",
+        "https://youcan.shop/fr/blog/posts/kyf-tngh-fy-altgar-alalktrony-10-khtoat-lzyad-mbyaaat-mtgrk-alalktrony"
+      ],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 555,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 627,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 91,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1198,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
