@@ -1,0 +1,54 @@
+{
+  "scanned_at": "2026-10-05T13:53:58.631016Z",
+  "summary": {
+    "checked": 300,
+    "broken": 9
+  },
+  "broken_links": [
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/' + esc(safeUrl(w.url)) + '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + esc(safeUrl(w.url)) + '\" (found at least ' ')"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/' + esc(w.url || '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + esc(w.url || '\" (found at least ' ')"
+    },
+    {
+      "url": "https://tkawen.com/formations/'+x.u+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://status.tkawen.com",
+      "code": 405,
+      "error": "Method Not Allowed"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/login",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    }
+  ]
+}
