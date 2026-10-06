@@ -1,0 +1,98 @@
+{
+  "scanned_at": "2026-10-06T15:29:24.560997Z",
+  "summary": {
+    "pages_scanned": 161,
+    "errors_total": 20,
+    "pages_without_schema": 15
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 19,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/tools/schema/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/oran",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 5,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
