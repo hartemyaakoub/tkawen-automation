@@ -1,0 +1,64 @@
+{
+  "scanned_at": "2026-10-07T14:13:05.447759Z",
+  "total_new": 10,
+  "total_seen": 3113,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 634,
+      "new": [
+        "https://youcan.shop/ar/blog/posts/mcp",
+        "https://youcan.shop/en/blog/posts/mcp",
+        "https://youcan.shop/fr/blog/posts/mcp"
+      ],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 557,
+      "new": [],
+      "removed": [
+        "https://www.shopify.com/event/brisbanespringeditions26",
+        "https://www.shopify.com/event/montreal-aug5"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 634,
+      "new": [
+        "https://www.accredible.com/blog/what-4m-ai-credentials-taught-us-about-growing-an-ai-academy",
+        "https://www.accredible.com/legal/dpa-old",
+        "https://www.accredible.com/legal/print-terms",
+        "https://www.accredible.com/legal/privacy-policy-old",
+        "https://www.accredible.com/legal/subprocessors-old",
+        "https://www.accredible.com/legal/terms-of-service-old",
+        "https://www.accredible.com/newsletter/certified-insights-newsletter-issue-23"
+      ],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 90,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1198,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
