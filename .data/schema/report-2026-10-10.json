@@ -1,0 +1,112 @@
+{
+  "scanned_at": "2026-10-10T14:46:57.752324Z",
+  "summary": {
+    "pages_scanned": 158,
+    "errors_total": 20,
+    "pages_without_schema": 15
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 19,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/tools/schema/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/oran",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 30,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 28,
+      "errors": 0,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://tkawen.com/protocole",
+          "error": "fetch failed: IncompleteRead(113304 bytes read, 74272 more expected)"
+        },
+        {
+          "url": "https://tkawen.com/blog",
+          "error": "fetch failed: IncompleteRead(113305 bytes read, 128220 more expected)"
+        }
+      ]
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 10,
+      "errors": 0,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://liqaa.io/",
+          "error": "fetch failed: IncompleteRead(61839 bytes read)"
+        }
+      ]
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 5,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
