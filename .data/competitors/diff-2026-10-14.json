@@ -1,0 +1,63 @@
+{
+  "scanned_at": "2026-10-14T12:39:07.330751Z",
+  "total_new": 11,
+  "total_seen": 3126,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 637,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 555,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 636,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 90,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1208,
+      "new": [
+        "https://docs.daily.co/docs/guides/features/dial-in-dial-out/sip-clients",
+        "https://docs.daily.co/docs/guides/troubleshooting/before-contacting-support",
+        "https://docs.daily.co/docs/guides/troubleshooting/debugging-call-issues",
+        "https://docs.daily.co/docs/guides/troubleshooting/debugging-recordings-and-transcription",
+        "https://docs.daily.co/docs/rest-api/access-links",
+        "https://docs.daily.co/reference/rest-api/sip-clients",
+        "https://docs.daily.co/reference/rest-api/sip-clients/create",
+        "https://docs.daily.co/reference/rest-api/sip-clients/delete",
+        "https://docs.daily.co/reference/rest-api/sip-clients/get",
+        "https://docs.daily.co/reference/rest-api/sip-clients/list",
+        "https://docs.daily.co/reference/rest-api/sip-clients/rotate"
+      ],
+      "removed": [
+        "https://docs.daily.co/reference/react-native/instance-methods/update-input-settings"
+      ]
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
