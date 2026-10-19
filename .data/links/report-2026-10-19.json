@@ -1,0 +1,64 @@
+{
+  "scanned_at": "2026-10-19T12:27:03.892702Z",
+  "summary": {
+    "checked": 300,
+    "broken": 11
+  },
+  "broken_links": [
+    {
+      "url": "https://algeriacertify.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://status.tkawen.com",
+      "code": 405,
+      "error": "Method Not Allowed"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://mystoq.com/fakeshield",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/login",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/pharmapro/docs/ar/'+p.u+(h",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://mystoq.com/cdn-cgi/l/email-protection",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/formations/'+x.u+'",
+      "code": 404,
+      "error": "Not Found"
+    }
+  ]
+}
