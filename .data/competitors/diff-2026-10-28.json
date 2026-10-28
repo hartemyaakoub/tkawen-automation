@@ -1,0 +1,55 @@
+{
+  "scanned_at": "2026-10-28T13:50:00.118586Z",
+  "total_new": 1,
+  "total_seen": 3115,
+  "by_competitor": [
+    {
+      "name": "youcan",
+      "sitemap": "https://youcan.shop/sitemap.xml",
+      "count": 637,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "shopify",
+      "sitemap": "https://www.shopify.com/sitemap.xml",
+      "count": 555,
+      "new": [
+        "https://www.shopify.com/money"
+      ],
+      "removed": [
+        "https://www.shopify.com/compare/shopify-enterprise-vs-adobe",
+        "https://www.shopify.com/compare/shopify-enterprise-vs-custom-platform",
+        "https://www.shopify.com/compare/shopify-enterprise-vs-salesforce-commercecloud"
+      ]
+    },
+    {
+      "name": "accredible",
+      "sitemap": "https://www.accredible.com/sitemap.xml",
+      "count": 621,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "credly",
+      "sitemap": "https://info.credly.com/sitemap.xml",
+      "count": 90,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "daily",
+      "sitemap": "https://www.daily.co/sitemap.xml",
+      "count": 1212,
+      "new": [],
+      "removed": []
+    },
+    {
+      "name": "agora",
+      "sitemap": "https://www.agora.io/en/sitemap.xml",
+      "count": 0,
+      "new": [],
+      "removed": []
+    }
+  ]
+}
