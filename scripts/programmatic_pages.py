@@ -91,31 +91,73 @@ def render(slug: str, wilaya_slug: str, ar: str, fr: str, intent: tuple[str, str
   }}
 }}
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
-body{{font-family:'Cairo','Inter',system-ui,sans-serif;background:#fff;color:#0f172a;line-height:1.6}}
-.wrap{{max-width:760px;margin:0 auto;padding:48px 24px}}
-h1{{font-size:34px;font-weight:900;letter-spacing:-.02em;margin-bottom:14px;color:#0f172a}}
-.kicker{{display:inline-block;padding:5px 14px;background:#eff6ff;color:#1d4ed8;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin-bottom:18px}}
-.lead{{font-size:18px;color:#475569;margin-bottom:32px}}
-h2{{font-size:22px;font-weight:800;margin:32px 0 12px}}
-p{{margin-bottom:14px;color:#334155}}
+:root{{
+  --bg:#060a18;--bg-2:#0a1024;--panel:rgba(255,255,255,.04);--panel-2:rgba(255,255,255,.06);
+  --line:rgba(148,163,184,.14);--line-2:rgba(148,163,184,.25);
+  --ink:#f1f5f9;--ink-2:#cbd5e1;--mute:#8ea0b8;--blue-2:#60a5fa;--cyan:#22d3ee;
+  --grad:linear-gradient(-92deg,#60a5fa 0%,#22d3ee 50%,#a78bfa 100%);
+}}
+html,body{{background:var(--bg);color:var(--ink);font-family:'Cairo',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.7}}
+a{{color:var(--blue-2);text-decoration:none}}a:hover{{text-decoration:underline}}
+::selection{{background:rgba(96,165,250,.35)}}
+.aurora{{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}}
+.aurora::before,.aurora::after{{content:'';position:absolute;border-radius:50%;filter:blur(120px);opacity:.35}}
+.aurora::before{{width:560px;height:560px;background:radial-gradient(circle,#1d4ed8 0%,transparent 70%);top:-200px;right:-120px}}
+.aurora::after{{width:480px;height:480px;background:radial-gradient(circle,#0e7490 0%,transparent 70%);top:160px;left:-160px}}
+.wrap{{max-width:820px;margin:0 auto;padding:40px 24px 0}}
+.brand{{display:flex;align-items:center;gap:10px;margin-bottom:52px;font-weight:900;font-size:19px;letter-spacing:-.01em}}
+.brand .mark{{width:26px;height:26px;border-radius:7px;background:var(--grad);box-shadow:0 4px 18px rgba(34,211,238,.35);flex-shrink:0}}
+.brand span b{{color:var(--blue-2)}}
+.kicker{{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(96,165,250,.08);border:1px solid rgba(96,165,250,.25);color:var(--blue-2);border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin-bottom:20px}}
+h1{{font-size:clamp(30px,5.6vw,44px);font-weight:900;letter-spacing:-.02em;line-height:1.2;margin-bottom:16px}}
+h1 .grad{{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
+.lead{{font-size:18px;color:var(--mute);margin-bottom:30px;max-width:620px}}
+.lead strong{{color:var(--ink)}}
+.stats{{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:0 0 44px}}
+.stat{{background:var(--bg-2);padding:18px 12px;text-align:center}}
+.stat .n{{font-size:26px;font-weight:900;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.2}}
+.stat .l{{font-size:12px;font-weight:700;color:var(--mute);margin-top:2px}}
+h2{{font-size:24px;font-weight:900;letter-spacing:-.01em;margin:40px 0 16px}}
+h2 .accent{{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
+p{{margin-bottom:14px;color:var(--ink-2)}}
 .cards{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:24px 0}}
-.card{{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:18px}}
-.card h3{{font-size:15px;font-weight:800;margin-bottom:6px;color:#1d4ed8}}
-.card p{{font-size:14px;color:#64748b;margin:0}}
-.btn{{display:inline-block;padding:14px 26px;background:#1d4ed8;color:#fff;text-decoration:none;border-radius:10px;font-weight:700;font-size:15px;margin-top:18px}}
-.btn:hover{{background:#1e40af}}
-footer{{margin-top:48px;padding-top:24px;border-top:1px solid #e2e8f0;font-size:13px;color:#94a3b8}}
-footer a{{color:#1d4ed8;text-decoration:none}}
+.card{{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;transition:transform .2s,border-color .2s,background .2s;overflow:hidden}}
+.card::before{{content:'';position:absolute;inset:0 0 auto 0;height:1px;background:var(--grad);opacity:0;transition:opacity .2s}}
+.card:hover{{transform:translateY(-3px);border-color:var(--line-2);background:var(--panel-2)}}
+.card:hover::before{{opacity:1}}
+.card h3{{font-size:16px;font-weight:800;margin-bottom:6px;color:var(--blue-2)}}
+.card p{{font-size:14px;color:var(--mute);margin:0}}
+.cta-row{{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}}
+.btn{{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:12px;font-weight:800;font-size:15px;text-decoration:none!important;transition:transform .15s,box-shadow .15s}}
+.btn-grad{{background:var(--grad);color:#04101f;box-shadow:0 4px 24px rgba(34,211,238,.25)}}
+.btn-grad:hover{{transform:translateY(-1px);box-shadow:0 8px 32px rgba(34,211,238,.35)}}
+.btn-ghost{{background:var(--panel);color:var(--ink);border:1.5px solid var(--line-2)}}
+.btn-ghost:hover{{border-color:var(--blue-2);transform:translateY(-1px)}}
+footer{{margin-top:56px;padding:28px 0 0;border-top:1px solid var(--line);font-size:13px;color:var(--mute)}}
+.strip{{height:3px;background:var(--grad);margin-top:28px}}
 </style>
 </head>
-<body><div class="wrap">
-<span class="kicker">{fr.upper()} · {ar}</span>
-<h1>{intent_ar} في ولاية {ar}</h1>
+<body>
+<div class="aurora"></div>
+<div class="wrap">
+<div class="brand"><div class="mark"></div><span>tk<b>awen</b></span></div>
+<span class="kicker">⚡ {fr.upper()} · {ar}</span>
+<h1>{intent_ar}<br><span class="grad">في ولاية {ar}</span></h1>
 <p class="lead">منصّات TKAWEN الرقمية الجاهزة لرواد الأعمال في <strong>{ar}</strong> ({fr}). مجاناً لتبدأ، احترافي لتتوسّع.</p>
 
-<h2>منتجاتنا في {ar}</h2>
+<div class="stats">
+  <div class="stat"><div class="n">58</div><div class="l">ولاية مدعومة</div></div>
+  <div class="stat"><div class="n">4+</div><div class="l">منصّات متكاملة</div></div>
+  <div class="stat"><div class="n">0 دج</div><div class="l">للانطلاق</div></div>
+  <div class="stat"><div class="n">24/7</div><div class="l">تعمل دائماً</div></div>
+</div>
+
+<h2>منتجاتنا في <span class="accent">{ar}</span></h2>
 <div class="cards">
   <div class="card"><h3>🛒 Mystoq</h3><p>منصّة تجارة إلكترونية للدفع عند الاستلام في ولاية {ar}.</p></div>
   <div class="card"><h3>🎓 Algeria Certify</h3><p>شهادات رقمية موثّقة لكل المهنيين في {ar}.</p></div>
@@ -123,17 +165,22 @@ footer a{{color:#1d4ed8;text-decoration:none}}
   <div class="card"><h3>📚 TKAWEN Academy</h3><p>تكوينات إلكترونية + شهادات للسكان في {ar}.</p></div>
 </div>
 
-<a href="https://mystoq.com/?utm_source=programmatic&amp;utm_medium=wilaya&amp;utm_campaign={slug}" class="btn">ابدأ الآن مجاناً</a>
+<div class="cta-row">
+  <a href="https://mystoq.com/?utm_source=programmatic&amp;utm_medium=wilaya&amp;utm_campaign={slug}" class="btn btn-grad">ابدأ الآن مجاناً ←</a>
+  <a href="https://tkawen.com" class="btn btn-ghost">اكتشف المنظومة</a>
+</div>
 
-<h2>لماذا TKAWEN في {ar}؟</h2>
+<h2>لماذا TKAWEN في <span class="accent">{ar}</span>؟</h2>
 <p>منظومة كاملة مفتوحة المصدر من المؤسس <a href="https://hartem.tkawen.com">حرتام يعقوب</a>. كل المنصّات تتكامل سلساً: تربط متجرك بشهاداتك بفيديو اجتماعاتك بكاتالوغك.</p>
 
 <footer>
 صفحة آلية الإنشاء — جزء من منظومة <a href="https://tkawen.com">TKAWEN</a>. آخر تحديث: {datetime.utcnow().strftime("%Y-%m-%d")}.
 <br><br>
 المنطقة: ولاية {ar} ({fr}, Algeria) · جميع 58 ولاية مدعومة.
+<div class="strip"></div>
 </footer>
-</div></body>
+</div>
+</body>
 </html>
 """
 
