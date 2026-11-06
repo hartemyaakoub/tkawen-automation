@@ -1,0 +1,59 @@
+name: 🔦 Backlink accessibility audit (weekly)
+
+# Finds third-party pages that mention TKAWEN brands but are hard to reach from
+# Google, and classifies *why* (broken/orphaned, not-indexed-by-Google,
+# low-rank platform, inconclusive). Harvests from the non-Google index
+# (DuckDuckGo = Bing's crawl), liveness-checks each URL, best-effort Google
+# indexation probe. Output is an auditable JSON trail under .data/backlinks/.
+
+on:
+  schedule:
+    - cron: "30 9 * * 3"  # Wednesdays 09:30 UTC (just after backlink-prospector)
+  workflow_dispatch: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Run backlink accessibility audit
+        id: audit
+        run: |
+          set -e
+          mkdir -p .data/backlinks
+          OUT=.data/backlinks/audit-$(date -u +%Y-%m-%d).json
+          python3 scripts/backlink_accessibility_audit.py > "$OUT"
+          T=$(jq '.summary.total_mentions' "$OUT")
+          BROKEN=$(jq '.summary.by_bucket.broken_or_orphaned' "$OUT")
+          NOIDX=$(jq '.summary.by_bucket.not_indexed_by_google' "$OUT")
+          echo "total=$T" >> $GITHUB_OUTPUT
+          echo "broken=$BROKEN" >> $GITHUB_OUTPUT
+          echo "noidx=$NOIDX" >> $GITHUB_OUTPUT
+          jq -r '.mentions[] | "[\(.bucket)] \(.http.state)/\(.http.code // "-")  \(.url)"' "$OUT" | head -30
+
+      - name: Commit + push
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/backlinks/ || true
+          git diff --cached --quiet || git commit -m "data: backlink accessibility audit $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done
+
+      - name: Notify Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          T: ${{ steps.audit.outputs.total }}
+          BROKEN: ${{ steps.audit.outputs.broken }}
+          NOIDX: ${{ steps.audit.outputs.noidx }}
+        run: |
+          [ -z "$TOKEN" ] && exit 0
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="$CHAT" \
+            -d text="🔦 Backlink accessibility audit: $T mentions ($BROKEN broken/orphaned, $NOIDX not indexed by Google). See .data/backlinks/"

@@ -1,0 +1,436 @@
+{
+  "scanned_at": "2026-06-03T01:44:09.496062Z",
+  "summary": {
+    "total_mentions": 11,
+    "by_bucket": {
+      "broken_or_orphaned": 0,
+      "not_indexed_by_google": 0,
+      "low_rank_platform": 3,
+      "google_inconclusive": 8,
+      "visible": 0
+    },
+    "by_engine": {
+      "duckduckgo": 11
+    },
+    "engines": [
+      "duckduckgo"
+    ],
+    "brands": [
+      "Mystoq",
+      "TKAWEN",
+      "Algeria Certify",
+      "AlgeriaCertify",
+      "LIQAA",
+      "PharmaPro Algeria",
+      "Hartem Yaakoub"
+    ],
+    "google_probe_enabled": true
+  },
+  "buckets": {
+    "broken_or_orphaned": [],
+    "not_indexed_by_google": [],
+    "low_rank_platform": [
+      {
+        "url": "https://www.crunchbase.com/organization/mystoq",
+        "host": "crunchbase.com",
+        "title": "MyStoq - Crunchbase Company Profile &amp; Funding",
+        "brands": [
+          "Mystoq"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "blocked",
+          "code": 403,
+          "final_url": "https://www.crunchbase.com/organization/mystoq"
+        },
+        "google": "inconclusive",
+        "bucket": "low_rank_platform"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/mystoq/tech_details",
+        "host": "crunchbase.com",
+        "title": "MyStoq - Tech Details - Crunchbase",
+        "brands": [
+          "Mystoq"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "blocked",
+          "code": 403,
+          "final_url": "https://www.crunchbase.com/organization/mystoq/tech_details"
+        },
+        "google": "inconclusive",
+        "bucket": "low_rank_platform"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/tkawen",
+        "host": "crunchbase.com",
+        "title": "TKAWEN Group - Crunchbase Company Profile &amp; Funding",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "blocked",
+          "code": 403,
+          "final_url": "https://www.crunchbase.com/organization/tkawen"
+        },
+        "google": "inconclusive",
+        "bucket": "low_rank_platform"
+      }
+    ],
+    "google_inconclusive": [
+      {
+        "url": "https://github.com/mystoq-cloud",
+        "host": "github.com",
+        "title": "mystoq-cloud · GitHub",
+        "brands": [
+          "Mystoq"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://github.com/mystoq-cloud"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://github.com/topics/mystoq",
+        "host": "github.com",
+        "title": "mystoq · GitHub Topics · GitHub",
+        "brands": [
+          "Mystoq"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://github.com/topics/mystoq"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://www.catpvp.xyz/player/mystoq",
+        "host": "catpvp.xyz",
+        "title": "mystoq | CatPvP",
+        "brands": [
+          "Mystoq"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://www.catpvp.xyz/player/mystoq"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://www.algeriaculturedaily.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials",
+        "host": "algeriaculturedaily.com",
+        "title": "TKAWEN Global Certification: Algerian Innovation Setting the Global ...",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://www.algeriaculturedaily.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://www.issuewire.com/tkawen-a-revolutionary-digital-ecosystem-transforming-education-and-innovation-1821524291873396",
+        "host": "issuewire.com",
+        "title": "Tkawen: A Revolutionary Digital Ecosystem Transforming Education and ...",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://www.issuewire.com/tkawen-a-revolutionary-digital-ecosystem-transforming-education-and-innovation-1821524291873396"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://www.linkedin.com/company/tkawen",
+        "host": "linkedin.com",
+        "title": "Tkawen Group - LinkedIn",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://www.linkedin.com/company/tkawen"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://www.algeriaindustryjournal.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials",
+        "host": "algeriaindustryjournal.com",
+        "title": "TKAWEN Global Certification: Algerian Innovation Setting the Global ...",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://www.algeriaindustryjournal.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      },
+      {
+        "url": "https://meatechwatch.com/2025/01/20/tkawen-revolutionizing-education-and-entrepreneurship-through-digital-innovation/",
+        "host": "meatechwatch.com",
+        "title": "Tkawen: Revolutionizing Education and Entrepreneurship through Digital ...",
+        "brands": [
+          "TKAWEN"
+        ],
+        "engines": [
+          "duckduckgo"
+        ],
+        "http": {
+          "state": "live",
+          "code": 200,
+          "final_url": "https://meatechwatch.com/2025/01/20/tkawen-revolutionizing-education-and-entrepreneurship-through-digital-innovation/"
+        },
+        "google": "inconclusive",
+        "bucket": "google_inconclusive"
+      }
+    ],
+    "visible": []
+  },
+  "mentions": [
+    {
+      "url": "https://github.com/mystoq-cloud",
+      "host": "github.com",
+      "title": "mystoq-cloud · GitHub",
+      "brands": [
+        "Mystoq"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://github.com/mystoq-cloud"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://github.com/topics/mystoq",
+      "host": "github.com",
+      "title": "mystoq · GitHub Topics · GitHub",
+      "brands": [
+        "Mystoq"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://github.com/topics/mystoq"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.catpvp.xyz/player/mystoq",
+      "host": "catpvp.xyz",
+      "title": "mystoq | CatPvP",
+      "brands": [
+        "Mystoq"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://www.catpvp.xyz/player/mystoq"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.algeriaculturedaily.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials",
+      "host": "algeriaculturedaily.com",
+      "title": "TKAWEN Global Certification: Algerian Innovation Setting the Global ...",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://www.algeriaculturedaily.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.issuewire.com/tkawen-a-revolutionary-digital-ecosystem-transforming-education-and-innovation-1821524291873396",
+      "host": "issuewire.com",
+      "title": "Tkawen: A Revolutionary Digital Ecosystem Transforming Education and ...",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://www.issuewire.com/tkawen-a-revolutionary-digital-ecosystem-transforming-education-and-innovation-1821524291873396"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.linkedin.com/company/tkawen",
+      "host": "linkedin.com",
+      "title": "Tkawen Group - LinkedIn",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://www.linkedin.com/company/tkawen"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.algeriaindustryjournal.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials",
+      "host": "algeriaindustryjournal.com",
+      "title": "TKAWEN Global Certification: Algerian Innovation Setting the Global ...",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://www.algeriaindustryjournal.com/article/839429753-tkawen-global-certification-algerian-innovation-setting-the-global-standard-in-digital-credentials"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://meatechwatch.com/2025/01/20/tkawen-revolutionizing-education-and-entrepreneurship-through-digital-innovation/",
+      "host": "meatechwatch.com",
+      "title": "Tkawen: Revolutionizing Education and Entrepreneurship through Digital ...",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "live",
+        "code": 200,
+        "final_url": "https://meatechwatch.com/2025/01/20/tkawen-revolutionizing-education-and-entrepreneurship-through-digital-innovation/"
+      },
+      "google": "inconclusive",
+      "bucket": "google_inconclusive"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/mystoq",
+      "host": "crunchbase.com",
+      "title": "MyStoq - Crunchbase Company Profile &amp; Funding",
+      "brands": [
+        "Mystoq"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "blocked",
+        "code": 403,
+        "final_url": "https://www.crunchbase.com/organization/mystoq"
+      },
+      "google": "inconclusive",
+      "bucket": "low_rank_platform"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/mystoq/tech_details",
+      "host": "crunchbase.com",
+      "title": "MyStoq - Tech Details - Crunchbase",
+      "brands": [
+        "Mystoq"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "blocked",
+        "code": 403,
+        "final_url": "https://www.crunchbase.com/organization/mystoq/tech_details"
+      },
+      "google": "inconclusive",
+      "bucket": "low_rank_platform"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "host": "crunchbase.com",
+      "title": "TKAWEN Group - Crunchbase Company Profile &amp; Funding",
+      "brands": [
+        "TKAWEN"
+      ],
+      "engines": [
+        "duckduckgo"
+      ],
+      "http": {
+        "state": "blocked",
+        "code": 403,
+        "final_url": "https://www.crunchbase.com/organization/tkawen"
+      },
+      "google": "inconclusive",
+      "bucket": "low_rank_platform"
+    }
+  ]
+}
