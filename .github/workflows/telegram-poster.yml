@@ -1,0 +1,44 @@
+name: ✈️ Telegram post forwarder (every 8h)
+permissions:
+  contents: write
+
+# Reads .data/queue/social-posts.json and delivers every queued post to the
+# founder's Telegram chat, so the machine's posts land in Telegram too.
+# Non-destructive: it does NOT drain the queue (Postiz owns that) — it records a
+# content hash of each delivered post in .data/queue/telegram-sent.json so runs
+# never double-send.
+
+on:
+  schedule:
+    - cron: "20 */8 * * *"  # every 8h, offset from the Postiz drain
+  workflow_dispatch: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  forward:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Forward queue → Telegram
+        id: forward
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo "TELEGRAM_BOT_TOKEN missing — skipping"; exit 0; fi
+          python3 scripts/telegram_poster.py
+          SENT=$(jq -r '.sent' /tmp/telegram_result.json 2>/dev/null || echo 0)
+          echo "sent=$SENT" >> $GITHUB_OUTPUT
+
+      - name: Commit ledger
+        run: |
+          git config user.email "bot@tkawen.com"
+          git config user.name "TKAWEN Automation"
+          git add .data/queue/ || true
+          git diff --cached --quiet || git commit -m "telegram: forwarded $(date -u +%Y-%m-%d-%H%M)"
+          for i in 1 2 3 4 5; do git pull --rebase origin HEAD && git push origin HEAD && break || { echo "push retry $i"; sleep 3; }; done

@@ -66,6 +66,7 @@ This repository is a serverless cron platform. Every workflow is a self-containe
 | `npm-downloads-monitor` | daily 13:00 | Records daily download counts for the `@mystoq/*` packages. |
 | `readme-promoter` | weekly (Tue) | Refreshes cross-promotion links in repo READMEs. |
 | `postiz-social-poster` | every 8h | Drains a social-post queue to the self-hosted Postiz instance. |
+| `telegram-poster` | every 8h | Forwards every queued social post to the founder's Telegram chat (non-destructive, de-duped). |
 
 Every job also accepts a manual `workflow_dispatch` run from the **Actions** tab.
 
