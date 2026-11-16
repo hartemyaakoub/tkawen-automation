@@ -1,0 +1,64 @@
+{
+  "scanned_at": "2026-11-16T15:06:13.918670Z",
+  "summary": {
+    "checked": 300,
+    "broken": 11
+  },
+  "broken_links": [
+    {
+      "url": "https://tkawen.com/pharmapro/docs/ar/'+p.u+(h",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/'+esc(c.verify_url)+'",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tkawen.com/' + esc(w.url || '",
+      "code": null,
+      "error": "URL can't contain control characters. \"/' + esc(w.url || '\" (found at least ' ')"
+    },
+    {
+      "url": "https://www.tiktok.com/@tkawen.online",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/result",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://tools.mystoq.com",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://www.f6s.com/company/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/tkawen",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/recruiter/register",
+      "code": 404,
+      "error": "Not Found"
+    },
+    {
+      "url": "https://mystoq.com/fakeshield",
+      "code": 403,
+      "error": "Forbidden"
+    },
+    {
+      "url": "https://algeriacertify.com/aiCert.verify_url",
+      "code": 404,
+      "error": "Not Found"
+    }
+  ]
+}
