@@ -1,0 +1,102 @@
+{
+  "scanned_at": "2026-11-18T17:37:31.795425Z",
+  "summary": {
+    "pages_scanned": 160,
+    "errors_total": 20,
+    "pages_without_schema": 15
+  },
+  "by_site": [
+    {
+      "host": "mystoq.com",
+      "pages": 30,
+      "errors": 19,
+      "missing": 7,
+      "samples": [
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/fr/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/en/answers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/tools/schema/",
+          "error": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/algiers",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://mystoq.com/wilaya/oran",
+          "error": "missing @context"
+        }
+      ]
+    },
+    {
+      "host": "algeriacertify.com",
+      "pages": 29,
+      "errors": 1,
+      "missing": 1,
+      "samples": [
+        {
+          "url": "https://algeriacertify.com/",
+          "error": "missing @context"
+        },
+        {
+          "url": "https://algeriacertify.com/pricing",
+          "error": "fetch failed: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "host": "tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "liqaa.io",
+      "pages": 11,
+      "errors": 0,
+      "missing": 1,
+      "samples": []
+    },
+    {
+      "host": "pharmapro.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 5,
+      "samples": []
+    },
+    {
+      "host": "catalogue.tkawen.com",
+      "pages": 30,
+      "errors": 0,
+      "missing": 0,
+      "samples": []
+    }
+  ]
+}
